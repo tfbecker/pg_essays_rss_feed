@@ -200,7 +200,7 @@ if __name__ == '__main__':
     import http.server
     import socketserver
 
-    PORT = 8080
+    PORT = 80
     Handler = http.server.SimpleHTTPRequestHandler
 
     message = f"Serving rss_feed.xml on http://0.0.0.0:{PORT}"
