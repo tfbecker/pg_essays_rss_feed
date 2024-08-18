@@ -25,10 +25,9 @@ h.escape_all = True
 h.reference_links = True
 h.mark_code = True
 
-ART_NO = 0  # Initialize to 0 so the first entry is 001
-
 def fetch_and_update_articles():
-    global toc
+    global toc, ART_NO
+    ART_NO = 0  # Reset ART_NO to 0 at the start of each fetch
     message = "Fetching and updating articles..."
     print(message)
     logging.info(message)
@@ -98,7 +97,7 @@ def generate_rss_feed():
     message = "Starting to generate RSS feed..."
     print(message)
     logging.info(message)
-    for entry in toc[:]:
+    for entry in toc[-5:]:
         global ART_NO
         ART_NO += 1
         URL = entry["link"]
@@ -130,8 +129,7 @@ def generate_rss_feed():
                     logging.info(message)
 
             parsed = h.handle(content)
-            title = "_".join(TITLE.split(" ")).lower()
-            title = re.sub(r"[\W\s]+", "", title)
+            title = TITLE
             DATE = find_date(URL)
             message = f"Parsed title: {title}, Date: {DATE}"
             print(message)
@@ -190,7 +188,7 @@ def generate_rss_feed():
 if __name__ == '__main__':
     # Initialize the scheduler
     scheduler = BackgroundScheduler()
-    scheduler.add_job(fetch_and_update_articles, 'interval', minutes=1)
+    scheduler.add_job(fetch_and_update_articles, 'interval', days=1)
     scheduler.start()
 
     # Fetch articles initially
