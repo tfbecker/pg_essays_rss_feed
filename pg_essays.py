@@ -8,6 +8,7 @@ from htmldate import find_date
 import requests
 from bs4 import BeautifulSoup
 from flask import Flask, jsonify
+from apscheduler.schedulers.background import BackgroundScheduler
 
 """
 Publish a collection of Paul Graham essays as an RSS feed via Flask.
@@ -23,6 +24,13 @@ h.mark_code = True
 ART_NO = 0  # Initialize to 0 so the first entry is 001
 
 app = Flask(__name__)
+
+def fetch_and_update_articles():
+    global toc
+    print("Fetching and updating articles...")
+    toc = list(reversed(parse_main_page("https://paulgraham.com/", "articles.html")))
+    print("Articles updated.")
+
 
 def parse_main_page(base_url: str, articles_url: str):
     assert base_url.endswith(
@@ -145,4 +153,13 @@ def generate_rss_feed():
 if __name__ == '__main__':
     from waitress import serve
     print("Starting server on http://0.0.0.0:8080")
-    serve(app, host='0.0.0.0', port=8080)
+
+    # Initialize the scheduler
+    scheduler = BackgroundScheduler()
+    scheduler.add_job(fetch_and_update_articles, 'interval', days=1)
+    scheduler.start()
+
+    # Fetch articles initially
+    fetch_and_update_articles()
+
+    serve(app, host='0.0.0.0', port=80)

@@ -4,4 +4,4 @@ services:
   pg_essays:
     build: .
     ports:
-      - "9777:9777"
+      - "80:80"
