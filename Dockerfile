@@ -14,4 +14,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 EXPOSE 80
 
 # Run pg_essays.py when the container launches
-CMD ["python", "pg_essays.py"]
+CMD ["python", "bulk_rss.py"]
