@@ -97,7 +97,7 @@ def generate_rss_feed():
     message = "Starting to generate RSS feed..."
     print(message)
     logging.info(message)
-    for entry in toc[-5:]:
+    for entry in toc[:]:
         global ART_NO
         ART_NO += 1
         URL = entry["link"]
