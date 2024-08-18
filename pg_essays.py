@@ -190,7 +190,7 @@ def generate_rss_feed():
 if __name__ == '__main__':
     # Initialize the scheduler
     scheduler = BackgroundScheduler()
-    scheduler.add_job(fetch_and_update_articles, 'interval', days=1)
+    scheduler.add_job(fetch_and_update_articles, 'interval', minutes=1)
     scheduler.start()
 
     # Fetch articles initially
