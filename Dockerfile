@@ -11,10 +11,10 @@ COPY . /app
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Make port 9777 available to the world outside this container
-EXPOSE 9777
+EXPOSE 8080
 
 # Define environment variable
 ENV FLASK_APP=pg_essays.py
 
 # Run app.py when the container launches
-CMD ["waitress-serve", "--host=0.0.0.0", "--port=9777", "pg_essays:app"]
+CMD ["waitress-serve", "--host=0.0.0.0", "--port=8080", "pg_essays:app"]
