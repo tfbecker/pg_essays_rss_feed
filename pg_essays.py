@@ -62,7 +62,7 @@ def parse_main_page(base_url: str, articles_url: str):
 
 toc = list(reversed(parse_main_page("https://paulgraham.com/", "articles.html")))
 
-def update_links_in_md(joined):
+def update_links_in_md(joined, title):
     matches = re.findall(b"\[\d+\]", joined)
 
     if not matches:
@@ -129,9 +129,8 @@ def generate_rss_feed():
                     logging.info(message)
 
             parsed = h.handle(content)
-            title = TITLE
             DATE = find_date(URL)
-            message = f"Parsed title: {title}, Date: {DATE}"
+            message = f"Parsed title: {TITLE}, Date: {DATE}"
             print(message)
             logging.info(message)
 
@@ -153,7 +152,7 @@ def generate_rss_feed():
             logging.info(message)
 
             encoded = " ".join(parsed).encode()
-            update_with_links = update_links_in_md(encoded)
+            update_with_links = update_links_in_md(encoded, TITLE)
             message = f"Updated links in markdown for {TITLE}"
             print(message)
             logging.info(message)
