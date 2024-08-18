@@ -7,12 +7,12 @@ import regex as re
 from htmldate import find_date
 import requests
 from bs4 import BeautifulSoup
-from flask import Flask, jsonify
 from apscheduler.schedulers.background import BackgroundScheduler
 import logging
+import json
 
 """
-Publish a collection of Paul Graham essays as an RSS feed via Flask.
+Publish a collection of Paul Graham essays as an RSS feed.
 """
 
 # Configure logging
@@ -27,8 +27,6 @@ h.mark_code = True
 
 ART_NO = 0  # Initialize to 0 so the first entry is 001
 
-app = Flask(__name__)
-
 def fetch_and_update_articles():
     global toc
     message = "Fetching and updating articles..."
@@ -38,7 +36,7 @@ def fetch_and_update_articles():
     message = "Articles updated."
     print(message)
     logging.info(message)
-
+    generate_rss_feed()
 
 def parse_main_page(base_url: str, articles_url: str):
     assert base_url.endswith(
@@ -62,7 +60,6 @@ def parse_main_page(base_url: str, articles_url: str):
                 )
 
     return chapter_links
-
 
 toc = list(reversed(parse_main_page("https://paulgraham.com/", "articles.html")))
 
@@ -91,14 +88,12 @@ def update_links_in_md(joined):
 
     return joined
 
-
-@app.route('/rss')
 def generate_rss_feed():
     rss_feed = []
     message = "Starting to generate RSS feed..."
     print(message)
     logging.info(message)
-    for entry in toc[:10]:
+    for entry in toc[-5:]:
         global ART_NO
         ART_NO += 1
         URL = entry["link"]
@@ -181,15 +176,15 @@ def generate_rss_feed():
     message = "Finished generating RSS feed."
     print(message)
     logging.info(message)
-    return jsonify(rss_feed)
-
-
-if __name__ == '__main__':
-    from waitress import serve
-    message = "Starting server on http://0.0.0.0:8080"
+    
+    # Save RSS feed to a file
+    with open('rss_feed.json', 'w') as f:
+        json.dump(rss_feed, f)
+    message = "RSS feed saved to rss_feed.json."
     print(message)
     logging.info(message)
-
+    
+if __name__ == '__main__':
     # Initialize the scheduler
     scheduler = BackgroundScheduler()
     scheduler.add_job(fetch_and_update_articles, 'interval', days=1)
@@ -198,4 +193,16 @@ if __name__ == '__main__':
     # Fetch articles initially
     fetch_and_update_articles()
 
-    serve(app, host='0.0.0.0', port=80)
+    # Serve the static file using a simple HTTP server
+    import http.server
+    import socketserver
+
+    PORT = 8080
+    Handler = http.server.SimpleHTTPRequestHandler
+
+    message = f"Serving rss_feed.json on http://0.0.0.0:{PORT}"
+    print(message)
+    logging.info(message)
+
+    with socketserver.TCPServer(("", PORT), Handler) as httpd:
+        httpd.serve_forever()
