@@ -9,10 +9,14 @@ import requests
 from bs4 import BeautifulSoup
 from flask import Flask, jsonify
 from apscheduler.schedulers.background import BackgroundScheduler
+import logging
 
 """
 Publish a collection of Paul Graham essays as an RSS feed via Flask.
 """
+
+# Configure logging
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 h = html2text.HTML2Text()
 h.ignore_images = True
@@ -27,9 +31,13 @@ app = Flask(__name__)
 
 def fetch_and_update_articles():
     global toc
-    print("Fetching and updating articles...")
+    message = "Fetching and updating articles..."
+    print(message)
+    logging.info(message)
     toc = list(reversed(parse_main_page("https://paulgraham.com/", "articles.html")))
-    print("Articles updated.")
+    message = "Articles updated."
+    print(message)
+    logging.info(message)
 
 
 def parse_main_page(base_url: str, articles_url: str):
@@ -87,36 +95,52 @@ def update_links_in_md(joined):
 @app.route('/rss')
 def generate_rss_feed():
     rss_feed = []
-    print("Starting to generate RSS feed...")
+    message = "Starting to generate RSS feed..."
+    print(message)
+    logging.info(message)
     for entry in toc[:10]:
         global ART_NO
         ART_NO += 1
         URL = entry["link"]
-        print(f"Processing article {ART_NO}: {URL}")
+        message = f"Processing article {ART_NO}: {URL}"
+        print(message)
+        logging.info(message)
         if "http://www.paulgraham.com/https://" in URL:
             URL = URL.replace("http://www.paulgraham.com/https://", "https://")
-            print(f"Corrected URL: {URL}")
+            message = f"Corrected URL: {URL}"
+            print(message)
+            logging.info(message)
         TITLE = entry["title"]
-        print(f"Title: {TITLE}")
+        message = f"Title: {TITLE}"
+        print(message)
+        logging.info(message)
 
         try:
             try:
                 with urllib.request.urlopen(URL) as website:
                     content = website.read().decode("utf-8")
-                    print(f"Successfully fetched content for {TITLE} in utf-8 encoding.")
+                    message = f"Successfully fetched content for {TITLE} in utf-8 encoding."
+                    print(message)
+                    logging.info(message)
             except UnicodeDecodeError:
                 with urllib.request.urlopen(URL) as website:
                     content = website.read().decode("latin-1")
-                    print(f"Successfully fetched content for {TITLE} in latin-1 encoding.")
+                    message = f"Successfully fetched content for {TITLE} in latin-1 encoding."
+                    print(message)
+                    logging.info(message)
 
             parsed = h.handle(content)
             title = "_".join(TITLE.split(" ")).lower()
             title = re.sub(r"[\W\s]+", "", title)
             DATE = find_date(URL)
-            print(f"Parsed title: {title}, Date: {DATE}")
+            message = f"Parsed title: {title}, Date: {DATE}"
+            print(message)
+            logging.info(message)
 
             parsed = parsed.replace("[](index.html)  \n  \n", "")
-            print(f"Cleaned parsed content for {TITLE}")
+            message = f"Cleaned parsed content for {TITLE}"
+            print(message)
+            logging.info(message)
 
             parsed = [
                 (
@@ -126,11 +150,15 @@ def generate_rss_feed():
                 )
                 for p in parsed.split("\n")
             ]
-            print(f"Formatted paragraphs for {TITLE}")
+            message = f"Formatted paragraphs for {TITLE}"
+            print(message)
+            logging.info(message)
 
             encoded = " ".join(parsed).encode()
             update_with_links = update_links_in_md(encoded)
-            print(f"Updated links in markdown for {TITLE}")
+            message = f"Updated links in markdown for {TITLE}"
+            print(message)
+            logging.info(message)
 
             rss_feed.append({
                 "article_no": str(ART_NO).zfill(3),
@@ -140,19 +168,27 @@ def generate_rss_feed():
                 "content": update_with_links.decode()
             })
 
-            print(f"✅ {str(ART_NO).zfill(3)} {TITLE}")
+            message = f"✅ {str(ART_NO).zfill(3)} {TITLE}"
+            print(message)
+            logging.info(message)
 
         except Exception as e:
-            print(f"❌ {str(ART_NO).zfill(3)} {entry['title']}, ({e})")
+            message = f"❌ {str(ART_NO).zfill(3)} {entry['title']}, ({e})"
+            print(message)
+            logging.error(message)
         time.sleep(0.05)  # half sec/article is ~2min, be nice with servers!
 
-    print("Finished generating RSS feed.")
+    message = "Finished generating RSS feed."
+    print(message)
+    logging.info(message)
     return jsonify(rss_feed)
 
 
 if __name__ == '__main__':
     from waitress import serve
-    print("Starting server on http://0.0.0.0:8080")
+    message = "Starting server on http://0.0.0.0:8080"
+    print(message)
+    logging.info(message)
 
     # Initialize the scheduler
     scheduler = BackgroundScheduler()
