@@ -9,7 +9,7 @@ import requests
 from bs4 import BeautifulSoup
 from apscheduler.schedulers.background import BackgroundScheduler
 import logging
-import json
+import xml.etree.ElementTree as ET
 
 """
 Publish a collection of Paul Graham essays as an RSS feed.
@@ -89,7 +89,12 @@ def update_links_in_md(joined):
     return joined
 
 def generate_rss_feed():
-    rss_feed = []
+    rss_feed = ET.Element("rss", version="2.0")
+    channel = ET.SubElement(rss_feed, "channel")
+    ET.SubElement(channel, "title").text = "Paul Graham Essays"
+    ET.SubElement(channel, "link").text = "https://paulgraham.com/"
+    ET.SubElement(channel, "description").text = "A collection of essays by Paul Graham."
+
     message = "Starting to generate RSS feed..."
     print(message)
     logging.info(message)
@@ -155,13 +160,11 @@ def generate_rss_feed():
             print(message)
             logging.info(message)
 
-            rss_feed.append({
-                "article_no": str(ART_NO).zfill(3),
-                "title": TITLE,
-                "date": DATE,
-                "url": URL,
-                "content": update_with_links.decode()
-            })
+            item = ET.SubElement(channel, "item")
+            ET.SubElement(item, "title").text = TITLE
+            ET.SubElement(item, "link").text = URL
+            ET.SubElement(item, "description").text = update_with_links.decode()
+            ET.SubElement(item, "pubDate").text = DATE
 
             message = f"✅ {str(ART_NO).zfill(3)} {TITLE}"
             print(message)
@@ -178,9 +181,9 @@ def generate_rss_feed():
     logging.info(message)
     
     # Save RSS feed to a file
-    with open('rss_feed.json', 'w') as f:
-        json.dump(rss_feed, f)
-    message = "RSS feed saved to rss_feed.json."
+    tree = ET.ElementTree(rss_feed)
+    tree.write("rss_feed.xml", encoding="utf-8", xml_declaration=True)
+    message = "RSS feed saved to rss_feed.xml."
     print(message)
     logging.info(message)
 
@@ -197,10 +200,10 @@ if __name__ == '__main__':
     import http.server
     import socketserver
 
-    PORT = 80
+    PORT = 8080
     Handler = http.server.SimpleHTTPRequestHandler
 
-    message = f"Serving rss_feed.json on http://0.0.0.0:{PORT}"
+    message = f"Serving rss_feed.xml on http://0.0.0.0:{PORT}"
     print(message)
     logging.info(message)
 
