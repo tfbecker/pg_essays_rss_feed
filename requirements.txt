@@ -1,0 +1,7 @@
+Flask
+requests
+beautifulsoup4
+html2text
+regex
+htmldate
+waitress
