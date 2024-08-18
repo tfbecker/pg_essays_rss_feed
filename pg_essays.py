@@ -93,10 +93,11 @@ def generate_rss_feed():
     message = "Starting to generate RSS feed..."
     print(message)
     logging.info(message)
-    for entry in toc[-5:]:
+    for entry in toc[:10]:
         global ART_NO
         ART_NO += 1
         URL = entry["link"]
+        TITLE = entry["title"]
         message = f"Processing article {ART_NO}: {URL}"
         print(message)
         logging.info(message)
@@ -105,7 +106,6 @@ def generate_rss_feed():
             message = f"Corrected URL: {URL}"
             print(message)
             logging.info(message)
-        TITLE = entry["title"]
         message = f"Title: {TITLE}"
         print(message)
         logging.info(message)
@@ -183,7 +183,7 @@ def generate_rss_feed():
     message = "RSS feed saved to rss_feed.json."
     print(message)
     logging.info(message)
-    
+
 if __name__ == '__main__':
     # Initialize the scheduler
     scheduler = BackgroundScheduler()
@@ -197,7 +197,7 @@ if __name__ == '__main__':
     import http.server
     import socketserver
 
-    PORT = 8080
+    PORT = 80
     Handler = http.server.SimpleHTTPRequestHandler
 
     message = f"Serving rss_feed.json on http://0.0.0.0:{PORT}"

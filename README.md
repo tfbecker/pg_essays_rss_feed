@@ -20,5 +20,5 @@ You can host this repository using Docker. Follow these steps:
     docker-compose up
     ```
 
-The application will be available on port `8080`.
+The application will be available on port `80`.
 
