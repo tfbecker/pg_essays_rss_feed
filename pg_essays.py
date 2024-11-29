@@ -97,8 +97,7 @@ def generate_rss_feed():
     message = "Starting to generate RSS feed..."
     print(message)
     logging.info(message)
-    # Only process the last 5 articles
-    for entry in toc[:5]:
+    for entry in toc[-5:]:
         global ART_NO
         ART_NO += 1
         URL = entry["link"]

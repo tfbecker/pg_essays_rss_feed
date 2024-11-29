@@ -1,547 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss version="2.0"><channel><title>Paul Graham Essays</title><link>https://paulgraham.com/</link><description>A collection of essays by Paul Graham.</description><item><title>Superlinear Returns</title><link>https://paulgraham.com/superlinear.html</link><description>
-  
- 
-  
- October 2023   
-  
- One of the most important things I didn't understand about the world when I was a child is the degree to which the returns for performance are superlinear.   
-  
- Teachers and coaches implicitly told us the returns were linear. "You get out," I heard a thousand times, "what you put in." They meant well, but this is rarely true. If your product is only half as good as your competitor's, you don't get half as many customers. You get no customers, and you go out of business.   
-  
- It's obviously true that the returns for performance are superlinear in business. Some think this is a flaw of capitalism, and that if we changed the rules it would stop being true. But superlinear returns for performance are a feature of the world, not an artifact of rules we've invented. We see the same pattern in fame, power, military victories, knowledge, and even benefit to humanity. In all of these, the rich get richer. [1](#Superlinear Returns_note1)   
-  
- You can't understand the world without understanding the concept of superlinear returns. And if you're ambitious you definitely should, because this will be the wave you surf on.   
-  
- 
-  
- 
-  
- 
-  
- 
-  
- It may seem as if there are a lot of different situations with superlinear returns, but as far as I can tell they reduce to two fundamental causes: exponential growth and thresholds.   
-  
- The most obvious case of superlinear returns is when you're working on something that grows exponentially. For example, growing bacterial cultures. When they grow at all, they grow exponentially. But they're tricky to grow. Which means the difference in outcome between someone who's adept at it and someone who's not is very great.   
-  
- Startups can also grow exponentially, and we see the same pattern there. Some manage to achieve high growth rates. Most don't. And as a result you get qualitatively different outcomes: the companies with high growth rates tend to become immensely valuable, while the ones with lower growth rates may not even survive.   
-  
- Y Combinator encourages founders to focus on growth rate rather than absolute numbers. It prevents them from being discouraged early on, when the absolute numbers are still low. It also helps them decide what to focus on: you can use growth rate as a compass to tell you how to evolve the company. But the main advantage is that by focusing on growth rate you tend to get something that grows exponentially.   
-  
- YC doesn't explicitly tell founders that with growth rate "you get out what you put in," but it's not far from the truth. And if growth rate were proportional to performance, then the reward for performance _p_ over time _t_ would be proportional to _p t_.   
-  
- Even after decades of thinking about this, I find that sentence startling.   
-  
- Whenever how well you do depends on how well you've done, you'll get exponential growth. But neither our DNA nor our customs prepare us for it. No one finds exponential growth natural; every child is surprised, the first time they hear it, by the story of the man who asks the king for a single grain of rice the first day and double the amount each successive day.   
-  
- What we don't understand naturally we develop customs to deal with, but we don't have many customs about exponential growth either, because there have been so few instances of it in human history. In principle herding should have been one: the more animals you had, the more offspring they'd have. But in practice grazing land was the limiting factor, and there was no plan for growing that exponentially.   
-  
- Or more precisely, no generally applicable plan. There _was_ a way to grow one's territory exponentially: by conquest. The more territory you control, the more powerful your army becomes, and the easier it is to conquer new territory. This is why history is full of empires. But so few people created or ran empires that their experiences didn't affect customs very much. The emperor was a remote and terrifying figure, not a source of lessons one could use in one's own life.   
-  
- The most common case of exponential growth in preindustrial times was probably scholarship. The more you know, the easier it is to learn new things. The result, then as now, was that some people were startlingly more knowledgeable than the rest about certain topics. But this didn't affect customs much either. Although empires of ideas can overlap and there can thus be far more emperors, in preindustrial times this type of empire had little practical effect. [2](#Superlinear Returns_note2)   
-  
- That has changed in the last few centuries. Now the emperors of ideas can design bombs that defeat the emperors of territory. But this phenomenon is still so new that we haven't fully assimilated it. Few even of the participants realize they're benefitting from exponential growth or ask what they can learn from other instances of it.   
-  
- The other source of superlinear returns is embodied in the expression "winner take all." In a sports match the relationship between performance and return is a step function: the winning team gets one win whether they do much better or just slightly better. [3](#Superlinear Returns_note3)   
-  
- The source of the step function is not competition per se, however. It's that there are thresholds in the outcome. You don't need competition to get those. There can be thresholds in situations where you're the only participant, like proving a theorem or hitting a target.   
-  
- It's remarkable how often a situation with one source of superlinear returns also has the other. Crossing thresholds leads to exponential growth: the winning side in a battle usually suffers less damage, which makes them more likely to win in the future. And exponential growth helps you cross thresholds: in a market with network effects, a company that grows fast enough can shut out potential competitors.   
-  
- Fame is an interesting example of a phenomenon that combines both sources of superlinear returns. Fame grows exponentially because existing fans bring you new ones. But the fundamental reason it's so concentrated is thresholds: there's only so much room on the A-list in the average person's head.   
-  
- The most important case combining both sources of superlinear returns may be learning. Knowledge grows exponentially, but there are also thresholds in it. Learning to ride a bicycle, for example. Some of these thresholds are akin to machine tools: once you learn to read, you're able to learn anything else much faster. But the most important thresholds of all are those representing new discoveries. Knowledge seems to be fractal in the sense that if you push hard at the boundary of one area of knowledge, you sometimes discover a whole new field. And if you do, you get first crack at all the new discoveries to be made in it. Newton did this, and so did Durer and Darwin.   
-  
- 
-  
- 
-  
- 
-  
- 
-  
- Are there general rules for finding situations with superlinear returns? The most obvious one is to seek work that compounds.   
-  
- There are two ways work can compound. It can compound directly, in the sense that doing well in one cycle causes you to do better in the next. That happens for example when you're building infrastructure, or growing an audience or brand. Or work can compound by teaching you, since learning compounds. This second case is an interesting one because you may feel you're doing badly as it's happening. You may be failing to achieve your immediate goal. But if you're learning a lot, then you're getting exponential growth nonetheless.   
-  
- This is one reason Silicon Valley is so tolerant of failure. People in Silicon Valley aren't blindly tolerant of failure. They'll only continue to bet on you if you're learning from your failures. But if you are, you are in fact a good bet: maybe your company didn't grow the way you wanted, but you yourself have, and that should yield results eventually.   
-  
- Indeed, the forms of exponential growth that don't consist of learning are so often intermixed with it that we should probably treat this as the rule rather than the exception. Which yields another heuristic: always be learning. If you're not learning, you're probably not on a path that leads to superlinear returns.   
-  
- But don't overoptimize _what_ you're learning. Don't limit yourself to learning things that are already known to be valuable. You're learning; you don't know for sure yet what's going to be valuable, and if you're too strict you'll lop off the outliers.   
-  
- What about step functions? Are there also useful heuristics of the form "seek thresholds" or "seek competition?" Here the situation is trickier. The existence of a threshold doesn't guarantee the game will be worth playing. If you play a round of Russian roulette, you'll be in a situation with a threshold, certainly, but in the best case you're no better off. "Seek competition" is similarly useless; what if the prize isn't worth competing for? Sufficiently fast exponential growth guarantees both the shape and magnitude of the return curve -- because something that grows fast enough will grow big even if it's trivially small at first -- but thresholds only guarantee the shape. [4](#Superlinear Returns_note4)   
-  
- A principle for taking advantage of thresholds has to include a test to ensure the game is worth playing. Here's one that does: if you come across something that's mediocre yet still popular, it could be a good idea to replace it. For example, if a company makes a product that people dislike yet still buy, then presumably they'd buy a better alternative if you made one. [5](#Superlinear Returns_note5)   
-  
- It would be great if there were a way to find promising intellectual thresholds. Is there a way to tell which questions have whole new fields beyond them? I doubt we could ever predict this with certainty, but the prize is so valuable that it would be useful to have predictors that were even a little better than random, and there's hope of finding those. We can to some degree predict when a research problem _isn't_ likely to lead to new discoveries: when it seems legit but boring. Whereas the kind that do lead to new discoveries tend to seem very mystifying, but perhaps unimportant. (If they were mystifying and obviously important, they'd be famous open questions with lots of people already working on them.) So one heuristic here is to be driven by curiosity rather than careerism -- to give free rein to your curiosity instead of working on what you're supposed to.   
-  
- 
-  
- 
-  
- 
-  
- 
-  
- The prospect of superlinear returns for performance is an exciting one for the ambitious. And there's good news in this department: this territory is expanding in both directions. There are more types of work in which you can get superlinear returns, and the returns themselves are growing.   
-  
- There are two reasons for this, though they're so closely intertwined that they're more like one and a half: progress in technology, and the decreasing importance of organizations.   
-  
- Fifty years ago it used to be much more necessary to be part of an organization to work on ambitious projects. It was the only way to get the resources you needed, the only way to have colleagues, and the only way to get distribution. So in 1970 your prestige was in most cases the prestige of the organization you belonged to. And prestige was an accurate predictor, because if you weren't part of an organization, you weren't likely to achieve much. There were a handful of exceptions, most notably artists and writers, who worked alone using inexpensive tools and had their own brands. But even they were at the mercy of organizations for reaching audiences. [6](#Superlinear Returns_note6)   
-  
- A world dominated by organizations damped variation in the returns for performance. But this world has eroded significantly just in my lifetime. Now a lot more people can have the freedom that artists and writers had in the 20th century. There are lots of ambitious projects that don't require much initial funding, and lots of new ways to learn, make money, find colleagues, and reach audiences.   
-  
- There's still plenty of the old world left, but the rate of change has been dramatic by historical standards. Especially considering what's at stake. It's hard to imagine a more fundamental change than one in the returns for performance.   
-  
- Without the damping effect of institutions, there will be more variation in outcomes. Which doesn't imply everyone will be better off: people who do well will do even better, but those who do badly will do worse. That's an important point to bear in mind. Exposing oneself to superlinear returns is not for everyone. Most people will be better off as part of the pool. So who should shoot for superlinear returns? Ambitious people of two types: those who know they're so good that they'll be net ahead in a world with higher variation, and those, particularly the young, who can afford to risk trying it to find out. [7](#Superlinear Returns_note7)   
-  
- The switch away from institutions won't simply be an exodus of their current inhabitants. Many of the new winners will be people they'd never have let in. So the resulting democratization of opportunity will be both greater and more authentic than any tame intramural version the institutions themselves might have cooked up.   
-  
- 
-  
- 
-  
- 
-  
- 
-  
- Not everyone is happy about this great unlocking of ambition. It threatens some vested interests and contradicts some ideologies. [8](#Superlinear Returns_note8) But if you're an ambitious individual it's good news for you. How should you take advantage of 
-it?  
- 
-  
- The most obvious way to take advantage of superlinear returns for performance is by doing exceptionally good work. At the far end of the curve, incremental effort is a bargain. All the more so because there's less competition at the far end -- and not just for the obvious reason that it's hard to do something exceptionally well, but also because people find the prospect so intimidating that few even try. Which means it's not just a bargain to do exceptional work, but a bargain even to try to.   
-  
- There are many variables that affect how good your work is, and if you want to be an outlier you need to get nearly all of them right. For example, to do something exceptionally well, you have to be interested in it. Mere diligence is not enough. So in a world with superlinear returns, it's even more valuable to know what you're interested in, and to find ways to work on it. [9](#Superlinear Returns_note9) It will also be important to choose work that suits your circumstances. For example, if there's a kind of work that inherently requires a huge expenditure of time and energy, it will be increasingly valuable to do it when you're young and don't yet have children.   
-  
- There's a surprising amount of technique to doing great work. It's not just a matter of trying hard. I'm going to take a shot giving a recipe in one paragraph.   
-  
- Choose work you have a natural aptitude for and a deep interest in. Develop a habit of working on your own projects; it doesn't matter what they are so long as you find them excitingly ambitious. Work as hard as you can without burning out, and this will eventually bring you to one of the frontiers of knowledge. These look smooth from a distance, but up close they're full of gaps. Notice and explore such gaps, and if you're lucky one will expand into a whole new field. Take as much risk as you can afford; if you're not failing occasionally you're probably being too conservative. Seek out the best colleagues. Develop good taste and learn from the best examples. Be honest, especially with yourself. Exercise and eat and sleep well and avoid the more dangerous drugs. When in doubt, follow your curiosity. It never lies, and it knows more than you do about what's worth paying attention to. [10](#Superlinear Returns_note10)   
-  
- And there is of course one other thing you need: to be lucky. Luck is always a factor, but it's even more of a factor when you're working on your own rather than as part of an organization. And though there are some valid aphorisms about luck being where preparedness meets opportunity and so on, there's also a component of true chance that you can't do anything about. The solution is to take multiple shots. Which is another reason to start taking risks early.   
-  
- 
-  
- 
-  
- 
-  
- 
-  
- The best example of a field with superlinear returns is probably science. It has exponential growth, in the form of learning, combined with thresholds at the extreme edge of performance -- literally at the limits of knowledge.   
-  
- The result has been a level of inequality in scientific discovery that makes the wealth inequality of even the most stratified societies seem mild by comparison. Newton's discoveries were arguably greater than all his contemporaries' combined. [11](#Superlinear Returns_note11)   
-  
- This point may seem obvious, but it might be just as well to spell it out. Superlinear returns imply inequality. The steeper the return curve, the greater the variation in outcomes.   
-  
- In fact, the correlation between superlinear returns and inequality is so strong that it yields another heuristic for finding work of this type: look for fields where a few big winners outperform everyone else. A kind of work where everyone does about the same is unlikely to be one with superlinear returns.   
-  
- What are fields where a few big winners outperform everyone else? Here are some obvious ones: sports, politics, art, music, acting, directing, writing, math, science, starting companies, and investing. In sports the phenomenon is due to externally imposed thresholds; you only need to be a few percent faster to win every race. In politics, power grows much as it did in the days of emperors. And in some of the other fields (including politics) success is driven largely by fame, which has its own source of superlinear growth. But when we exclude sports and politics and the effects of fame, a remarkable pattern emerges: the remaining list is exactly the same as the list of fields where you have to be [_independent-minded_](think.html) to succeed -- where your ideas have to be not just correct, but novel as well. [12](#Superlinear Returns_note12)   
-  
- This is obviously the case in science. You can't publish papers saying things that other people have already said. But it's just as true in investing, for example. It's only useful to believe that a company will do well if most other investors don't; if everyone else thinks the company will do well, then its stock price will already reflect that, and there's no room to make money.   
-  
- What else can we learn from these fields? In all of them you have to put in the initial effort. Superlinear returns seem small at first. _At this rate,_ you find yourself thinking, _I'll never get anywhere._ But because the reward curve rises so steeply at the far end, it's worth taking extraordinary measures to get there.   
-  
- In the startup world, the name for this principle is "do things that don't scale." If you pay a ridiculous amount of attention to your tiny initial set of customers, ideally you'll kick off exponential growth by word of mouth. But this same principle applies to anything that grows exponentially. Learning, for example. When you first start learning something, you feel lost. But it's worth making the initial effort to get a toehold, because the more you learn, the easier it will get.   
-  
- There's another more subtle lesson in the list of fields with superlinear returns: not to equate work with a job. For most of the 20th century the two were identical for nearly everyone, and as a result we've inherited a custom that equates productivity with having a job. Even now to most people the phrase "your work" means their job. But to a writer or artist or scientist it means whatever they're currently studying or creating. For someone like that, their work is something they carry with them from job to job, if they have jobs at all. It may be done for an employer, but it's part of their portfolio.   
-  
- 
-  
- 
-  
- 
-  
- 
-  
- It's an intimidating prospect to enter a field where a few big winners outperform everyone else. Some people do this deliberately, but you don't need to. If you have sufficient natural ability and you follow your curiosity sufficiently far, you'll end up in one. Your curiosity won't let you be interested in boring questions, and interesting questions tend to create fields with superlinear returns if they're not already part of one.   
-  
- The territory of superlinear returns is by no means static. Indeed, the most extreme returns come from expanding it. So while both ambition and curiosity can get you into this territory, curiosity may be the more powerful of the two. Ambition tends to make you climb existing peaks, but if you stick close enough to an interesting enough question, it may grow into a mountain beneath 
-you.  
- 
-  
- 
-  
- 
-  
- 
-  
- 
-  
- 
-  
- 
-  
- 
-  
- 
-  
- **Notes**   
-  
- There's a limit to how sharply you can distinguish between effort, performance, and return, because they're not sharply distinguished in fact. What counts as return to one person might be performance to another. But though the borders of these concepts are blurry, they're not meaningless. I've tried to write about them as precisely as I could without crossing into error.   
-  
- &lt;a name=Superlinear Returns_note1&gt;[1]&lt;/a&gt; Evolution itself is probably the most pervasive example of superlinear returns for performance. But this is hard for us to empathize with because we're not the recipients; we're the returns.   
-  
- &lt;a name=Superlinear Returns_note2&gt;[2]&lt;/a&gt; Knowledge did of course have a practical effect before the Industrial Revolution. The development of agriculture changed human life completely. But this kind of change was the result of broad, gradual improvements in technique, not the discoveries of a few exceptionally learned people.   
-  
- &lt;a name=Superlinear Returns_note3&gt;[3]&lt;/a&gt; It's not mathematically correct to describe a step function as superlinear, but a step function starting from zero works like a superlinear function when it describes the reward curve for effort by a rational actor. If it starts at zero then the part before the step is below any linearly increasing return, and the part after the step must be above the necessary return at that point or no one would bother.   
-  
- &lt;a name=Superlinear Returns_note4&gt;[4]&lt;/a&gt; Seeking competition could be a good heuristic in the sense that some people find it motivating. It's also somewhat of a guide to promising problems, because it's a sign that other people find them promising. But it's a very imperfect sign: often there's a clamoring crowd chasing some problem, and they all end up being trumped by someone quietly working on another one.   
-  
- &lt;a name=Superlinear Returns_note5&gt;[5]&lt;/a&gt; Not always, though. You have to be careful with this rule. When something is popular despite being mediocre, there's often a hidden reason why. Perhaps monopoly or regulation make it hard to compete. Perhaps customers have bad taste or have broken procedures for deciding what to buy. There are huge swathes of mediocre things that exist for such reasons.   
-  
- &lt;a name=Superlinear Returns_note6&gt;[6]&lt;/a&gt; In my twenties I wanted to be an [_artist_](worked.html) and even went to art school to study painting. Mostly because I liked art, but a nontrivial part of my motivation came from the fact that artists seemed least at the mercy of organizations.   
-  
- &lt;a name=Superlinear Returns_note7&gt;[7]&lt;/a&gt; In principle everyone is getting superlinear returns. Learning compounds, and everyone learns in the course of their life. But in practice few push this kind of everyday learning to the point where the return curve gets really steep.   
-  
- &lt;a name=Superlinear Returns_note8&gt;[8]&lt;/a&gt; It's unclear exactly what advocates of "equity" mean by it. They seem to disagree among themselves. But whatever they mean is probably at odds with a world in which institutions have less power to control outcomes, and a handful of outliers do much better than everyone else.   
-  
- It may seem like bad luck for this concept that it arose at just the moment when the world was shifting in the opposite direction, but I don't think this was a coincidence. I think one reason it arose now is because its adherents feel threatened by rapidly increasing variation in performance.   
-  
- &lt;a name=Superlinear Returns_note9&gt;[9]&lt;/a&gt; Corollary: Parents who pressure their kids to work on something prestigious, like medicine, even though they have no interest in it, will be hosing them even more than they have in the past.   
-  
- &lt;a name=Superlinear Returns_note10&gt;[10]&lt;/a&gt; The original version of this paragraph was the first draft of "[_How to Do Great Work_](greatwork.html)." As soon as I wrote it I realized it was a more important topic than superlinear returns, so I paused the present essay to expand this paragraph into its own. Practically nothing remains of the original version, because after I finished "How to Do Great Work" I rewrote it based on that.   
-  
- &lt;a name=Superlinear Returns_note11&gt;[11]&lt;/a&gt; Before the Industrial Revolution, people who got rich usually did it like emperors: capturing some resource made them more powerful and enabled them to capture more. Now it can be done like a scientist, by discovering or building something uniquely valuable. Most people who get rich use a mix of the old and the new ways, but in the most advanced economies the ratio has [_shifted dramatically_](richnow.html) toward discovery just in the last half century.   
-  
- &lt;a name=Superlinear Returns_note12&gt;[12]&lt;/a&gt; It's not surprising that conventional-minded people would dislike inequality if independent-mindedness is one of the biggest drivers of it. But it's not simply that they don't want anyone to have what they can't. The conventional-minded literally can't imagine what it's like to have novel ideas. So the whole phenomenon of great variation in performance seems unnatural to them, and when they encounter it they assume it must be due to cheating or to some malign external influence.   
-  
- 
-  
- 
-  
- **Thanks** to Trevor Blackwell, Patrick Collison, Tyler Cowen, Jessica Livingston, Harj Taggar, and Garry Tan for reading drafts of this.   
-  
- 
-  
- 
-  
- 
-  
- 
-
- 
-* * *
- 
-
- 
-
-</description><pubDate>2023-01-01</pubDate></item><item><title>The Best Essay</title><link>https://paulgraham.com/best.html</link><description>
-  
- 
-  
- March 2024   
-  
- Despite its title this isn't meant to be the best essay. My goal here is to figure out what the best essay would be like.   
-  
- It would be well-written, but you can write well about any topic. What made it special would be what it was about.   
-  
- Obviously some topics would be better than others. It probably wouldn't be about this year's lipstick colors. But it wouldn't be vaporous talk about elevated themes either. A good essay has to be surprising. It has to tell people something they don't already know.   
-  
- The best essay would be on the most important topic you could tell people something surprising about.   
-  
- That may sound obvious, but it has some unexpected consequences. One is that science enters the picture like an elephant stepping into a rowboat. For example, Darwin first described the idea of natural selection in an essay written in 1844. Talk about an important topic you could tell people something surprising about. If that's the test of a great essay, this was surely the best one written in 1844. And indeed, the best possible essay at any given time would usually be one describing the most important scientific or technological discovery it was possible to make. [1](#The Best Essay_note1)   
-  
- Another unexpected consequence: I imagined when I started writing this that the best essay would be fairly timeless -- that the best essay you could write in 1844 would be much the same as the best one you could write now. But in fact the opposite seems to be true. It might be true that the best painting would be timeless in this sense. But it wouldn't be impressive to write an essay introducing natural selection now. The best essay _now_ would be one describing a great discovery we didn't yet know about.   
-  
- If the question of how to write the best possible essay reduces to the question of how to make great discoveries, then I started with the wrong question. Perhaps what this exercise shows is that we shouldn't waste our time writing essays but instead focus on making discoveries in some specific domain. But I'm interested in essays and what can be done with them, so I want to see if there's some other question I could have asked.   
-  
- There is, and on the face of it, it seems almost identical to the one I started with. Instead of asking _what would the best essay be?_ I should have asked _how do you write essays well?_ Though these seem only phrasing apart, their answers diverge. The answer to the first question, as we've seen, isn't really about essay writing. The second question forces it to be.   
-  
- Writing essays, at its best, is a way of discovering ideas. How do you do that well? How do you discover by writing?   
-  
- An essay should ordinarily start with what I'm going to call a question, though I mean this in a very general sense: it doesn't have to be a question grammatically, just something that acts like one in the sense that it spurs some response.   
-  
- How do you get this initial question? It probably won't work to choose some important-sounding topic at random and go at it. Professional traders won't even trade unless they have what they call an _edge_ -- a convincing story about why in some class of trades they'll win more than they lose. Similarly, you shouldn't attack a topic unless you have a way in -- some new insight about it or way of approaching it.   
-  
- You don't need to have a complete thesis; you just need some kind of gap you can explore. In fact, merely having questions about something other people take for granted can be edge enough.   
-  
- If you come across a question that's sufficiently puzzling, it could be worth exploring even if it doesn't seem very momentous. Many an important discovery has been made by pulling on a thread that seemed insignificant at first. How can they _all_ be finches? [2](#The Best Essay_note2)   
-  
- Once you've got a question, then what? You start thinking out loud about it. Not literally out loud, but you commit to a specific string of words in response, as you would if you were talking. This initial response is usually mistaken or incomplete. Writing converts your ideas from vague to bad. But that's a step forward, because once you can see the brokenness, you can fix 
-it.  
- 
-  
- Perhaps beginning writers are alarmed at the thought of starting with something mistaken or incomplete, but you shouldn't be, because this is why essay writing works. Forcing yourself to commit to some specific string of words gives you a starting point, and if it's wrong, you'll see that when you reread it. At least half of essay writing is rereading what you've written and asking _is this correct and complete?_ You have to be very strict when rereading, not just because you want to keep yourself honest, but because a gap between your response and the truth is often a sign of new ideas to be discovered.   
-  
- The prize for being strict with what you've written is not just refinement. When you take a roughly correct answer and try to make it exactly right, sometimes you find that you can't, and that the reason is that you were depending on a false assumption. And when you discard it, the answer turns out to be completely different. [3](#The Best Essay_note3)   
-  
- Ideally the response to a question is two things: the first step in a process that converges on the truth, and a source of additional questions (in my very general sense of the word). So the process continues recursively, as response spurs response. [4](#The Best Essay_note4)   
-  
- Usually there are several possible responses to a question, which means you're traversing a tree. But essays are linear, not tree-shaped, which means you have to choose one branch to follow at each point. How do you choose? Usually you should follow whichever offers the greatest combination of generality and novelty. I don't consciously rank branches this way; I just follow whichever seems most exciting; but generality and novelty are what make a branch exciting. [5](#The Best Essay_note5)   
-  
- If you're willing to do a lot of rewriting, you don't have to guess right. You can follow a branch and see how it turns out, and if it isn't good enough, cut it and backtrack. I do this all the time. In this essay I've already cut a 17-paragraph subtree, in addition to countless shorter ones. Maybe I'll reattach it at the end, or boil it down to a footnote, or spin it off as its own essay; we'll see. [6](#The Best Essay_note6)   
-  
- In general you want to be quick to cut. One of the most dangerous temptations in writing (and in software and painting) is to keep something that isn't right, just because it contains a few good bits or cost you a lot of effort.   
-  
- The most surprising new question being thrown off at this point is _does it really matter what the initial question is?_ If the space of ideas is highly connected, it shouldn't, because you should be able to get from any question to the most valuable ones in a few hops. And we see evidence that it's highly connected in the way, for example, that people who are obsessed with some topic can turn any conversation toward it. But that only works if you know where you want to go, and you don't in an essay. That's the whole point. You don't want to be the obsessive conversationalist, or all your essays will be about the same thing. [7](#The Best Essay_note7)   
-  
- The other reason the initial question matters is that you usually feel somewhat obliged to stick to it. I don't think about this when I decide which branch to follow. I just follow novelty and generality. Sticking to the question is enforced later, when I notice I've wandered too far and have to backtrack. But I think this is the optimal solution. You don't want the hunt for novelty and generality to be constrained in the moment. Go with it and see what you get. [8](#The Best Essay_note8)   
-  
- Since the initial question does constrain you, in the best case it sets an upper bound on the quality of essay you'll write. If you do as well as you possibly can on the chain of thoughts that follow from the initial question, the initial question itself is the only place where there's room for variation.   
-  
- It would be a mistake to let this make you too conservative though, because you can't predict where a question will lead. Not if you're doing things right, because doing things right means making discoveries, and by definition you can't predict those. So the way to respond to this situation is not to be cautious about which initial question you choose, but to write a lot of essays. Essays are for taking risks.   
-  
- Almost any question can get you a good essay. Indeed, it took some effort to think of a sufficiently unpromising topic in the third paragraph, because any essayist's first impulse on hearing that the best essay couldn't be about x would be to try to write it. But if most questions yield good essays, only some yield great ones.   
-  
- Can we predict which questions will yield great essays? Considering how long I've been writing essays, it's alarming how novel that question feels.   
-  
- One thing I like in an initial question is outrageousness. I love questions that seem naughty in some way -- for example, by seeming counterintuitive or overambitious or heterodox. Ideally all three. This essay is an example. Writing about the best essay implies there is such a thing, which pseudo- intellectuals will dismiss as reductive, though it follows necessarily from the possibility of one essay being better than another. And thinking about how to do something so ambitious is close enough to doing it that it holds your attention.   
-  
- I like to start an essay with a gleam in my eye. This could be just a taste of mine, but there's one aspect of it that probably isn't: to write a really good essay on some topic, you have to be interested in it. A good writer can write well about anything, but to stretch for the novel insights that are the raison d'etre of the essay, you have to care.   
-  
- If caring about it is one of the criteria for a good initial question, then the optimal question varies from person to person. It also means you're more likely to write great essays if you care about a lot of different things. The more curious you are, the greater the probable overlap between the set of things you're curious about and the set of topics that yield great essays.   
-  
- What other qualities would a great initial question have? It's probably good if it has implications in a lot of different areas. And I find it's a good sign if it's one that people think has already been thoroughly explored. But the truth is that I've barely thought about how to choose initial questions, because I rarely do it. I rarely _choose_ what to write about; I just start thinking about something, and sometimes it turns into an essay.   
-  
- Am I going to stop writing essays about whatever I happen to be thinking about and instead start working my way through some systematically generated list of topics? That doesn't sound like much fun. And yet I want to write good essays, and if the initial question matters, I should care about it.   
-  
- Perhaps the answer is to go one step earlier: to write about whatever pops into your head, but try to ensure that what pops into your head is good. Indeed, now that I think about it, this has to be the answer, because a mere list of topics wouldn't be any use if you didn't have edge with any of them. To start writing an essay, you need a topic plus some initial insight about it, and you can't generate those systematically. If only. [9](#The Best Essay_note9)   
-  
- You can probably cause yourself to have more of them, though. The quality of the ideas that come out of your head depends on what goes in, and you can improve that in two dimensions, breadth and depth.   
-  
- You can't learn everything, so getting breadth implies learning about topics that are very different from one another. When I tell people about my book- buying trips to Hay and they ask what I buy books about, I usually feel a bit sheepish answering, because the topics seem like a laundry list of unrelated subjects. But perhaps that's actually optimal in this business.   
-  
- You can also get ideas by talking to people, by doing and building things, and by going places and seeing things. I don't think it's important to talk to new people so much as the sort of people who make you have new ideas. I get more new ideas after talking for an afternoon with Robert Morris than from talking to 20 new smart people. I know because that's what a block of office hours at Y Combinator consists of.   
-  
- While breadth comes from reading and talking and seeing, depth comes from doing. The way to really learn about some domain is to have to solve problems in it. Though this could take the form of writing, I suspect that to be a good essayist you also have to do, or have done, some other kind of work. That may not be true for most other fields, but essay writing is different. You could spend half your time working on something else and be net ahead, so long as it was hard.   
-  
- I'm not proposing that as a recipe so much as an encouragement to those already doing it. If you've spent all your life so far working on other things, you're already halfway there. Though of course to be good at writing you have to like it, and if you like writing you'd probably have spent at least some time doing it.   
-  
- Everything I've said about initial questions applies also to the questions you encounter in writing the essay. They're the same thing; every subtree of an essay is usually a shorter essay, just as every subtree of a Calder mobile is a smaller mobile. So any technique that gets you good initial questions also gets you good whole essays.   
-  
- At some point the cycle of question and response reaches what feels like a natural end. Which is a little suspicious; shouldn't every answer suggest more questions? I think what happens is that you start to feel sated. Once you've covered enough interesting ground, you start to lose your appetite for new questions. Which is just as well, because the reader is probably feeling sated too. And it's not lazy to stop asking questions, because you could instead be asking the initial question of a new essay.   
-  
- That's the ultimate source of drag on the connectedness of ideas: the discoveries you make along the way. If you discover enough starting from question A, you'll never make it to question B. Though if you keep writing essays you'll gradually fix this problem by burning off such discoveries. So bizarrely enough, writing lots of essays makes it as if the space of ideas were more highly connected.   
-  
- When a subtree comes to an end, you can do one of two things. You can either stop, or pull the Cubist trick of laying separate subtrees end to end by returning to a question you skipped earlier. Usually it requires some sleight of hand to make the essay flow continuously at this point, but not this time. This time I actually need an example of the phenomenon. For example, we discovered earlier that the best possible essay wouldn't usually be timeless in the way the best painting would. This seems surprising enough to be worth investigating further.   
-  
- There are two senses in which an essay can be timeless: to be about a matter of permanent importance, and always to have the same effect on readers. With art these two senses blend together. Art that looked beautiful to the ancient Greeks still looks beautiful to us. But with essays the two senses diverge, because essays teach, and you can't teach people something they already know. Natural selection is certainly a matter of permanent importance, but an essay explaining it couldn't have the same effect on us that it would have had on Darwin's contemporaries, precisely because his ideas were so successful that everyone already knows about them. [10](#The Best Essay_note10)   
-  
- I imagined when I started writing this that the best possible essay would be timeless in the stricter, evergreen sense: that it would contain some deep, timeless wisdom that would appeal equally to Aristotle and Feynman. That doesn't seem to be true. But if the best possible essay wouldn't usually be timeless in this stricter sense, what would it take to write essays that were?   
-  
- The answer to that turns out to be very strange: to be the evergreen kind of timeless, an essay has to be ineffective, in the sense that its discoveries aren't assimilated into our shared culture. Otherwise there will be nothing new in it for the second generation of readers. If you want to surprise readers not just now but in the future as well, you have to write essays that won't stick -- essays that, no matter how good they are, won't become part of what people in the future learn before they read them. [11](#The Best Essay_note11)   
-  
- I can imagine several ways to do that. One would be to write about things people never learn. For example, it's a long-established pattern for ambitious people to chase after various types of prizes, and only later, perhaps too late, to realize that some of them weren't worth as much as they thought. If you write about that, you can be confident of a conveyor belt of future readers to be surprised by it.   
-  
- Ditto if you write about the tendency of the inexperienced to overdo things -- of young engineers to produce overcomplicated solutions, for example. There are some kinds of mistakes people never learn to avoid except by making them. Any of those should be a timeless topic.   
-  
- Sometimes when we're slow to grasp things it's not just because we're obtuse or in denial but because we've been deliberately lied to. There are a lot of things adults [_lie_](lies.html) to kids about, and when you reach adulthood, they don't take you aside and hand you a list of them. They don't remember which lies they told you, and most were implicit anyway. So contradicting such lies will be a source of surprises for as long as adults keep telling them.   
-  
- Sometimes it's systems that lie to you. For example, the educational systems in most countries train you to win by [_hacking the test_](lesson.html). But that's not how you win at the most important real-world tests, and after decades of training, this is hard for new arrivals in the real world to grasp. Helping them overcome such institutional lies will work as long as the institutions remain broken. [12](#The Best Essay_note12)   
-  
- Another recipe for timelessness is to write about things readers already know, but in much more detail than can be transmitted culturally. "Everyone knows," for example, that it can be rewarding to have [_kids_](kids.html). But till you have them you don't know precisely what forms that takes, and even then much of what you know you may never have put into words.   
-  
- I've written about all these kinds of topics. But I didn't do it in a deliberate attempt to write essays that were timeless in the stricter sense. And indeed, the fact that this depends on one's ideas not sticking suggests that it's not worth making a deliberate attempt to. You should write about topics of timeless importance, yes, but if you do such a good job that your conclusions stick and future generations find your essay obvious instead of novel, so much the better. You've crossed into Darwin territory.   
-  
- Writing about topics of timeless importance is an instance of something even more general, though: breadth of applicability. And there are more kinds of breadth than chronological -- applying to lots of different fields, for example. So breadth is the ultimate aim.   
-  
- I already aim for it. Breadth and novelty are the two things I'm always chasing. But I'm glad I understand where timelessness fits.   
-  
- I understand better where a lot of things fit now. This essay has been a kind of tour of essay writing. I started out hoping to get advice about topics; if you assume good writing, the only thing left to differentiate the best essay is its topic. And I did get advice about topics: discover natural selection. Yeah, that would be nice. But when you step back and ask what's the best you can do short of making some great discovery like that, the answer turns out to be about procedure. Ultimately the quality of an essay is a function of the ideas discovered in it, and the way you get them is by casting a wide net for questions and then being very exacting with the answers.   
-  
- The most striking feature of this map of essay writing are the alternating stripes of inspiration and effort required. The questions depend on inspiration, but the answers can be got by sheer persistence. You don't have to get an answer right the first time, but there's no excuse for not getting it right eventually, because you can keep rewriting till you do. And this is not just a theoretical possibility. It's a pretty accurate description of the way I work. I'm rewriting as we speak.   
-  
- But although I wish I could say that writing great essays depends mostly on effort, in the limit case it's inspiration that makes the difference. In the limit case, the questions are the harder thing to get. That pool has no bottom.   
-  
- How to get more questions? That is the most important question of all.   
-  
- 
-  
- 
-  
- 
-  
- 
-  
- 
-  
- 
-  
- 
-  
- 
-  
- 
-  
- 
-  
- **Notes**   
-  
- &lt;a name=The Best Essay_note1&gt;[1]&lt;/a&gt; There might be some resistance to this conclusion on the grounds that some of these discoveries could only be understood by a small number of readers. But you get into all sorts of difficulties if you want to disqualify essays on this account. How do you decide where the cutoff should be? If a virus kills off everyone except a handful of people sequestered at Los Alamos, could an essay that had been disqualified now be eligible? Etc.   
-  
- Darwin's 1844 essay was derived from an earlier version written in 1839. Extracts from it were published in 1858.   
-  
- &lt;a name=The Best Essay_note2&gt;[2]&lt;/a&gt; When you find yourself very curious about an apparently minor question, that's an exciting sign. Evolution has designed you to pay attention to things that matter. So when you're very curious about something random, that could mean you've unconsciously noticed it's less random than it seems.   
-  
- &lt;a name=The Best Essay_note3&gt;[3]&lt;/a&gt; Corollary: If you're not intellectually honest, your writing won't just be biased, but also boring, because you'll miss all the ideas you'd have discovered if you pushed for the truth.   
-  
- &lt;a name=The Best Essay_note4&gt;[4]&lt;/a&gt; Sometimes this process begins before you start writing. Sometimes you've already figured out the first few things you want to say. Schoolchildren are often taught they should decide _everything_ they want to say, and write this down as an outline before they start writing the essay itself. Maybe that's a good way to get them started -- or not, I don't know -- but it's antithetical to the spirit of essay writing. The more detailed your outline, the less your ideas can benefit from the sort of discovery that essays are for.   
-  
- &lt;a name=The Best Essay_note5&gt;[5]&lt;/a&gt; The problem with this type of "greedy" algorithm is that you can end up on a local maximum. If the most valuable question is preceded by a boring one, you'll overlook it. But I can't imagine a better strategy. There's no lookahead except by writing. So use a greedy algorithm and a lot of time.   
-  
- &lt;a name=The Best Essay_note6&gt;[6]&lt;/a&gt; I ended up reattaching the first 5 of the 17 paragraphs, and discarding the rest.   
-  
- &lt;a name=The Best Essay_note7&gt;[7]&lt;/a&gt; Stephen Fry confessed to making use of this phenomenon when taking exams at Oxford. He had in his head a standard essay about some general literary topic, and he would find a way to turn the exam question toward it and then just reproduce it again.   
-  
- Strictly speaking it's the graph of ideas that would be highly connected, not the space, but that usage would confuse people who don't know graph theory, whereas people who do know it will get what I mean if I say "space".   
-  
- &lt;a name=The Best Essay_note8&gt;[8]&lt;/a&gt; Too far doesn't depend just on the distance from the original topic. It's more like that distance divided by the value of whatever I've discovered in the subtree.   
-  
- &lt;a name=The Best Essay_note9&gt;[9]&lt;/a&gt; Or can you? I should try writing about this. Even if the chance of succeeding is small, the expected value is huge.   
-  
- &lt;a name=The Best Essay_note10&gt;[10]&lt;/a&gt; There was a vogue in the 20th century for saying that the purpose of art was also to teach. Some artists tried to justify their work by explaining that their goal was not to produce something good, but to challenge our preconceptions about art. And to be fair, art can teach somewhat. The ancient Greeks' naturalistic sculptures represented a new idea, and must have been extra exciting to contemporaries on that account. But they still look good to 
-us.  
- 
-  
- &lt;a name=The Best Essay_note11&gt;[11]&lt;/a&gt; Bertrand Russell caused huge controversy in the early 20th century with his ideas about "trial marriage." But they make boring reading now, because they prevailed. "Trial marriage" is what we call "dating."   
-  
- &lt;a name=The Best Essay_note12&gt;[12]&lt;/a&gt; If you'd asked me 10 years ago, I'd have predicted that schools would continue to teach hacking the test for centuries. But now it seems plausible that students will soon be taught individually by AIs, and that exams will be replaced by ongoing, invisible micro-assessments.   
-  
- 
-  
- 
-  
- **Thanks** to Sam Altman, Trevor Blackwell, Jessica Livingston, Robert Morris, Courtenay Pipkin, and Harj Taggar for reading drafts of this.   
-  
- 
-  
- 
-  
- 
-  
- 
-
- 
-* * *
- 
-
- 
-
-</description><pubDate>2024-01-01</pubDate></item><item><title>How to Start Google</title><link>https://paulgraham.com/google.html</link><description>
-  
- 
-  
- March 2024   
-  
-  _(This is a talk I gave to 14 and 15 year olds about what to do now if they might want to start a startup later. Lots of schools think they should tell students something about startups. This is what I think they should tell them.)_   
-  
- Most of you probably think that when you're released into the so-called real world you'll eventually have to get some kind of job. That's not true, and today I'm going to talk about a trick you can use to avoid ever having to get a job.   
-  
- The trick is to start your own company. So it's not a trick for avoiding _work_ , because if you start your own company you'll work harder than you would if you had an ordinary job. But you will avoid many of the annoying things that come with a job, including a boss telling you what to do.   
-  
- It's more exciting to work on your own project than someone else's. And you can also get a lot richer. In fact, this is the standard way to get [_really rich_](richnow.html). If you look at the lists of the richest people that occasionally get published in the press, nearly all of them did it by starting their own companies.   
-  
- Starting your own company can mean anything from starting a barber shop to starting Google. I'm here to talk about one extreme end of that continuum. I'm going to tell you how to start Google.   
-  
- The companies at the Google end of the continuum are called startups when they're young. The reason I know about them is that my wife Jessica and I started something called Y Combinator that is basically a startup factory. Since 2005, Y Combinator has funded over 4000 startups. So we know exactly what you need to start a startup, because we've helped people do it for the last 19 years.   
-  
- You might have thought I was joking when I said I was going to tell you how to start Google. You might be thinking "How could _we_ start Google?" But that's effectively what the people who did start Google were thinking before they started it. If you'd told Larry Page and Sergey Brin, the founders of Google, that the company they were about to start would one day be worth over a trillion dollars, their heads would have exploded.   
-  
- All you can know when you start working on a startup is that it seems worth pursuing. You can't know whether it will turn into a company worth billions or one that goes out of business. So when I say I'm going to tell you how to start Google, I mean I'm going to tell you how to get to the point where you can start a company that has as much chance of being Google as Google had of being Google. [1](#How to Start Google_note1)   
-  
- How do you get from where you are now to the point where you can start a successful startup? You need three things. You need to be good at some kind of technology, you need an idea for what you're going to build, and you need cofounders to start the company with.   
-  
- How do you get good at technology? And how do you choose which technology to get good at? Both of those questions turn out to have the same answer: work on your own projects. Don't try to guess whether gene editing or LLMs or rockets will turn out to be the most valuable technology to know about. No one can predict that. Just work on whatever interests you the most. You'll work much harder on something you're interested in than something you're doing because you think you're supposed to.   
-  
- If you're not sure what technology to get good at, get good at programming. That has been the source of the median startup for the last 30 years, and this is probably not going to change in the next 10.   
-  
- Those of you who are taking computer science classes in school may at this point be thinking, ok, we've got this sorted. We're already being taught all about programming. But sorry, this is not enough. You have to be working on your own projects, not just learning stuff in classes. You can do well in computer science classes without ever really learning to program. In fact you can graduate with a degree in computer science from a top university and still not be any good at programming. That's why tech companies all make you take a coding test before they'll hire you, regardless of where you went to university or how well you did there. They know grades and exam results prove nothing.   
-  
- If you really want to learn to program, you have to work on your own projects. You learn so much faster that way. Imagine you're writing a game and there's something you want to do in it, and you don't know how. You're going to figure out how a lot faster than you'd learn anything in a class.   
-  
- You don't have to learn programming, though. If you're wondering what counts as technology, it includes practically everything you could describe using the words "make" or "build." So welding would count, or making clothes, or making videos. Whatever you're most interested in. The critical distinction is whether you're producing or just consuming. Are you writing computer games, or just playing them? That's the cutoff.   
-  
- Steve Jobs, the founder of Apple, spent time when he was a teenager studying calligraphy -- the sort of beautiful writing that you see in medieval manuscripts. No one, including him, thought that this would help him in his career. He was just doing it because he was interested in it. But it turned out to help him a lot. The computer that made Apple really big, the Macintosh, came out at just the moment when computers got powerful enough to make letters like the ones in printed books instead of the computery-looking letters you see in 8 bit games. Apple destroyed everyone else at this, and one reason was that Steve was one of the few people in the computer business who really got graphic design.   
-  
- Don't feel like your projects have to be _serious_. They can be as frivolous as you like, so long as you're building things you're excited about. Probably 90% of programmers start out building games. They and their friends like to play games. So they build the kind of things they and their friends want. And that's exactly what you should be doing at 15 if you want to start a startup one day.   
-  
- You don't have to do just one project. In fact it's good to learn about multiple things. Steve Jobs didn't just learn calligraphy. He also learned about electronics, which was even more valuable. Whatever you're interested in. (Do you notice a theme here?)   
-  
- So that's the first of the three things you need, to get good at some kind or kinds of technology. You do it the same way you get good at the violin or football: practice. If you start a startup at 22, and you start writing your own programs now, then by the time you start the company you'll have spent at least 7 years practicing writing code, and you can get pretty good at anything after practicing it for 7 years.   
-  
- Let's suppose you're 22 and you've succeeded: You're now really good at some technology. How do you get [_startup ideas_](startupideas.html)? It might seem like that's the hard part. Even if you are a good programmer, how do you get the idea to start Google?   
-  
- Actually it's easy to get startup ideas once you're good at technology. Once you're good at some technology, when you look at the world you see dotted outlines around the things that are missing. You start to be able to see both the things that are missing from the technology itself, and all the broken things that could be fixed using it, and each one of these is a potential startup.   
-  
- In the town near our house there's a shop with a sign warning that the door is hard to close. The sign has been there for several years. To the people in the shop it must seem like this mysterious natural phenomenon that the door sticks, and all they can do is put up a sign warning customers about it. But any carpenter looking at this situation would think "why don't you just plane off the part that sticks?"   
-  
- Once you're good at programming, all the missing software in the world starts to become as obvious as a sticking door to a carpenter. I'll give you a real world example. Back in the 20th century, American universities used to publish printed directories with all the students' names and contact info. When I tell you what these directories were called, you'll know which startup I'm talking about. They were called facebooks, because they usually had a picture of each student next to their name.   
-  
- So Mark Zuckerberg shows up at Harvard in 2002, and the university still hasn't gotten the facebook online. Each individual house has an online facebook, but there isn't one for the whole university. The university administration has been diligently having meetings about this, and will probably have solved the problem in another decade or so. Most of the students don't consciously notice that anything is wrong. But Mark is a programmer. He looks at this situation and thinks "Well, this is stupid. I could write a program to fix this in one night. Just let people upload their own photos and then combine the data into a new site for the whole university." So he does. And almost literally overnight he has thousands of users.   
-  
- Of course Facebook was not a startup yet. It was just a... project. There's that word again. Projects aren't just the best way to learn about technology. They're also the best source of startup ideas.   
-  
- Facebook was not unusual in this respect. Apple and Google also began as projects. Apple wasn't meant to be a company. Steve Wozniak just wanted to build his own computer. It only turned into a company when Steve Jobs said "Hey, I wonder if we could sell plans for this computer to other people." That's how Apple started. They weren't even selling computers, just plans for computers. Can you imagine how lame this company seemed?   
-  
- Ditto for Google. Larry and Sergey weren't trying to start a company at first. They were just trying to make search better. Before Google, most search engines didn't try to sort the results they gave you in order of importance. If you searched for "rugby" they just gave you every web page that contained the word "rugby." And the web was so small in 1997 that this actually worked! Kind of. There might only be 20 or 30 pages with the word "rugby," but the web was growing exponentially, which meant this way of doing search was becoming exponentially more broken. Most users just thought, "Wow, I sure have to look through a lot of search results to find what I want." Door sticks. But like Mark, Larry and Sergey were programmers. Like Mark, they looked at this situation and thought "Well, this is stupid. Some pages about rugby matter more than others. Let's figure out which those are and show them first."   
-  
- It's obvious in retrospect that this was a great idea for a startup. It wasn't obvious at the time. It's never obvious. If it was obviously a good idea to start Apple or Google or Facebook, someone else would have already done it. That's why the best startups grow out of projects that aren't meant to be startups. You're not trying to start a company. You're just following your instincts about what's interesting. And if you're young and good at technology, then your unconscious instincts about what's interesting are better than your conscious ideas about what would be a good company.   
-  
- So it's critical, if you're a young founder, to build things for yourself and your friends to use. The biggest mistake young founders make is to build something for some mysterious group of other people. But if you can make something that you and your friends truly want to use -- something your friends aren't just using out of loyalty to you, but would be really sad to lose if you shut it down -- then you almost certainly have the germ of a good startup idea. It may not seem like a startup to you. It may not be obvious how to make money from it. But trust me, there's a way.   
-  
- What you need in a startup idea, and all you need, is something your friends actually want. And those ideas aren't hard to see once you're good at technology. There are sticking doors everywhere. [2](#How to Start Google_note2)   
-  
- Now for the third and final thing you need: a cofounder, or cofounders. The optimal startup has two or three founders, so you need one or two cofounders. How do you find them? Can you predict what I'm going to say next? It's the same thing: projects. You find cofounders by working on projects with them. What you need in a cofounder is someone who's good at what they do and that you work well with, and the only way to judge this is to work with them on things.   
-  
- At this point I'm going to tell you something you might not want to hear. It really matters to do well in your classes, even the ones that are just memorization or blathering about literature, because you need to do well in your classes to get into a good university. And if you want to start a startup you should try to get into the best university you can, because that's where the best cofounders are. It's also where the best employees are. When Larry and Sergey started Google, they began by just hiring all the smartest people they knew out of Stanford, and this was a real advantage for them.   
-  
- The empirical evidence is clear on this. If you look at where the largest numbers of successful startups come from, it's pretty much the same as the list of the most selective universities.   
-  
- I don't think it's the prestigious names of these universities that cause more good startups to come out of them. Nor do I think it's because the quality of the teaching is better. What's driving this is simply the difficulty of getting in. You have to be pretty smart and determined to get into MIT or Cambridge, so if you do manage to get in, you'll find the other students include a lot of smart and determined people. [3](#How to Start Google_note3)   
-  
- You don't have to start a startup with someone you meet at university. The founders of Twitch met when they were seven. The founders of Stripe, Patrick and John Collison, met when John was born. But universities are the main source of cofounders. And because they're where the cofounders are, they're also where the ideas are, because the best ideas grow out of projects you do with the people who become your cofounders.   
-  
- So the list of what you need to do to get from here to starting a startup is quite short. You need to get good at technology, and the way to do that is to work on your own projects. And you need to do as well in school as you can, so you can get into a good university, because that's where the cofounders and the ideas are.   
-  
- That's it, just two things, build stuff and do well in school.   
-  
- 
-  
- 
-  
- 
-  
- 
-  
- 
-  
- 
-  
- 
-  
- 
-  
- **Notes**   
-  
- &lt;a name=How to Start Google_note1&gt;[1]&lt;/a&gt; The rhetorical trick in this sentence is that the "Google"s refer to different things. What I mean is: a company that has as much chance of growing as big as Google ultimately did as Larry and Sergey could have reasonably expected Google itself would at the time they started it. But I think the original version is zippier.   
-  
- &lt;a name=How to Start Google_note2&gt;[2]&lt;/a&gt; Making something for your friends isn't the only source of startup ideas. It's just the best source for young founders, who have the least knowledge of what other people want, and whose own wants are most predictive of future demand.   
-  
- &lt;a name=How to Start Google_note3&gt;[3]&lt;/a&gt; Strangely enough this is particularly true in countries like the US where undergraduate admissions are done badly. US admissions departments make applicants jump through a lot of arbitrary hoops that have little to do with their intellectual ability. But the more arbitrary a test, the more it becomes a test of mere determination and resourcefulness. And those are the two most important qualities in startup founders. So US admissions departments are better at selecting founders than they would be if they were better at selecting students.   
-  
- 
-  
- 
-  
- **Thanks** to Jared Friedman, Carolynn Levy, Jessica Livingston, Harj Taggar, and Garry Tan for reading drafts of this.   
-  
- 
-  
- 
-  
- 
-  
- 
-
- 
-* * *
- 
-
- 
-
-</description><pubDate>2024-01-01</pubDate></item><item><title>The Reddits</title><link>https://paulgraham.com/reddits.html</link><description>
+<rss version="2.0"><channel><title>Paul Graham Essays</title><link>https://paulgraham.com/</link><description>A collection of essays by Paul Graham.</description><item><title>The Reddits</title><link>https://paulgraham.com/reddits.html</link><description>
   
  
   
@@ -700,6 +158,246 @@ us.
  
   
  **Thanks** to Trevor Blackwell, Jessica Livingston, Jackie McDonough, Courtenay Pipkin, Harj Taggar, and Garry Tan for reading drafts of this.   
+  
+ 
+  
+ 
+  
+ 
+  
+ 
+
+ 
+* * *
+ 
+
+ 
+
+</description><pubDate>2024-01-01</pubDate></item><item><title>Founder Mode</title><link>https://paulgraham.com/foundermode.html</link><description>
+  
+ 
+  
+ September 2024   
+  
+ At a YC event last week Brian Chesky gave a talk that everyone who was there will remember. Most founders I talked to afterward said it was the best they'd ever heard. Ron Conway, for the first time in his life, forgot to take notes. I'm not going to try to reproduce it here. Instead I want to talk about a question it raised.   
+  
+ The theme of Brian's talk was that the conventional wisdom about how to run larger companies is mistaken. As Airbnb grew, well-meaning people advised him that he had to run the company in a certain way for it to scale. Their advice could be optimistically summarized as "hire good people and give them room to do their jobs." He followed this advice and the results were disastrous. So he had to figure out a better way on his own, which he did partly by studying how Steve Jobs ran Apple. So far it seems to be working. Airbnb's free cash flow margin is now among the best in Silicon Valley.   
+  
+ The audience at this event included a lot of the most successful founders we've funded, and one after another said that the same thing had happened to them. They'd been given the same advice about how to run their companies as they grew, but instead of helping their companies, it had damaged them.   
+  
+ Why was everyone telling these founders the wrong thing? That was the big mystery to me. And after mulling it over for a bit I figured out the answer: what they were being told was how to run a company you hadn't founded -- how to run a company if you're merely a professional manager. But this m.o. is so much less effective that to founders it feels broken. There are things founders can do that managers can't, and not doing them feels wrong to founders, because it is.   
+  
+ In effect there are two different ways to run a company: founder mode and manager mode. Till now most people even in Silicon Valley have implicitly assumed that scaling a startup meant switching to manager mode. But we can infer the existence of another mode from the dismay of founders who've tried it, and the success of their attempts to escape from it.   
+  
+ There are as far as I know no books specifically about founder mode. Business schools don't know it exists. All we have so far are the experiments of individual founders who've been figuring it out for themselves. But now that we know what we're looking for, we can search for it. I hope in a few years founder mode will be as well understood as manager mode. We can already guess at some of the ways it will differ.   
+  
+ The way managers are taught to run companies seems to be like modular design in the sense that you treat subtrees of the org chart as black boxes. You tell your direct reports what to do, and it's up to them to figure out how. But you don't get involved in the details of what they do. That would be micromanaging them, which is bad.   
+  
+ Hire good people and give them room to do their jobs. Sounds great when it's described that way, doesn't it? Except in practice, judging from the report of founder after founder, what this often turns out to mean is: hire professional fakers and let them drive the company into the ground.   
+  
+ One theme I noticed both in Brian's talk and when talking to founders afterward was the idea of being gaslit. Founders feel like they're being gaslit from both sides -- by the people telling them they have to run their companies like managers, and by the people working for them when they do. Usually when everyone around you disagrees with you, your default assumption should be that you're mistaken. But this is one of the rare exceptions. VCs who haven't been founders themselves don't know how founders should run companies, and C-level execs, as a class, include some of the most skillful liars in the world. [1](#Founder Mode_note1)   
+  
+ Whatever founder mode consists of, it's pretty clear that it's going to break the principle that the CEO should engage with the company only via his or her direct reports. "Skip-level" meetings will become the norm instead of a practice so unusual that there's a name for it. And once you abandon that constraint there are a huge number of permutations to choose from.   
+  
+ For example, Steve Jobs used to run an annual retreat for what he considered the 100 most important people at Apple, and these were not the 100 people highest on the org chart. Can you imagine the force of will it would take to do this at the average company? And yet imagine how useful such a thing could be. It could make a big company feel like a startup. Steve presumably wouldn't have kept having these retreats if they didn't work. But I've never heard of another company doing this. So is it a good idea, or a bad one? We still don't know. That's how little we know about founder mode. [2](#Founder Mode_note2)   
+  
+ Obviously founders can't keep running a 2000 person company the way they ran it when it had 20. There's going to have to be some amount of delegation. Where the borders of autonomy end up, and how sharp they are, will probably vary from company to company. They'll even vary from time to time within the same company, as managers earn trust. So founder mode will be more complicated than manager mode. But it will also work better. We already know that from the examples of individual founders groping their way toward it.   
+  
+ Indeed, another prediction I'll make about founder mode is that once we figure out what it is, we'll find that a number of individual founders were already most of the way there -- except that in doing what they did they were regarded by many as eccentric or worse. [3](#Founder Mode_note3)   
+  
+ Curiously enough it's an encouraging thought that we still know so little about founder mode. Look at what founders have achieved already, and yet they've achieved this against a headwind of bad advice. Imagine what they'll do once we can tell them how to run their companies like Steve Jobs instead of John Sculley.   
+  
+ 
+  
+ 
+  
+ 
+  
+ 
+  
+ 
+  
+ 
+  
+ 
+  
+ 
+  
+ **Notes**   
+  
+ &lt;a name=Founder Mode_note1&gt;[1]&lt;/a&gt; The more diplomatic way of phrasing this statement would be to say that experienced C-level execs are often very skilled at managing up. And I don't think anyone with knowledge of this world would dispute that.   
+  
+ &lt;a name=Founder Mode_note2&gt;[2]&lt;/a&gt; If the practice of having such retreats became so widespread that even mature companies dominated by politics started to do it, we could quantify the senescence of companies by the average depth on the org chart of those invited.   
+  
+ &lt;a name=Founder Mode_note3&gt;[3]&lt;/a&gt; I also have another less optimistic prediction: as soon as the concept of founder mode becomes established, people will start misusing it. Founders who are unable to delegate even things they should will use founder mode as the excuse. Or managers who aren't founders will decide they should try to act like founders. That may even work, to some extent, but the results will be messy when it doesn't; the modular approach does at least limit the damage a bad CEO can do.   
+  
+ 
+  
+ 
+  
+ **Thanks** to Brian Chesky, Patrick Collison, Ron Conway, Jessica Livingston, Elon Musk, Ryan Petersen, Harj Taggar, and Garry Tan for reading drafts of this.   
+  
+ 
+  
+ 
+  
+ 
+  
+ 
+
+ 
+* * *
+ 
+
+ 
+
+</description><pubDate>2024-01-01</pubDate></item><item><title>When To Do What You Love</title><link>https://paulgraham.com/when.html</link><description>
+  
+ 
+  
+ September 2024   
+  
+ There's some debate about whether it's a good idea to "follow your passion." In fact the question is impossible to answer with a simple yes or no. Sometimes you should and sometimes you shouldn't, but the border between should and shouldn't is very complicated. The only way to give a general answer is to trace it.   
+  
+ When people talk about this question, there's always an implicit "instead of." All other things being equal, why wouldn't you work on what interests you the most? So even raising the question implies that all other things aren't equal, and that you have to choose between working on what interests you the most and something else, like what pays the best.   
+  
+ And indeed if your main goal is to make money, you can't usually afford to work on what interests you the most. People pay you for doing what they want, not what you want. But there's an obvious exception: when you both want the same thing. For example, if you love football, and you're good enough at it, you can get paid a lot to play it.   
+  
+ Of course the odds are against you in a case like football, because so many other people like playing it too. This is not to say you shouldn't try though. It depends how much ability you have and how hard you're willing to work.   
+  
+ The odds are better when you have strange tastes: when you like something that pays well and that few other people like. For example, it's clear that Bill Gates truly loved running a software company. He didn't just love programming, which a lot of people do. He loved writing software for customers. That is a very strange taste indeed, but if you have it, you can make a lot by indulging 
+it.  
+ 
+  
+ There are even some people who have a genuine intellectual interest in making money. This is distinct from mere greed. They just can't help noticing when something is mispriced, and can't help doing something about it. It's like a puzzle for them. [1](#When To Do What You Love_note1)   
+  
+ In fact there's an edge case here so spectacular that it turns all the preceding advice on its head. If you want to make a really _huge_ amount of money -- hundreds of millions or even billions of dollars -- it turns out to be very useful to work on what interests you the most. The reason is not the extra motivation you get from doing this, but that the way to make a really large amount of money is to start a startup, and working on what interests you is an excellent way to discover [_startup ideas_](startupideas.html).   
+  
+ Many if not most of the biggest startups began as projects the founders were doing for fun. Apple, Google, and Facebook all began that way. Why is this pattern so common? Because the best ideas tend to be such outliers that you'd overlook them if you were consciously looking for ways to make money. Whereas if you're young and good at technology, your unconscious instincts about what would be interesting to work on are very well aligned with what needs to be built.   
+  
+ So there's something like a midwit peak for making money. If you don't need to make much, you can work on whatever you're most interested in; if you want to become moderately rich, you can't usually afford to; but if you want to become super rich, and you're young and good at technology, working on what you're most interested in becomes a good idea again.   
+  
+ What if you're not sure what you want? What if you're attracted to the idea of making money and more attracted to some kinds of work than others, but neither attraction predominates? How do you break ties?   
+  
+ The key here is to understand that such ties are only apparent. When you have trouble choosing between following your interests and making money, it's never because you have complete knowledge of yourself and of the types of work you're choosing between, and the options are perfectly balanced. When you can't decide which path to take, it's almost always due to ignorance. In fact you're usually suffering from three kinds of ignorance simultaneously: you don't know what makes you happy, what the various kinds of work are really like, or how well you could do them. [2](#When To Do What You Love_note2)   
+  
+ In a way this ignorance is excusable. It's often hard to predict these things, and no one even tells you that you need to. If you're ambitious you're told you should go to college, and this is good advice so far as it goes, but that's where it usually ends. No one tells you how to figure out what to work on, or how hard this can be.   
+  
+ What do you do in the face of uncertainty? Get more certainty. And probably the best way to do that is to try working on things you're interested in. That will get you more information about how interested you are in them, how good you are at them, and how much scope they offer for ambition.   
+  
+ Don't wait. Don't wait till the end of college to figure out what to work on. Don't even wait for internships during college. You don't necessarily need a job doing x in order to work on x; often you can just start doing it in some form yourself. And since figuring out what to work on is a problem that could take years to solve, the sooner you start, the better.   
+  
+ One useful trick for judging different kinds of work is to look at who your colleagues will be. You'll become like whoever you work with. Do you want to become like these people?   
+  
+ Indeed, the difference in character between different kinds of work is magnified by the fact that everyone else is facing the same decisions as you. If you choose a kind of work mainly for how well it pays, you'll be surrounded by other people who chose it for the same reason, and that will make it even more soul-sucking than it seems from the outside. Whereas if you choose work you're genuinely interested in, you'll be surrounded mostly by other people who are genuinely interested in it, and that will make it extra inspiring. [3](#When To Do What You Love_note3)   
+  
+ The other thing you do in the face of uncertainty is to make choices that are uncertainty-proof. The less sure you are about what to do, the more important it is to choose options that give you more options in the future. I call this "staying upwind." If you're unsure whether to major in math or economics, for example, choose math; math is upwind of economics in the sense that it will be easier to switch later from math to economics than from economics to math.   
+  
+ There's one case, though, where it's easy to say whether you should work on what interests you the most: if you want to do [_great work_](greatwork.html). This is not a sufficient condition for doing great work, but it is a necessary 
+one.  
+ 
+  
+ There's a lot of selection bias in advice about whether to "follow your passion," and this is the reason. Most such advice comes from people who are famously successful, and if you ask someone who's famously successful how to do what they did, most will tell you that you have to work on what you're most interested in. And this is in fact true.   
+  
+ That doesn't mean it's the right advice for everyone. Not everyone can do great work, or wants to. But if you do want to, the complicated question of whether or not to work on what interests you the most becomes simple. The answer is yes. The root of great work is a sort of ambitious curiosity, and you can't manufacture that.   
+  
+ 
+  
+ 
+  
+ 
+  
+ 
+  
+ 
+  
+ 
+  
+ 
+  
+ 
+  
+ **Notes**   
+  
+ &lt;a name=When To Do What You Love_note1&gt;[1]&lt;/a&gt; These examples show why it's a mistake to assume that economic inequality must be evidence of some kind of brokenness or unfairness. It's obvious that different people have different interests, and that some interests yield far more money than others, so how can it not be obvious that some people will end up much richer than others? In a world where some people like to write enterprise software and others like to make studio pottery, economic inequality is the natural outcome.   
+  
+ &lt;a name=When To Do What You Love_note2&gt;[2]&lt;/a&gt; Difficulty choosing between interests is a different matter. That's not always due to ignorance. It's often intrinsically difficult. I still have trouble doing it.   
+  
+ &lt;a name=When To Do What You Love_note3&gt;[3]&lt;/a&gt; You can't always take people at their word on this. Since it's more prestigious to work on things you're interested in than to be driven by money, people who are driven mainly by money will often claim to be more interested in their work than they actually are. One way to test such claims is by doing the following thought experiment: if their work didn't pay well, would they take day jobs doing something else in order to do it in their spare time? Lots of mathematicians and scientists and engineers would. Historically lots _have_. But I don't think as many investment bankers would.   
+  
+ This thought experiment is also useful for distinguishing between university departments.   
+  
+ 
+  
+ 
+  
+ **Thanks** to Trevor Blackwell, Paul Buchheit, Jessica Livingston, Robert Morris, Harj Taggar, and Garry Tan for reading drafts of this.   
+  
+ 
+  
+ 
+  
+ 
+  
+ 
+
+ 
+* * *
+ 
+
+ 
+
+</description><pubDate>2024-01-01</pubDate></item><item><title>Writes and Write-Nots</title><link>https://paulgraham.com/writes.html</link><description>
+  
+ 
+  
+ October 2024   
+  
+ I'm usually reluctant to make predictions about technology, but I feel fairly confident about this one: in a couple decades there won't be many people who can write.   
+  
+ One of the strangest things you learn if you're a writer is how many people have trouble writing. Doctors know how many people have a mole they're worried about; people who are good at setting up computers know how many people aren't; writers know how many people need help writing.   
+  
+ The reason so many people have trouble writing is that it's fundamentally difficult. To write well you have to think clearly, and thinking clearly is hard.   
+  
+ And yet writing pervades many jobs, and the more prestigious the job, the more writing it tends to require.   
+  
+ These two powerful opposing forces, the pervasive expectation of writing and the irreducible difficulty of doing it, create enormous pressure. This is why eminent professors often turn out to have resorted to plagiarism. The most striking thing to me about these cases is the pettiness of the thefts. The stuff they steal is usually the most mundane boilerplate -- the sort of thing that anyone who was even halfway decent at writing could turn out with no effort at all. Which means they're not even halfway decent at writing.   
+  
+ Till recently there was no convenient escape valve for the pressure created by these opposing forces. You could pay someone to write for you, like JFK, or plagiarize, like MLK, but if you couldn't buy or steal words, you had to write them yourself. And as a result nearly everyone who was expected to write had to learn how.   
+  
+ Not anymore. AI has blown this world open. Almost all pressure to write has dissipated. You can have AI do it for you, both in school and at work.   
+  
+ The result will be a world divided into writes and write-nots. There will still be some people who can write. Some of us like it. But the middle ground between those who are good at writing and those who can't write at all will disappear. Instead of good writers, ok writers, and people who can't write, there will just be good writers and people who can't write.   
+  
+ Is that so bad? Isn't it common for skills to disappear when technology makes them obsolete? There aren't many blacksmiths left, and it doesn't seem to be a problem.   
+  
+ Yes, it's bad. The reason is something I mentioned earlier: writing is thinking. In fact there's a kind of thinking that can only be done by writing. You can't make this point better than Leslie Lamport did:   
+  
+ &gt; If you're thinking without writing, you only think you're thinking. 
+
+ So a world divided into writes and write-nots is more dangerous than it sounds. It will be a world of thinks and think-nots. I know which half I want to be in, and I bet you do too.   
+  
+ This situation is not unprecedented. In preindustrial times most people's jobs made them strong. Now if you want to be strong, you work out. So there are still strong people, but only those who choose to be.   
+  
+ It will be the same with writing. There will still be smart people, but only those who choose to be.   
+  
+ 
+  
+ 
+  
+ 
+  
+ 
+  
+ 
+  
+ 
+  
+ 
+  
+ 
+  
+ **Thanks** to Jessica Livingston, Ben Miller, and Robert Morris for reading drafts of this.   
   
  
   
