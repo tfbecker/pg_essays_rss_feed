@@ -4,7 +4,8 @@ FROM python:3.11-slim
 # Set the working directory in the container
 WORKDIR /app
 
-# Install dependencies
+# Install dependencies and gunicorn globally
+RUN pip install --no-cache-dir gunicorn
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
@@ -23,4 +24,4 @@ ENV PATH="/home/appuser/.local/bin:${PATH}"
 EXPOSE 3000
 
 # Run pg_essays.py when the container launches
-CMD ["python", "-m", "gunicorn", "--bind", "0.0.0.0:3000", "pg_essays:app"]
+CMD ["gunicorn", "--bind", "0.0.0.0:3000", "pg_essays:app"]
