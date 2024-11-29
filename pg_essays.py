@@ -163,12 +163,12 @@ def generate_rss_feed():
             ET.SubElement(item, "description").text = update_with_links.decode()
             ET.SubElement(item, "pubDate").text = DATE
 
-            message = f"✅ {str(ART_NO).zfill(3)} {TITLE}"
+            message = f" {str(ART_NO).zfill(3)} {TITLE}"
             print(message)
             logging.info(message)
 
         except Exception as e:
-            message = f"❌ {str(ART_NO).zfill(3)} {entry['title']}, ({e})"
+            message = f" {str(ART_NO).zfill(3)} {entry['title']}, ({e})"
             print(message)
             logging.error(message)
         time.sleep(0.05)  # half sec/article is ~2min, be nice with servers!
@@ -193,16 +193,19 @@ if __name__ == '__main__':
     # Fetch articles initially
     fetch_and_update_articles()
 
-    # Serve the static file using a simple HTTP server
-    import http.server
-    import socketserver
+    # Use Flask to serve the RSS feed
+    from flask import Flask, send_file
+    import os
 
-    PORT = 80
-    Handler = http.server.SimpleHTTPRequestHandler
+    app = Flask(__name__)
 
-    message = f"Serving rss_feed.xml on http://0.0.0.0:{PORT}"
-    print(message)
-    logging.info(message)
+    @app.route('/rss_feed.xml')
+    def serve_rss():
+        return send_file('rss_feed.xml', mimetype='application/rss+xml')
 
-    with socketserver.TCPServer(("", PORT), Handler) as httpd:
-        httpd.serve_forever()
+    @app.route('/')
+    def home():
+        return 'RSS Feed available at <a href="/rss_feed.xml">/rss_feed.xml</a>'
+
+    port = int(os.environ.get('PORT', 3000))
+    app.run(host='0.0.0.0', port=port)
