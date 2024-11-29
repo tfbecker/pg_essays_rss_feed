@@ -17,9 +17,10 @@ USER appuser
 
 # Set environment variables
 ENV PORT=3000
+ENV PATH="/home/appuser/.local/bin:${PATH}"
 
 # Make port 3000 available to the world outside this container
 EXPOSE 3000
 
 # Run pg_essays.py when the container launches
-CMD ["gunicorn", "--bind", "0.0.0.0:3000", "pg_essays:app"]
+CMD ["python", "-m", "gunicorn", "--bind", "0.0.0.0:3000", "pg_essays:app"]
