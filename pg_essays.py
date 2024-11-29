@@ -184,28 +184,28 @@ def generate_rss_feed():
     print(message)
     logging.info(message)
 
+# Initialize Flask app
+from flask import Flask, send_file
+import os
+
+app = Flask(__name__)
+
+# Initialize scheduler
+scheduler = BackgroundScheduler()
+scheduler.add_job(fetch_and_update_articles, 'interval', days=1)
+scheduler.start()
+
+# Generate initial RSS feed
+fetch_and_update_articles()
+
+@app.route('/rss_feed.xml')
+def serve_rss():
+    return send_file('rss_feed.xml', mimetype='application/rss+xml')
+
+@app.route('/')
+def home():
+    return 'RSS Feed available at <a href="/rss_feed.xml">/rss_feed.xml</a>'
+
 if __name__ == '__main__':
-    # Initialize the scheduler
-    scheduler = BackgroundScheduler()
-    scheduler.add_job(fetch_and_update_articles, 'interval', days=1)
-    scheduler.start()
-
-    # Fetch articles initially
-    fetch_and_update_articles()
-
-    # Use Flask to serve the RSS feed
-    from flask import Flask, send_file
-    import os
-
-    app = Flask(__name__)
-
-    @app.route('/rss_feed.xml')
-    def serve_rss():
-        return send_file('rss_feed.xml', mimetype='application/rss+xml')
-
-    @app.route('/')
-    def home():
-        return 'RSS Feed available at <a href="/rss_feed.xml">/rss_feed.xml</a>'
-
     port = int(os.environ.get('PORT', 3000))
     app.run(host='0.0.0.0', port=port)

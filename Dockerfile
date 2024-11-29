@@ -9,12 +9,13 @@ RUN pip install --no-cache-dir gunicorn
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy application code
-COPY . .
-
-# Create a non-root user
-RUN useradd -m appuser && chown -R appuser /app
+# Create a non-root user and set up permissions
+RUN useradd -m appuser && \
+    chown -R appuser:appuser /app
 USER appuser
+
+# Copy application code after setting permissions
+COPY --chown=appuser:appuser . .
 
 # Set environment variables
 ENV PORT=3000
@@ -24,4 +25,4 @@ ENV PATH="/home/appuser/.local/bin:${PATH}"
 EXPOSE 3000
 
 # Run pg_essays.py when the container launches
-CMD ["gunicorn", "--bind", "0.0.0.0:3000", "pg_essays:app"]
+CMD ["gunicorn", "--bind", "0.0.0.0:3000", "pg_essays:app", "--log-level", "debug"]
