@@ -5,3 +5,5 @@ regex
 htmldate
 apscheduler
 flask==3.0.0
+feedgenerator
+pytz

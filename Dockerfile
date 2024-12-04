@@ -17,6 +17,11 @@ USER appuser
 # Copy application code after setting permissions
 COPY --chown=appuser:appuser . .
 
+# Make the startup script executable
+USER root
+RUN chmod +x start.sh
+USER appuser
+
 # Set environment variables
 ENV PORT=3000
 ENV PATH="/home/appuser/.local/bin:${PATH}"
@@ -24,5 +29,5 @@ ENV PATH="/home/appuser/.local/bin:${PATH}"
 # Make port 3000 available to the world outside this container
 EXPOSE 3000
 
-# Run pg_essays.py when the container launches
-CMD ["gunicorn", "--bind", "0.0.0.0:3000", "pg_essays:app", "--log-level", "debug"]
+# Run both scripts when the container launches
+CMD ["./start.sh"]

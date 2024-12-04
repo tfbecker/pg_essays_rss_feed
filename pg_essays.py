@@ -179,8 +179,8 @@ def generate_rss_feed():
     
     # Save RSS feed to a file
     tree = ET.ElementTree(rss_feed)
-    tree.write("rss_feed.xml", encoding="utf-8", xml_declaration=True)
-    message = "RSS feed saved to rss_feed.xml."
+    tree.write("rss.xml", encoding="utf-8", xml_declaration=True)
+    message = "RSS feed saved to rss.xml."
     print(message)
     logging.info(message)
 
@@ -198,13 +198,27 @@ scheduler.start()
 # Generate initial RSS feed
 fetch_and_update_articles()
 
-@app.route('/rss_feed.xml')
-def serve_rss():
-    return send_file('rss_feed.xml', mimetype='application/rss+xml')
-
 @app.route('/')
 def home():
-    return 'RSS Feed available at <a href="/rss_feed.xml">/rss_feed.xml</a>'
+    return '''
+    <html>
+        <body>
+            <h1>RSS Feeds</h1>
+            <ul>
+                <li><a href="/rss">Paul Graham Essays RSS Feed</a></li>
+                <li><a href="/angular">Angular Ventures Blog RSS Feed</a></li>
+            </ul>
+        </body>
+    </html>
+    '''
+
+@app.route('/rss')
+def serve_rss():
+    return send_file('rss.xml', mimetype='application/rss+xml')
+
+@app.route('/angular')
+def serve_angular_rss():
+    return send_file('angular_ventures_feed.xml', mimetype='application/rss+xml')
 
 if __name__ == '__main__':
     port = int(os.environ.get('PORT', 3000))
