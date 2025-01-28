@@ -3,6 +3,8 @@ version: '3'
 services:
   angular-ventures-rss:
     build: .
+    ports:
+      - "3000:3000"
     volumes:
       - ./:/app
     environment:

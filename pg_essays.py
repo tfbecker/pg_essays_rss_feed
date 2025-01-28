@@ -7,7 +7,6 @@ import regex as re
 from htmldate import find_date
 import requests
 from bs4 import BeautifulSoup
-from apscheduler.schedulers.background import BackgroundScheduler
 import logging
 import xml.etree.ElementTree as ET
 
@@ -38,8 +37,7 @@ def fetch_and_update_articles():
     generate_rss_feed()
 
 def parse_main_page(base_url: str, articles_url: str):
-    assert base_url.endswith(
-        "/"), f"Base URL must end with a slash: {base_url}"
+    assert base_url.endswith("/"), f"Base URL must end with a slash: {base_url}"
     response = requests.get(base_url + articles_url)
     soup = BeautifulSoup(response.text, "html.parser")
 
@@ -54,38 +52,10 @@ def parse_main_page(base_url: str, articles_url: str):
             a_tag = td.find("font").find("a") if td.find("font") else None
             if a_tag:
                 chapter_links.append(
-                    {"link": urljoin(
-                        base_url, a_tag["href"]), "title": a_tag.text}
+                    {"link": urljoin(base_url, a_tag["href"]), "title": a_tag.text}
                 )
 
     return chapter_links
-
-toc = list(reversed(parse_main_page("https://paulgraham.com/", "articles.html")))
-
-def update_links_in_md(joined, title):
-    matches = re.findall(b"\[\d+\]", joined)
-
-    if not matches:
-        return joined
-
-    for match in set(matches):
-
-        def update_links(match):
-            counter[0] += 1
-            note_name = f"{title}_note{note_number}"
-            if counter[0] == 1:
-                return bytes(f"[{note_number}](#{note_name})", "utf-8")
-            elif counter[0] == 2:
-                return bytes(f"<a name={note_name}>[{note_number}]</a>", "utf-8")
-
-        counter = [0]
-
-        note_number = int(match.decode().strip("[]"))
-        match_regex = match.replace(b"[", b"\[").replace(b"]", b"\]")
-
-        joined = re.sub(match_regex, update_links, joined)
-
-    return joined
 
 def generate_rss_feed():
     rss_feed = ET.Element("rss", version="2.0")
@@ -152,15 +122,10 @@ def generate_rss_feed():
             logging.info(message)
 
             encoded = " ".join(parsed).encode()
-            update_with_links = update_links_in_md(encoded, TITLE)
-            message = f"Updated links in markdown for {TITLE}"
-            print(message)
-            logging.info(message)
-
             item = ET.SubElement(channel, "item")
             ET.SubElement(item, "title").text = TITLE
             ET.SubElement(item, "link").text = URL
-            ET.SubElement(item, "description").text = update_with_links.decode()
+            ET.SubElement(item, "description").text = encoded.decode()
             ET.SubElement(item, "pubDate").text = DATE
 
             message = f" {str(ART_NO).zfill(3)} {TITLE}"
@@ -179,47 +144,10 @@ def generate_rss_feed():
     
     # Save RSS feed to a file
     tree = ET.ElementTree(rss_feed)
-    tree.write("rss.xml", encoding="utf-8", xml_declaration=True)
-    message = "RSS feed saved to rss.xml."
+    tree.write("pg_essays.xml", encoding="utf-8", xml_declaration=True)
+    message = "RSS feed saved to pg_essays.xml."
     print(message)
     logging.info(message)
 
-# Initialize Flask app
-from flask import Flask, send_file
-import os
-
-app = Flask(__name__)
-
-# Initialize scheduler
-scheduler = BackgroundScheduler()
-scheduler.add_job(fetch_and_update_articles, 'interval', days=1)
-scheduler.start()
-
-# Generate initial RSS feed
-fetch_and_update_articles()
-
-@app.route('/')
-def home():
-    return '''
-    <html>
-        <body>
-            <h1>RSS Feeds</h1>
-            <ul>
-                <li><a href="/rss">Paul Graham Essays RSS Feed</a></li>
-                <li><a href="/angular">Angular Ventures Blog RSS Feed</a></li>
-            </ul>
-        </body>
-    </html>
-    '''
-
-@app.route('/rss')
-def serve_rss():
-    return send_file('rss.xml', mimetype='application/rss+xml')
-
-@app.route('/angular')
-def serve_angular_rss():
-    return send_file('angular_ventures_feed.xml', mimetype='application/rss+xml')
-
-if __name__ == '__main__':
-    port = int(os.environ.get('PORT', 3000))
-    app.run(host='0.0.0.0', port=port)
+if __name__ == "__main__":
+    fetch_and_update_articles()
