@@ -91,23 +91,8 @@ def update_feed():
 
 def main():
     print(f"[{datetime.now()}] Starting Angular Ventures RSS feed generator...")
-    
-    # Run once immediately
     update_feed()
-    
-    # Then schedule to run daily
-    scheduler = BlockingScheduler()
-    scheduler.add_job(
-        update_feed,
-        CronTrigger(hour=0, minute=0),  # Run at midnight every day
-        id='angular_ventures_feed_update',
-        name='Update Angular Ventures RSS feed'
-    )
-    
-    try:
-        scheduler.start()
-    except (KeyboardInterrupt, SystemExit):
-        pass
+    print(f"[{datetime.now()}] Finished generating Angular Ventures RSS feed")
 
 if __name__ == "__main__":
     main()

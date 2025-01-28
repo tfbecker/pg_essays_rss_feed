@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  angular-ventures-rss:
+    build: .
+    volumes:
+      - ./:/app
+    environment:
+      - TZ=UTC 
