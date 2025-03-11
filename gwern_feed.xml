@@ -1,0 +1,471 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Gwern Changelog</title>
+    <link>https://gwern.net/changelog</link>
+    <description>A feed trying its best to mirror the content at https://gwern.net/changelog</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 11 Mar 2025 19:02:05 +0000</lastBuildDate>
+    <item>
+      <title>February 2025</title>
+      <description><![CDATA[<ul>
+<li>
+<p><a class="link-live link-modified-recently link-annotated link-page" href="https://gwern.net/rock-paper-scissors" id="gwern-rock-paper-scissors" title="'Rock-Paper-Scissors Optimality', Gwern 2024">Is Rock-Paper-Scissors an optimal game mechanic?</a></p>
+</li>
+<li>
+<p><a class="link-modified-recently link-annotated" data-link-icon="deepseek" data-link-icon-color="#4d6bfe" data-link-icon-type="svg" href="https://www.reddit.com/r/mlscaling/comments/1ik3401/mistral_offers_deepseek_r1_llama70b_at_1500/mbjb9t4/" id="gwern-2025-llms-can-be-faster" title="'Your LLM Can Be Faster Than You (Can) Think', Gwern 2025">“Your LLM Can Be Faster Than You (Can) Think”</a></p>
+</li>
+<li>
+<p>Gwern.net: new <a class="link-live link-annotated link-page" href="https://gwern.net/blog/index" id="gwern-2009" title="'Blog Posts', Gwern 2009">“blog”</a> for off-site writings; similarly, new <code>/ref</code>/ URLs for searching or linking individual annotations (eg. <a class="link-live link-page" href="https://gwern.net/ref/rybkin-et-al-2025" id="gwern-ref-rybkin-et-al-2025"><span class="cite"><span class="cite-author-plural" title="et al">Rybkin</span> <span class="cite-joiner">et al</span> <span class="cite-date">2025</span></span></a>); improved 404 page; new <a class="link-live link-modified-recently" href="https://gwern.net/static/build/should_image_have_outline.php" id="vkK-qpqC">outline-or-not PHP script</a> for reducing figure over-outlining; sidenotes easter egg</p>
+</li>
+</ul>]]></description>
+      <author>gwern@gwern.net (Gwern Branwen)</author>
+      <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>January 2025</title>
+      <description><![CDATA[<ul>
+<li>
+<p>Gwern.net: improved <a class="link-live link-modified-recently link-page" href="https://gwern.net/design-graveyard#fraction-slash" id="gwern-design-graveyard--fraction-slash">fraction handling</a>; <a class="prefetch-not link-modified-recently" href="/static/build/italicizer.py" id="APyFm58U"><code>italicizer.py</code></a>: automatically add appropriate italics to plain text strings lacking them, like book titles</p>
+</li>
+</ul>]]></description>
+      <author>gwern@gwern.net (Gwern Branwen)</author>
+      <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>December 2024</title>
+      <description><![CDATA[<ul>
+<li>
+<p>Ideas: <a class="prefetch-not link-annotated link-page" href="/creative-benchmark" id="gwern-creative-benchmark" title="‘Towards Benchmarking LLM Diversity &amp; Creativity’, Gwern 2024">Towards Benchmarking LLM Diversity &amp; Creativity</a>; <a class="prefetch-not link-annotated link-page" href="/tree-embedding" id="gwern-tree-embedding" title="'Hierarchical Embeddings for Text Search', Gwern 2024">Hierarchical Embeddings for Text Search</a></p>
+</li>
+<li>
+<p><strong>Constrained Writing</strong>: <a class="prefetch-not link-annotated link-page" href="/second-life-sentence" id="gwern-second-life-sentence" title="'Second Life Sentences', Gwern 2024">Second Life Sentences</a>; <a class="prefetch-not link-page" href="/note/note#trajectoid-words" id="gwern-note-note--trajectoid-words">Better Trajectoid Words</a>; <a class="prefetch-not link-annotated link-page" href="/note/note#llm-challenge-writing-non-biblical-sentences" id="gwern-note-note--llm-challenge-writing-non-biblical-sentences" title="‘Miscellaneous § LLM Challenge: Writing Non-Biblical Sentences’, Gwern 2009">Un-Biblical Sentences</a></p>
+</li>
+<li>
+<p><a class="prefetch-not link-annotated link-page" href="/fiction/christmas" id="o1-pro-et-al-2024" title="'A Christmas Protestation', o1-pro et al 2024">“A Christmas Protestation”</a></p>
+</li>
+<li>
+<p>Gwern.net:</p>
+<ul>
+<li>
+<p>help page</p>
+</li>
+<li>
+<p>ordinal ‘progress indicator’ clock-like metadata icons (for any 0–100% data)</p>
+</li>
+<li>
+<p>keybindings &amp; clickable icons: help cheatsheet, search, minimizing, dark-mode cycling, reader-mode cycling, return-to-homepage; popup minimization; access keys; 2 metadata icons</p>
+</li>
+</ul>
+</li>
+</ul>]]></description>
+      <author>gwern@gwern.net (Gwern Branwen)</author>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>November 2024</title>
+      <description><![CDATA[<ul>
+<li>
+<p><a class="link-annotated-partial" data-link-icon="Dwkh" data-link-icon-color="#f3c016" data-link-icon-type="text,sans,quad" href="https://www.dwarkeshpatel.com/p/gwern-branwen#%C2%A7transcript" id="gwern-patel-2024" title="‘Gwern Branwen—How an Anonymous Researcher Predicted AI’s Trajectory’, Gwern &amp; Patel 2024">Interview with Dwarkesh Patel</a></p>
+</li>
+<li>
+<p><a class="prefetch-not link-annotated link-page" href="/unsort" id="gwern-unsort" title="'Can You Unsort Lists for Diversity?', Gwern 2019">“Can You Unsort Lists for Diversity?”</a></p>
+</li>
+<li>
+<p>Idea: <a class="prefetch-not link-annotated link-page" href="/harberger" id="gwern-harberger" title="‘Self-Funding Harberger taxes’, Gwern 2024">self-funding Harberger taxes to buy out orphan works</a>; <a class="prefetch-not link-annotated link-page" href="/subscript#inflation" id="gwern-subscript--inflation" title="‘Subscripts For Citations § Inflation’, Gwern 2020">more extreme inflation adjustments</a>; <a class="prefetch-not link-live link-annotated" data-link-icon="LW" data-link-icon-color="#7faf83" data-link-icon-type="text" data-url-archive="/doc/www/www.greaterwrong.com/92293ac412ac3179f48455c36c56cc6d3f3f36a1.html#KGBqiXrKq8x8qnsyH" data-url-iframe="https://www.greaterwrong.com/posts/PQaZiATafCh7n5Luf/gwern-s-shortform/comment/KGBqiXrKq8x8qnsyH?format=preview&amp;theme=classic" data-url-original="https://www.lesswrong.com/posts/PQaZiATafCh7n5Luf/gwern-s-shortform?commentId=KGBqiXrKq8x8qnsyH" href="/doc/www/www.greaterwrong.com/92293ac412ac3179f48455c36c56cc6d3f3f36a1.html#KGBqiXrKq8x8qnsyH" id="gwern-2024-virtual-comments" title="‘Virtual comments: LLM idea for writing LessWrong posts’, Gwern 2024">“virtual comments” for writing feedback</a></p>
+</li>
+<li>
+<p><a class="prefetch-not link-page" href="/note/note#non-existence-is-bad" id="gwern-note-note--non-existence-is-bad">Nonexistence is bad</a></p>
+</li>
+<li>
+<p>Gwern.net: link-icon colors on hover (<a class="prefetch-not link-annotated link-page" href="/web-color" id="gwern-web-color" title="‘Website Colors: Red vs Blue’, Gwern 2024">color distribution analysis</a>)</p>
+</li>
+</ul>]]></description>
+      <author>gwern@gwern.net (Gwern Branwen)</author>
+      <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>October 2024</title>
+      <description><![CDATA[<ul>
+<li>
+<p>Idea: <a class="link-live link-annotated link-page" href="https://gwern.net/note/note#celebrity-masquerade-game" id="gwern-note-note--celebrity-masquerade-game" title="'Miscellaneous § Celebrity Masquerade Game', Gwern 2009">costume party game of social deduction</a></p>
+</li>
+<li>
+<p><a class="link-live link-annotated link-page" href="https://gwern.net/math-error#unreliability-of-programs" id="gwern-math-error--unreliability-of-programs" title="'The Existential Risk of Math Errors § Unreliability of Programs', Gwern 2012">on the unreliability of software</a></p>
+</li>
+<li>
+<p>Gwern.net: new <a class="link-live link-annotated link-page" href="https://gwern.net/dropcap#halloween" id="gwern-dropcap--halloween" title="'Dropcap Generation With AI § Halloween', Gwern 2023">Halloween dropcaps</a></p>
+</li>
+</ul>]]></description>
+      <author>gwern@gwern.net (Gwern Branwen)</author>
+      <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>September 2024</title>
+      <description><![CDATA[<ul>
+<li>
+<p><a class="link-live link-annotated link-page" href="https://gwern.net/matt-levine" id="gwern-matt-levine" title="'Why So Few Matt Levines?', Gwern 2024">Why So Few Matt Levines?</a></p>
+</li>
+<li>
+<p>Idea: <a class="link-live link-annotated link-page" href="https://gwern.net/idea#error-ensuring-codes" id="gwern-idea--error-ensuring-codes" title="'Research Ideas § Error-Ensuring Codes', Gwern 2017">error-ensuring codes</a> for synthetic media watermarking; hybrid LLMs: <a class="link-live link-page" href="https://gwern.net/idea#hybrid-llm" id="gwern-idea--hybrid-llm">conditioning AR LLMs on diffused embeddings</a></p>
+</li>
+<li>
+<p><a class="link-live link-page" href="https://gwern.net/note/note#pemmican" id="gwern-note-note--pemmican">Trying pemmican</a></p>
+</li>
+<li>
+<p>Why do <a class="link-annotated-partial link-live" data-link-icon="wikipedia" data-link-icon-type="svg" data-url-iframe="https://en.m.wikipedia.org/wiki/Cat#bodyContent" href="https://en.wikipedia.org/wiki/Cat" id="Y8GSfPDb" title="Cat">cats</a> bite spontaneously or during petting? <a class="link-live link-page" href="https://gwern.net/review/cat#biting" id="gwern-review-cat--biting">Maybe you accidentally look like prey</a></p>
+</li>
+<li>
+<p><a class="prefetch-not link-live link-annotated" data-link-icon="LW" data-link-icon-color="#7faf83" data-link-icon-type="text" data-url-archive="/doc/www/www.greaterwrong.com/ce42492953a49e59442e21b6da5ba08273d6a840.html#Ga4DbTCdmYh5jRM4B" data-url-iframe="https://www.greaterwrong.com/posts/W8CxEFCnYNdrHkuoB/abs-e-or-speak-only-in-the-positive/comment/Ga4DbTCdmYh5jRM4B?format=preview&amp;theme=classic" data-url-original="https://www.lesswrong.com/posts/W8CxEFCnYNdrHkuoB/abs-e-or-speak-only-in-the-positive?commentId=Ga4DbTCdmYh5jRM4B" href="/doc/www/www.greaterwrong.com/ce42492953a49e59442e21b6da5ba08273d6a840.html#Ga4DbTCdmYh5jRM4B" id="gwern-2024-e-positive" title="‘Abs-E (or, speak only in the positive) § &lt;code&gt;text2epositive.py&lt;/code&gt; experiment’, Gwern 2024"><code>text2epositive.py</code></a>: experimental <a data-link-icon="openai" data-link-icon-type="svg" href="https://openai.com/index/gpt-4-research/" id="5ZT5Fg4T">GPT-4</a> script for rewriting English statements from negation to affirmatives</p>
+</li>
+<li>
+<p><strong>Gwern.net</strong>: revised index page &amp; header (<a class="link-live" data-aspect-ratio="700 / 647" data-image-height="1991" data-image-width="2154" data-link-icon="image" data-link-icon-type="svg" href="https://gwern.net/doc/cs/css/2024-09-30-gwern-gwernnet-revisedindexheaderandhelppage.jpg" id="gwern-2024" title="Gwern 2024">screenshot</a>); enabled <a class="link-live link-page" href="https://gwern.net/help">help page</a> &amp; popup window manager keybindings</p>
+</li>
+</ul>]]></description>
+      <author>gwern@gwern.net (Gwern Branwen)</author>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>August 2024</title>
+      <description><![CDATA[<ul>
+<li>
+<p>Idea: <a class="prefetch-not link-annotated link-page" href="/oen" id="gwern-oen" title="‘Number Search Engine via NN Embeddings’, Gwern 2024">a search engine for numbers</a></p>
+</li>
+<li>
+<p><a class="link-live link-annotated" data-link-icon="LW" data-link-icon-color="#7faf83" data-link-icon-type="text" data-url-iframe="https://www.greaterwrong.com/posts/PQaZiATafCh7n5Luf/gwern-s-shortform/comment/KAtgQZZyadwMitWtb?format=preview&amp;theme=classic" href="https://www.lesswrong.com/posts/PQaZiATafCh7n5Luf/gwern-s-shortform?commentId=KAtgQZZyadwMitWtb" id="gwern-2024-writing-online" title="‘You should write more online—it’s still a good time’, Gwern 2024">It’s still a good time to write online</a>, but also <a class="prefetch-not link-annotated link-page" href="/book-writing" id="gwern-book-writing" title="'Why To Not Write A Book', Gwern 2024">Why To Not Write A Book</a>; and <a class="prefetch-not link-annotated-partial link-page" href="/about#my-experience-of-writing" id="gwern-about--my-experience-of-writing">how I write</a></p>
+</li>
+<li>
+<p><a class="prefetch-not link-live" data-link-icon="LW" data-link-icon-color="#7faf83" data-link-icon-type="text" data-url-archive="/doc/www/www.greaterwrong.com/f23f0fb4f3c7e4591ba6b1916612928db2fea5d0.html#ckwcde6QBaNw7yxCt" data-url-iframe="https://www.greaterwrong.com/posts/jtoPawEhLNXNxvgTT/bing-chat-is-blatantly-aggressively-misaligned/comment/ckwcde6QBaNw7yxCt?format=preview&amp;theme=classic" data-url-original="https://www.lesswrong.com/posts/jtoPawEhLNXNxvgTT/bing-chat-is-blatantly-aggressively-misaligned#ckwcde6QBaNw7yxCt" href="/doc/www/www.greaterwrong.com/f23f0fb4f3c7e4591ba6b1916612928db2fea5d0.html#ckwcde6QBaNw7yxCt" id="K6gUi44e" title="Bing Chat is blatantly, aggressively misaligned">What is a ‘warning shot’ in AI risk?</a></p>
+</li>
+<li>
+<p><a class="link-live link-annotated" data-link-icon="SSC" data-link-icon-color="#5175c2" data-link-icon-type="text,tri" data-url-archive="/doc/www/www.astralcodexten.com/2012350b8562ddac309376a3b25e1a4ff3f9f648.html" data-url-original="https://www.astralcodexten.com/p/your-book-review-silver-age-marvel/comment/65693964" href="/doc/www/www.astralcodexten.com/2012350b8562ddac309376a3b25e1a4ff3f9f648.html" id="gwern-2024-marvel" title="'Marvel’s Silver Age of Comics: Humanizing Mythology', Gwern 2024">Marvel’s Silver Age of Comics: Humanizing Mythology</a></p>
+</li>
+<li>
+<p><a class="prefetch-not link-annotated-partial link-page" href="/note/statistic#tail-collapse" id="gwern-note-statistic--tail-collapse">Visualizing tail collapse</a></p>
+</li>
+<li>
+<p><a class="link-live link-annotated" data-link-icon="LW" data-link-icon-color="#7faf83" data-link-icon-type="text" data-url-iframe="https://www.greaterwrong.com/posts/pffcsPkWwBPyLE6Ym/what-does-a-gambler-s-verity-world-look-like/comment/6sr3Q7qsns4Cwznon?format=preview&amp;theme=classic" href="https://www.lesswrong.com/posts/pffcsPkWwBPyLE6Ym/what-does-a-gambler-s-verity-world-look-like?commentId=6sr3Q7qsns4Cwznon" id="gwern-2024-gamblers-verity" title="‘A world where the gambler’s fallacy was true via Sampling-&lt;em&gt;Without&lt;/em&gt;-Replacement’, Gwern 2024">A world where the gambler’s fallacy was true</a></p>
+</li>
+<li>
+<p><a class="prefetch-not link-annotated link-page" href="/earwax#east-asian-survey" id="gwern-earwax--east-asian-survey" title="‘Why Cats Love Earwax § East Asian Survey’, Gwern 2019">East Asian cat/earwax survey</a> (“yes”)</p>
+</li>
+<li>
+<p><strong>Gwern.net</strong>: <a data-link-icon="github" data-link-icon-type="svg" href="https://github.com/gwern/gwern.net/blob/master/build/date-guesser.py" id="gwern-2024-dateguesser" title="‘&lt;code&gt;date-guesser.py&lt;/code&gt;’, Gwern 2024"><code>date-guesser.py</code></a>: a LLM script to try to extract dates from arbitrary text input; <a class="prefetch-not" href="/static/build/daterange-checker.py" id="cHtVXV7Y"><code>daterange-checker.py</code></a>; <a class="link-annotated" data-link-icon="github" data-link-icon-type="svg" href="https://github.com/gwern/gwern.net/issues/11#issuecomment-2259336034" id="gwern-2024-rss" title="‘RSS/Atom feed to the site content § Multi-level Writing Ideas’, Gwern 2024">towards a useful RSS feed</a></p>
+</li>
+</ul>]]></description>
+      <author>gwern@gwern.net (Gwern Branwen)</author>
+      <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>July 2024</title>
+      <description><![CDATA[<ul>
+<li>
+<p><strong>Gwern.net</strong>: experimental <a class="prefetch-not link-page" href="/subscript#date-ranges" id="gwern-subscript--date-ranges">date-range subscripts</a>; archive system default reverted back to local archives now that JS hides rewrites to original URL for copy-paste/clicking; 404 page now <a class="prefetch-not" data-link-icon="code" data-link-icon-color="#f6da19" data-link-icon-type="svg" href="/static/js/404-guesser.js" id="TQw3ZYJ2">offers guesses</a> based on Levenshtein distance of broken URL to other URLs in the sitemap; image thumbnail optimization for popups/mobile</p>
+</li>
+</ul>]]></description>
+      <author>gwern@gwern.net (Gwern Branwen)</author>
+      <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>June 2024</title>
+      <description><![CDATA[<ul>
+<li>
+<p><a class="prefetch-not link-annotated link-page" href="/rubiks-cube" id="gwern-et-al-2023" title="'On the Impossibility of Superintelligent Rubik’s Cube Solvers', Gwern et al 2023">“On the Impossibility of Superintelligent Rubik’s Cube Solvers”</a>, <span class="cite"><span class="cite-author">Claude</span><span class="cite-date">2024</span></span></p>
+</li>
+<li>
+<p><a class="prefetch-not link-annotated link-page" href="/review/the-last-unicorn" id="gwern-review-the-last-unicorn" title="'Review Of &lt;em&gt;The Last Unicorn&lt;/em&gt;', Gwern 2024">Review of <em>The Last Unicorn</em></a></p>
+</li>
+<li>
+<p><a class="prefetch-not link-annotated link-page" href="/note/statistic#best-student-ever" id="gwern-note-statistic--best-student-ever" title="‘Statistical Notes § Best Student Ever!’, Gwern 2014">Frequency of “Best Student Ever!” for teachers</a></p>
+</li>
+</ul>]]></description>
+      <author>gwern@gwern.net (Gwern Branwen)</author>
+      <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>May 2024</title>
+      <description><![CDATA[<ul>
+<li>
+<p><a class="prefetch-not link-annotated link-page" href="/review/crumb" id="gwern-review-crumb" title="'Review Of &lt;em&gt;Crumb&lt;/em&gt;', Gwern 2024">Review of <em>Crumb</em></a></p>
+</li>
+</ul>]]></description>
+      <author>gwern@gwern.net (Gwern Branwen)</author>
+      <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>April 2024</title>
+      <description><![CDATA[<ul>
+<li>
+<p>On <a class="prefetch-not link-annotated-partial link-page" href="/note/note#on-being-sick-as-a-kid" id="gwern-note-note--on-being-sick-as-a-kid" title="‘On Being Sick as a Kid’, Gwern 2024">being sick as a kid</a>, and <a class="prefetch-not link-page" href="/note/note#on-first-looking-into-tolkiens-tower" id="gwern-note-note--on-first-looking-into-tolkiens-tower">first reading Tolkien</a></p>
+</li>
+<li>
+<p>Gwern.net: authors are now hyperlinked; Google <a data-link-icon="alphabet" data-link-icon-color="#4285f4" data-link-icon-type="svg" href="https://cse.google.com/cse?cx=009114923999563836576%3Adv0a4ndtmly" id="8JkyOkmf" title="Programmable Search Engine">CSE site-search</a> has been restored (magnifying-glass icon in theme togglebar, <code>/</code> keybinding), but later removed; April Fools easter egg</p>
+</li>
+</ul>]]></description>
+      <author>gwern@gwern.net (Gwern Branwen)</author>
+      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>March 2024</title>
+      <description><![CDATA[<ul>
+<li>
+<p><a class="prefetch-not link-annotated link-page" href="/review/quantum-thief" id="gwern-review-quantum-thief" title="‘Review of &lt;em&gt;The Quantum Thief&lt;/em&gt;’, Gwern 2022"><em>The Quantum Thief</em> trilogy review</a></p>
+</li>
+<li>
+<p><a class="link-live link-annotated-partial" data-url-archive="/doc/www/invertornot.com/7751665b195e05c4e96116e208dcc278bd63b1fe.html" data-url-original="https://invertornot.com/" href="/doc/www/invertornot.com/7751665b195e05c4e96116e208dcc278bd63b1fe.html" id="6WwP0dq_" title="Mattis Megevand 2024-03-25">InvertOrNot.com</a>, Mattis Megevand: a NN-powered API for whether to invert images in a website dark-mode</p>
+</li>
+<li>
+<p><strong>Gwern.net</strong>: use of InvertOrNot.com in dark-mode; correct date-sorting on <a class="prefetch-not link-annotated link-page" href="/doc/newest/index" id="Pmf8zSbL" title="‘newest links’ directory">“newest links”</a>; links created/modified in past 2 months now get special black-star symbol to highlight novelty (<span class="icon-single-white-star-on-black-circle" id="black-star-demo"></span> = ‘changed’); large tables now have sticky headers &amp; scroll-in-place; adblock PSA</p>
+</li>
+</ul>]]></description>
+      <author>gwern@gwern.net (Gwern Branwen)</author>
+      <pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>February 2024</title>
+      <description><![CDATA[<ul>
+<li>
+<p>Gwern.net: new <strong>file-transclusion</strong> feature—browse images/videos/documents in the annotations &amp; tag-directories (eg. <a class="prefetch-not link-annotated link-page" href="/doc/ai/nn/diffusion/midjourney/index" id="s7Wtpvbh" title="‘Midjourney’ directory">Midjourney</a>, <a class="prefetch-not link-annotated link-page" href="/doc/ai/nn/transformer/gpt/dall-e/3/index" id="ko5zqe1f" title="‘DALL·E 3’ directory">DALL·E 3</a>); +video thumbnails; new <a data-link-icon="github" data-link-icon-type="svg" href="https://github.com/gwern/gwern.net/blob/master/build/GTX.hs" id="IRHCA5Bd" title="gwern.net/build/GTX.hs at master">‘GTX’ text format</a> to replace YAML; <a data-link-icon="openai" data-link-icon-type="svg" href="https://openai.com/index/gpt-4v-system-card/" id="Vl2JAyve">GPT-4-V</a> demos: <a data-link-icon="github" data-link-icon-type="svg" href="https://github.com/gwern/gwern.net/blob/master/build/image-margin-checker.py" id="HnHTgNPP" title="gwern.net/build/image-margin-checker.py at master"><code>image-margin-checker.py</code></a>, <a data-link-icon="github" data-link-icon-type="svg" href="https://github.com/gwern/gwern.net/blob/master/build/invertornot.py" id="3K09mPcf" title="gwern.net/build/invertornot.py at master · gwern/gwern.net"><code>invertornot.py</code></a></p>
+</li>
+<li>
+<p>Idea: <a class="prefetch-not link-annotated link-page" href="/novelty-net" id="gwern-novelty-net" title="‘Research Ideas § Novelty Nets’, Gwern 2017">Novelty nets (adapter layers which memorize history of generated samples to encourage unseen samples)</a></p>
+</li>
+<li>
+<p><a class="prefetch-not link-page" href="/aunn#pondering" id="gwern-aunn--pondering">planning in AUNNs</a></p>
+</li>
+</ul>]]></description>
+      <author>gwern@gwern.net (Gwern Branwen)</author>
+      <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>January 2024</title>
+      <description><![CDATA[<ul>
+<li>
+<p><a class="prefetch-not link-annotated link-page" href="/dropcap" id="gwern-dropcap" title="'Dropcap Generation With AI', Gwern 2023">Dropcap Generation With AI</a></p>
+</li>
+<li>
+<p>idea: <a class="prefetch-not link-page" href="/idea#vector-generation" id="gwern-idea--vector-generation">better SVG generative models via multi-modal LLMs</a></p>
+</li>
+</ul>]]></description>
+      <author>gwern@gwern.net (Gwern Branwen)</author>
+      <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>December 2023</title>
+      <description><![CDATA[<ul>
+<li>
+<p>N/A</p>
+</li>
+</ul>]]></description>
+      <author>gwern@gwern.net (Gwern Branwen)</author>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>November 2023</title>
+      <description><![CDATA[<ul>
+<li>
+<p><a class="prefetch-not link-annotated link-page" href="/catitecture" id="gwern-catitecture" title="‘Cat itecture: Better Cat Window Boxes’, Gwern 2023">Catitecture: towards better cat window boxes</a></p>
+</li>
+</ul>]]></description>
+      <author>gwern@gwern.net (Gwern Branwen)</author>
+      <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>October 2023</title>
+      <description><![CDATA[<ul>
+<li>
+<p><a class="prefetch-not link-annotated link-page" href="/tla" id="gwern-tla" title="'CQK Is The First Unused TLA', Gwern 2023">‘CQK’ Is The First Unused TLA</a></p>
+</li>
+<li>
+<p><a class="prefetch-not link-annotated link-page" href="/utext" id="gwern-utext" title="'Utext: Rich Unicode Documents', Gwern 2023">Utext: Rich Unicode Documents</a></p>
+</li>
+<li>
+<p>Idea: make an <a class="prefetch-not link-annotated link-page" href="/invertornot" id="gwern-invertornot" title="‘InvertOrNot.com Proposal’, Gwern 2017">‘InvertOrNot.com’</a> (a simple, useful, but missing web API)</p>
+</li>
+<li>
+<p>Idea: <a class="prefetch-not link-page" href="/idea#prefetch" id="gwern-idea--prefetch">lobby webserial/comic sites</a> to make more use of ‘prefetch’/‘preload’ for faster reading</p>
+</li>
+<li>
+<p><a class="prefetch-not link-page" href="/note/statistic#littles-law-in-the-wild" id="gwern-note-statistic--littles-law-in-the-wild">Little’s Law in the Wild</a></p>
+</li>
+<li>
+<p><strong>Gwern.net</strong>: dropcaps: extended to support bitmap graphics, and randomized selection (used in Halloween &amp; Christmas-mode, and for the new ‘dropcats’ dropcap set we made for cat-related pages); improved Halloween &amp; Christmas-mode with generated logos; scrolling now disables popups temporarily</p>
+</li>
+</ul>]]></description>
+      <author>gwern@gwern.net (Gwern Branwen)</author>
+      <pubDate>Wed, 01 Nov 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>September 2023</title>
+      <description><![CDATA[<ul>
+<li>
+<p><a class="prefetch-not link-annotated link-page" href="/suzanne-delage" id="gwern-suzanne-delage" title="‘Interpreting ‘Suzanne Delage’ as Dracula’, Gwern 2009">“Suzanne Delage” Solved</a></p>
+</li>
+<li>
+<p><a class="prefetch-not link-annotated link-page" href="/review/timecrimes" id="gwern-review-timecrimes" title="'&lt;em&gt;Timecrimes&lt;/em&gt;: Time Travel In Hell', Gwern 2023"><em>Timecrimes</em>: Time Travel In Hell</a></p>
+</li>
+<li>
+<p><a class="prefetch-not link-annotated link-page" href="/doc/psychiatry/bipolar/elon-musk/index" id="0nY185P4" title="‘Elon Musk (BP)’ directory">Mood disorders &amp; Elon Musk</a></p>
+</li>
+</ul>]]></description>
+      <author>gwern@gwern.net (Gwern Branwen)</author>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>August 2023</title>
+      <description><![CDATA[<ul>
+<li>
+<p><a class="prefetch-not link-annotated link-page" href="/ab-test-indent" id="gwern-ab-test-indent" title="‘A/B Testing Indentation &amp; Justification’, Gwern 2022">indent/justification A/B test finished (usual too-small-to-measure)</a></p>
+</li>
+<li>
+<p>Gwern.net: widescreen-desktop floating section <a data-aspect-ratio="56 / 33" data-image-height="1013" data-image-width="1720" data-link-icon="image" data-link-icon-type="svg" href="/doc/design/2023-08-07-gwern-gwernnet-desktop-floatingtoc.png" id="gwern-2023-027" title="Gwern 2023">ToC/scrollspy</a></p>
+</li>
+</ul>]]></description>
+      <author>gwern@gwern.net (Gwern Branwen)</author>
+      <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>July 2023</title>
+      <description><![CDATA[<ul>
+<li>
+<p><a class="prefetch-not link-annotated link-page" href="/aunn" id="gwern-aunn" title="‘Absolute Unit NNs: Regression-Based MLPs for Everything’, Gwern 2023">Absolute Unit NNs (AUNN): Regression-Based MLPs for Everything</a></p>
+</li>
+<li>
+<p><a class="prefetch-not link-annotated link-page" href="/aunn-papyrus" id="gwern-aunn-papyrus" title="‘Absolute Unit NNs: Regression-Based MLPs for Everything § Language-Conditioned AUNNs’, Gwern 2023">AUNN: Herculaneum papyri</a></p>
+</li>
+<li>
+<p><a class="prefetch-not link-annotated link-page" href="/aunn-brain" id="gwern-aunn-brain" title="‘Absolute Unit NNs: Regression-Based MLPs for Everything § Modular Brain AUNNs’, Gwern 2023">AUNN: brain uploading</a></p>
+</li>
+</ul>]]></description>
+      <author>gwern@gwern.net (Gwern Branwen)</author>
+      <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>June 2023</title>
+      <description><![CDATA[<ul>
+<li>
+<p><a class="prefetch-not link-annotated link-page" href="/retrocognition" id="gwern-retrocognition" title="‘The Impossibility of Knowledge of Retrocognitive Knowledge’, Gwern 2023">On The Impossibility of Knowledge of Retrocognitive Knowledge</a></p>
+</li>
+<li>
+<p><a class="prefetch-not link-annotated link-page" href="/cat-knocking" id="gwern-cat-knocking" title="‘Cat Psychology &amp; Domestication: Are We Good Owners? § Knocking Stuff Over’, Gwern 2018">Why cats knock stuff over</a></p>
+</li>
+<li>
+<p><a class="prefetch-not link-page" href="/subscript#date-ranges" id="gwern-subscript--date-ranges">Design idea: subscripted date-ranges (‘X years since’)</a></p>
+</li>
+<li>
+<p><strong>Gwern.net</strong>: <a class="prefetch-not link-annotated-partial link-page" href="/design#future-tag-features" id="gwern-design--future-tag-features">‘sort by magic’</a> of similar-links &amp; tags using embeddings (with auto-tagging); +<a class="prefetch-not link-modified-recently link-annotated link-page" href="/design-graveyard#interviews" id="gwern-design-graveyard--interviews" title="‘Design Graveyard § Interviews’, Gwern 2010">interview formatting</a> support; margin note aggregation at beginning of sections; <a class="prefetch-not link-annotated-partial" href="/static/build/latex2unicode.py" id="gwern-2023-latex2unicode" title="‘&lt;code&gt;latex2unicode.py&lt;/code&gt;’, Gwern 2023"><code>latex2unicode.py</code></a></p>
+</li>
+</ul>]]></description>
+      <author>gwern@gwern.net (Gwern Branwen)</author>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>May 2023</title>
+      <description><![CDATA[<ul>
+<li>
+<p><a class="prefetch-not link-annotated link-page" href="/doc/science/1986-hamming" id="hamming-2023" title="‘You And Your Research’, Hamming 2023">“You And Your Research”, Richard Hamming</a></p>
+</li>
+<li>
+<p>Idea: <a class="prefetch-not link-annotated link-page" href="/free-play" id="gwern-free-play" title="‘Free-Play Periods for RL Agents’, Gwern 2023">DRL free-play</a></p>
+</li>
+<li>
+<p><a class="prefetch-not link-annotated-partial link-page" href="/fiction/the-diamond-earrings" id="gwern-fiction-the-diamond-earrings" title="'The Diamond Earrings', Gwern 2023">“The Diamond Earrings”</a></p>
+</li>
+<li>
+<p>Gwern.net: ‘demo mode’: show readers a label or feature <em>n</em> times, and then stop (primary use: animate the theme toggle collapsing, and label collapsed blocks, so they learn what those are, and then hide those); +<a data-aspect-ratio="415 / 443" data-image-height="886" data-image-width="830" data-link-icon="image" data-link-icon-type="svg" href="/doc/design/2023-05-08-gwern-gwernnet-collapse-inlinecollapseexample.png" id="gwern-2023-029" title="Gwern 2023">inline-collapses</a></p>
+</li>
+</ul>]]></description>
+      <author>gwern@gwern.net (Gwern Branwen)</author>
+      <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>April 2023</title>
+      <description><![CDATA[<ul>
+<li>
+<p><a class="prefetch-not link-annotated link-page" href="/maze" id="gwern-maze" title="‘Feynman’s Maze-Running Story’, Gwern 2014">Finding Feynman’s Maze Story</a></p>
+</li>
+<li>
+<p>Design: <a class="prefetch-not link-modified-recently link-annotated link-page" href="/design-graveyard#srcset-mobile-optimization" id="gwern-design-graveyard--srcset-mobile-optimization" title="‘Design Graveyard § &lt;code&gt;srcset&lt;/code&gt; Mobile Optimization’, Gwern 2010"><code>srcset</code> post-mortem</a>; <a class="prefetch-not link-annotated link-page" href="/design#tags" id="gwern-design--tags" title="‘Design Of This Website § Tags’, Gwern 2010">on tags</a></p>
+</li>
+<li>
+<p>Gwern.net: <a data-aspect-ratio="786 / 1549" data-image-height="1549" data-image-width="786" data-link-icon="image" data-link-icon-type="svg" href="/doc/design/2023-04-28-gwern-gwernnet-mobile-scrollspyheadertoc.png" id="gwern-2023-scrollspy" title="Gwern 2023">mobile ‘scroll-spy’ (floating section header)</a>; <a data-aspect-ratio="280 / 179" data-image-height="1099" data-image-width="1720" data-link-icon="image" data-link-icon-type="svg" href="/doc/design/2023-04-29-gwern-gwernnet-popups-nativetwitterannotations.png" id="gwern-2023-twitterpopups" title="Gwern 2023">native Twitter annotation popups</a></p>
+</li>
+</ul>]]></description>
+      <author>gwern@gwern.net (Gwern Branwen)</author>
+      <pubDate>Mon, 01 May 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>March 2023</title>
+      <description><![CDATA[<ul>
+<li>
+<p><a class="prefetch-not link-annotated link-page" href="/scaling-hypothesis#it-from-byte" id="gwern-scaling-hypothesis--it-from-byte" title="‘The Scaling Hypothesis § It From Byte’, Gwern 2020">It From Byte: convergent emergent agency from non-agency</a></p>
+</li>
+<li>
+<p>Design: <a class="prefetch-not link-modified-recently link-annotated link-page" href="/design-graveyard#popup-annotations" id="gwern-design-graveyard--popup-annotations" title="‘Design Graveyard § Popup Annotations’, Gwern 2010">on the popup systems</a> <a class="prefetch-not link-modified-recently link-annotated link-page" href="/design-graveyard#link-icon-css-regexps" id="gwern-design-graveyard--link-icon-css-regexps" title="‘Design Graveyard § Link-Icon CSS Regexps’, Gwern 2010">on the link-icons</a>; <a class="prefetch-not link-annotated link-page" href="/archiving#preemptive-local-archiving" id="gwern-archiving--preemptive-local-archiving" title="‘Archiving URLs § Preemptive Local Archiving’, Gwern 2011">on the local archives</a>; <a class="prefetch-not link-page" href="/design-graveyard#outbound-link-tracking" id="gwern-design-graveyard--outbound-link-tracking">outbound link-tracking post-mortem</a></p>
+</li>
+<li>
+<p><a class="prefetch-not link-annotated link-page" href="/ova" id="gwern-ova" title="‘Anime Reviews § How OVAs Worked’, Gwern 2010">How ’80s–’90s anime OVAs worked</a></p>
+</li>
+<li>
+<p><a class="prefetch-not link-page" href="/backstop#knuth" id="gwern-backstop--knuth">Some thoughts on Knuth and programming language design/software engineering/intelligence augmentation</a></p>
+</li>
+<li>
+<p><a class="prefetch-not link-page" href="/gpt-3#tanka-fujiwara-no-teika" id="gwern-gpt-3--tanka-fujiwara-no-teika">Trying out Japanese tanka poetry with GPT-3</a> (<code>davinci-002</code> feels almost as creative as <code>davinci</code> but more tractable, while not being creatively useless like <a class="link-live link-annotated-partial" data-link-icon="openai" data-link-icon-type="svg" data-url-archive="/doc/www/openai.com/71d89c66e64656d27dded64f2a102337e410bcd1.html" data-url-original="https://openai.com/blog/chatgpt/" href="/doc/www/openai.com/71d89c66e64656d27dded64f2a102337e410bcd1.html" id="iOQalFYH">ChatGPT</a>-3)</p>
+</li>
+<li>
+<p>Idea: <a class="prefetch-not link-page" href="/idea#real-estate-drone-discontinuities" id="gwern-idea--real-estate-drone-discontinuities">drone real-estate RDD</a>; <a class="prefetch-not link-page" href="/idea#schizophrenia-meaning-overload" id="gwern-idea--schizophrenia-meaning-overload">schizophrenia treatment</a>,</p>
+</li>
+<li>
+<p>Gwern.net: <a data-aspect-ratio="1400 / 2413" data-image-height="2964" data-image-width="1720" data-link-icon="image" data-link-icon-type="svg" href="/doc/design/2023-03-20-gwern-gwernnet-homepage-headeronlylayout.png" id="gwern-2023-044" title="Gwern 2023">header-based redesign</a> of desktop theme; <a class="prefetch-not link-page" href="/design#in-context" id="gwern-design--in-context">within-section backlinks</a>; backlinks can now display original context</p>
+</li>
+</ul>]]></description>
+      <author>gwern@gwern.net (Gwern Branwen)</author>
+      <pubDate>Sat, 01 Apr 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>February 2023</title>
+      <description><![CDATA[<ul>
+<li>
+<p><a class="prefetch-not link-annotated link-page" href="/question#anti-psychedelics" id="gwern-question--anti-psychedelics" title="‘Open Questions § Anti-Psychedelics’, Gwern 2018">Are there anti-psychedelics?</a></p>
+</li>
+<li>
+<p><a class="prefetch-not link-annotated-partial link-page" href="/idea#zen-sand-garden-puzzle-game" id="gwern-idea--zen-sand-garden-puzzle-game">Zen Sand Garden Puzzle Game</a></p>
+</li>
+<li>
+<p>Design: <a class="prefetch-not link-page" href="/archiving#fixing-redirects" id="gwern-archiving--fixing-redirects">why to fix URL redirects</a> &amp; <a class="prefetch-not link-annotated link-page" href="/archiving#why-not-internet-archive" id="gwern-archiving--why-not-internet-archive" title="‘Archiving URLs § Why Not Internet Archive?’, Gwern 2011">avoid Internet Archive links</a></p>
+</li>
+<li>
+<p><strong>DL Ideas</strong>: <a class="prefetch-not link-annotated-partial link-page" href="/idea#llm-fingerprinting" id="gwern-idea--llm-fingerprinting">fingerprinting LLMs</a>, <a class="prefetch-not link-page" href="/idea#random-sampling-changes" id="gwern-idea--random-sampling-changes">better GAN</a> &amp; <a class="prefetch-not link-annotated-partial link-page" href="/idea#diffusion" id="gwern-idea--diffusion">diffusion NN sampling/training</a>; <a class="prefetch-not link-page" href="/idea#robotics-scaling-the-doll-house" id="gwern-idea--robotics-scaling-the-doll-house">robotic dollhouses</a></p>
+</li>
+<li>
+<p><a class="prefetch-not link-annotated link-page" href="/twitter" id="gwern-twitter" title="‘Miscellaneous § Twitter Follow-Request UX Problems’, Gwern 2009">Problems with the Twitter Follow-Request UX</a></p>
+</li>
+</ul>]]></description>
+      <author>gwern@gwern.net (Gwern Branwen)</author>
+      <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>January 2023</title>
+      <description><![CDATA[<ul>
+<li>
+<p><strong>Gwern.net</strong>:</p>
+<ul>
+<li>
+<p><a class="prefetch-not link-page" href="/design-graveyard#long-urls" id="gwern-design-graveyard--long-urls">moved domains</a>; image/doc hierarchy merged</p>
+</li>
+<li>
+<p>new Quote/Site/Annotation <a data-aspect-ratio="280 / 213" data-image-height="1272" data-image-width="1672" data-link-icon="image" data-link-icon-type="svg" href="/doc/design/2023-05-11-gwern-gwernnet-quoteannotationsitexoftheday-darkmodeindexfooter.png" id="gwern-2023-028" title="Gwern 2023"><em>X</em>-of-the-Day</a> feature</p>
+</li>
+<li>
+<p><a class="prefetch-not link-annotated link-page" href="/doc/newest/index" id="Pmf8zSbL" title="‘newest links’ directory"><code>newest</code> tag: last <em>n</em> annotations</a></p>
+</li>
+</ul>
+</li>
+</ul>]]></description>
+      <author>gwern@gwern.net (Gwern Branwen)</author>
+      <pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

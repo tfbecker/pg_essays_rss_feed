@@ -10,25 +10,32 @@ The official RSS feed on the website: [https://paulgraham.com/rss.html](https://
 
 This service generates and serves RSS feeds for:
 - Angular Ventures Blog
-- Paul Graham Essays (optional)
+- Paul Graham Essays
+- Gwern Branwen's Changelog
 
 ## Features
 
 - Scrapes the latest posts from Angular Ventures Blog
-- Optionally scrapes Paul Graham's essays
+- Scrapes Paul Graham's essays
+- Scrapes Gwern Branwen's changelog updates
 - Serves feeds via a web interface
 - Docker containerized for easy deployment
 
 ## Quick Start
 
-1. Run only Angular Ventures feed (default):
+1. Run only Angular Ventures feed:
 ```bash
-docker-compose up
+docker-compose run --service-ports angular-ventures-rss
 ```
 
-2. Run both Angular Ventures and Paul Graham feeds:
+2. Run only Gwern RSS feed:
 ```bash
-docker-compose run --service-ports angular-ventures-rss ./start_all.sh
+docker-compose run --service-ports gwern-rss
+```
+
+3. Run all feeds (Angular Ventures, Paul Graham, and Gwern):
+```bash
+docker-compose run --service-ports all-rss-feeds
 ```
 
 ## Accessing the Feeds
@@ -37,7 +44,8 @@ Once running, the feeds are available at:
 
 - Web Interface: http://localhost:3000
 - Angular Ventures RSS: http://localhost:3000/angular
-- Paul Graham Essays RSS: http://localhost:3000/pg (when running with start_all.sh)
+- Paul Graham Essays RSS: http://localhost:3000/pg
+- Gwern Changelog RSS: http://localhost:3000/gwern
 
 ## Configuration
 
@@ -46,7 +54,8 @@ The service runs on port 3000 by default. You can modify this in the docker-comp
 ## Scripts
 
 - `start_angular.sh`: Generates and serves only the Angular Ventures feed
-- `start_all.sh`: Generates and serves both Angular Ventures and Paul Graham feeds
+- `start_gwern.sh`: Generates and serves only the Gwern changelog feed
+- `start_all.sh`: Generates and serves all feeds (Angular Ventures, Paul Graham, and Gwern)
 
 ## Development
 
@@ -69,10 +78,15 @@ You can host this repository using Docker. Follow these steps:
     docker-compose build
     ```
 
-2. Start the Docker container:
+2. Start the Docker container with all feeds:
     ```sh
-    docker-compose up
+    docker-compose up all-rss-feeds
     ```
 
-The application will be available on port `80`.
+The application will be available on port `3000`.
+
+## Credit
+
+- Paul Graham Essays RSS implementation inspired by [https://github.com/ofou/graham-essays](https://github.com/ofou/graham-essays)
+- Gwern RSS implementation inspired by [https://github.com/49Indium/gwern-rss](https://github.com/49Indium/gwern-rss)
 

@@ -1,8 +1,6 @@
 #!/bin/bash
 
-# Run both RSS feed generators
-python angular_ventures_rss.py
-python pg_essays.py
+# Run Gwern RSS feed generator
 python gwern_rss.py
 
 # Start the Flask server with gunicorn

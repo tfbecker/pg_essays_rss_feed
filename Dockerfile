@@ -13,8 +13,8 @@ COPY . .
 
 # Ensure scripts have Unix line endings and are executable
 RUN apt-get update && apt-get install -y dos2unix && \
-    dos2unix start_angular.sh start_all.sh && \
-    chmod +x start_angular.sh start_all.sh && \
+    dos2unix start_angular.sh start_all.sh start_gwern.sh && \
+    chmod +x start_angular.sh start_all.sh start_gwern.sh && \
     apt-get remove -y dos2unix && \
     apt-get autoremove -y && \
     rm -rf /var/lib/apt/lists/*

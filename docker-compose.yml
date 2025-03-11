@@ -1,10 +1,31 @@
 version: '3'
 
 services:
-  angular-ventures-rss:
+  all-rss-feeds:
     build: .
+    command: ./start_all.sh
     ports:
       - "3000:3000"
+    volumes:
+      - ./:/app
+    environment:
+      - TZ=UTC
+
+  angular-ventures-rss:
+    build: .
+    command: ./start_angular.sh
+    ports:
+      - "3001:3000"
+    volumes:
+      - ./:/app
+    environment:
+      - TZ=UTC
+
+  gwern-rss:
+    build: .
+    command: ./start_gwern.sh
+    ports:
+      - "3002:3000"
     volumes:
       - ./:/app
     environment:
