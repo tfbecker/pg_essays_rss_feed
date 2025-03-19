@@ -7,12 +7,12 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 11 Mar 2025 19:02:05 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Mar 2025 00:54:52 +0000</lastBuildDate>
     <item>
       <title>February 2025</title>
       <description><![CDATA[<ul>
 <li>
-<p><a class="link-live link-modified-recently link-annotated link-page" href="https://gwern.net/rock-paper-scissors" id="gwern-rock-paper-scissors" title="'Rock-Paper-Scissors Optimality', Gwern 2024">Is Rock-Paper-Scissors an optimal game mechanic?</a></p>
+<p><a class="link-live link-modified-recently link-page" href="https://gwern.net/rock-paper-scissors" id="gwern-rock-paper-scissors" title="'Rock-Paper-Scissors Optimality', Gwern 2024">Is Rock-Paper-Scissors an optimal game mechanic?</a></p>
 </li>
 <li>
 <p><a class="link-modified-recently link-annotated" data-link-icon="deepseek" data-link-icon-color="#4d6bfe" data-link-icon-type="svg" href="https://www.reddit.com/r/mlscaling/comments/1ik3401/mistral_offers_deepseek_r1_llama70b_at_1500/mbjb9t4/" id="gwern-2025-llms-can-be-faster" title="'Your LLM Can Be Faster Than You (Can) Think', Gwern 2025">“Your LLM Can Be Faster Than You (Can) Think”</a></p>

@@ -1,6 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
-from feedgenerator import Rss201rev2Feed
+from feedgen.feed import FeedGenerator
 from datetime import datetime
 import pytz
 import re
@@ -62,23 +62,20 @@ def fetch_and_parse_blog():
     return posts
 
 def generate_rss_feed(posts):
-    feed = Rss201rev2Feed(
-        title="Angular Ventures Blog",
-        link="https://newsletter.angularventures.com/",
-        description="Latest posts from Angular Ventures",
-        language="en",
-    )
+    feed = FeedGenerator()
+    feed.title("Angular Ventures Blog")
+    feed.link(href="https://newsletter.angularventures.com/")
+    feed.description("Latest posts from Angular Ventures")
+    feed.language("en")
     
     for post in posts:
-        feed.add_item(
-            title=post['title'],
-            link=post['link'],
-            description=post['description'],
-            pubdate=post['pub_date']
-        )
+        entry = feed.add_entry()
+        entry.title(post['title'])
+        entry.link(href=post['link'])
+        entry.description(post['description'])
+        entry.pubDate(post['pub_date'])
     
-    with open('angular_ventures_feed.xml', 'w', encoding='utf-8') as f:
-        feed.write(f, 'utf-8')
+    feed.rss_file('angular_ventures_feed.xml')
 
 def update_feed():
     print(f"[{datetime.now()}] Updating Angular Ventures RSS feed...")
