@@ -1,7 +1,11 @@
-from flask import Flask, send_file, abort
+from flask import Flask, send_file, abort, jsonify
 import os
+import json
+from datetime import datetime
+from logger import RSSLogger
 
 app = Flask(__name__)
+logger = RSSLogger("rss_server")
 
 @app.route('/')
 def home():
@@ -21,15 +25,48 @@ def home():
             <ul>
                 {''.join(feeds)}
             </ul>
+            <p><a href="/status">View Feed Status</a></p>
         </body>
     </html>
     '''
+
+@app.route('/status')
+def status():
+    status_data = {
+        "server_time": datetime.now().isoformat(),
+        "feeds": {}
+    }
+    
+    # Check each feed file and its last modification time
+    feeds = {
+        'angular': 'angular_ventures_feed.xml',
+        'pg': 'pg_essays.xml',
+        'gwern': 'gwern_feed.xml'
+    }
+    
+    for feed_name, feed_file in feeds.items():
+        if os.path.exists(feed_file):
+            mtime = datetime.fromtimestamp(os.path.getmtime(feed_file))
+            status_data["feeds"][feed_name] = {
+                "available": True,
+                "last_updated": mtime.isoformat(),
+                "age_minutes": round((datetime.now() - mtime).total_seconds() / 60, 2)
+            }
+        else:
+            status_data["feeds"][feed_name] = {
+                "available": False,
+                "last_updated": None,
+                "age_minutes": None
+            }
+    
+    return jsonify(status_data)
 
 @app.route('/angular')
 def serve_angular_rss():
     try:
         return send_file('angular_ventures_feed.xml', mimetype='application/rss+xml')
     except FileNotFoundError:
+        logger.log_scrape_error("Angular Ventures RSS feed not found")
         abort(404, description="Angular Ventures RSS feed not found")
 
 @app.route('/pg')
@@ -37,6 +74,7 @@ def serve_pg_rss():
     try:
         return send_file('pg_essays.xml', mimetype='application/rss+xml')
     except FileNotFoundError:
+        logger.log_scrape_error("Paul Graham Essays RSS feed not found")
         abort(404, description="Paul Graham Essays RSS feed not found")
 
 @app.route('/gwern')
@@ -44,6 +82,7 @@ def serve_gwern_rss():
     try:
         return send_file('gwern_feed.xml', mimetype='application/rss+xml')
     except FileNotFoundError:
+        logger.log_scrape_error("Gwern Changelog RSS feed not found")
         abort(404, description="Gwern Changelog RSS feed not found")
 
 if __name__ == '__main__':
