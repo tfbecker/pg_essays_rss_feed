@@ -70,11 +70,7 @@ def parse_main_page(base_url: str):
         response = requests.get(base_url, headers=HEADERS)
         print(f"Response status code: {response.status_code}")
         soup = BeautifulSoup(response.text, "html.parser")
-        
-        # Print the HTML structure to debug
-        print("HTML structure preview:")
-        print(soup.prettify()[:1000])  # Print first 1000 chars for debugging
-        
+                
         # Based on the provided HTML structure for OpenAI's research page
         print("Looking for post cards in the grid")
         post_cards = soup.select("div.grid > div.group.relative")

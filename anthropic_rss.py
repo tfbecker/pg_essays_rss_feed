@@ -89,11 +89,7 @@ def parse_main_page(base_url: str):
         response = requests.get(base_url, headers=HEADERS)
         print(f"Response status code: {response.status_code}")
         soup = BeautifulSoup(response.text, "html.parser")
-        
-        # Print the HTML structure to debug
-        print("HTML structure preview:")
-        print(soup.prettify()[:1000])  # Print first 1000 chars for debugging
-        
+                
         # Using the provided HTML structure for Anthropic's research page
         print("Looking for post cards with selector: a.PostCard_post-card__z_Sqq")
         post_cards = soup.select("a.PostCard_post-card__z_Sqq")
