@@ -1,0 +1,8 @@
+2025-04-07 10:30:29,049 - INFO - Starting scrape for anthropic_rss at 2025-04-07T10:30:29.049437
+2025-04-07 10:30:29,212 - ERROR - {"timestamp": "2025-04-07T10:30:29.212276", "feed": "anthropic_rss", "status": "error", "error": "No articles found to add to feed"}
+2025-04-07 10:31:33,368 - INFO - Starting scrape for anthropic_rss at 2025-04-07T10:31:33.368744
+2025-04-07 10:31:33,431 - ERROR - {"timestamp": "2025-04-07T10:31:33.431177", "feed": "anthropic_rss", "status": "error", "error": "No articles found to add to feed"}
+2025-04-07 10:32:15,725 - INFO - Starting scrape for anthropic_rss at 2025-04-07T10:32:15.725175
+2025-04-07 10:32:16,248 - ERROR - {"timestamp": "2025-04-07T10:32:16.248593", "feed": "anthropic_rss", "status": "error", "error": "No articles found to add to feed"}
+2025-04-07 10:35:52,816 - INFO - Starting scrape for anthropic_rss at 2025-04-07T10:35:52.816055
+2025-04-07 10:35:53,495 - INFO - {"timestamp": "2025-04-07T10:35:53.495169", "feed": "anthropic_rss", "status": "success", "latest_post": {"title": "Reasoning models don't always say what they think", "date": "3 Apr 2025"}}

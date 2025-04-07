@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss version="2.0"><channel><title>OpenAI Research Blog</title><link>https://openai.com/news/research/</link><description>Research articles from OpenAI</description><item><title>PaperBench: Evaluating AI’s Ability to Replicate AI Research</title><link>https://openai.com/index/paperbench/</link><description>Content not available</description><pubDate>Apr 2, 2025</pubDate></item><item><title>Introducing 4o Image Generation</title><link>https://openai.com/index/introducing-4o-image-generation/</link><description>Content not available</description><pubDate>Mar 25, 2025</pubDate></item><item><title>Addendum to GPT-4o System Card: 4o image generation</title><link>https://openai.com/index/gpt-4o-image-generation-system-card-addendum/</link><description>4o image generation is a new, significantly more capable image generation
+approach than our earlier DALL·E 3 series of models. It can create
+photorealistic output. It can take images as inputs and transform them. It can
+follow detailed instructions, including reliably incorporating text into
+images. And because it is embedded natively, deep in the architecture of our
+omnimodal GPT‑4o model, 4o image generation can use everything it knows to
+apply these capabilities in subtle and expressive ways, creating images that
+are not only beautiful, but also useful.
+
+4o image generation benefits from our existing safety infrastructure, and from
+lessons we have learned deploying DALL·E and Sora. At the same time, these new
+capabilities also bring some new risks. This addendum to the GPT‑4o system
+card describes the marginal risks we’ve focused on, and the work we have done
+to address them.
+
+</description><pubDate>Mar 25, 2025</pubDate></item><item><title>Early methods for studying affective use and emotional well-being on ChatGPT</title><link>https://openai.com/index/affective-use-study/</link><description>Content not available</description><pubDate>Mar 21, 2025</pubDate></item><item><title>Introducing next-generation audio models in the API</title><link>https://openai.com/index/introducing-our-next-generation-audio-models/</link><description>Content not available</description><pubDate>Mar 20, 2025</pubDate></item><item><title>Detecting misbehavior in frontier reasoning models</title><link>https://openai.com/index/chain-of-thought-monitoring/</link><description>Content not available</description><pubDate>Mar 10, 2025</pubDate></item><item><title>OpenAI GPT-4.5 System Card</title><link>https://openai.com/index/gpt-4-5-system-card/</link><description>Content not available</description><pubDate>Feb 27, 2025</pubDate></item><item><title>Introducing GPT-4.5</title><link>https://openai.com/index/introducing-gpt-4-5/</link><description>Content not available</description><pubDate>Feb 27, 2025</pubDate></item><item><title>Deep research System Card</title><link>https://openai.com/index/deep-research-system-card/</link><description>Content not available</description><pubDate>Feb 25, 2025</pubDate></item></channel></rss>

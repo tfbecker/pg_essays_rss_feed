@@ -17,6 +17,10 @@ def home():
         feeds.append('<li><a href="/pg">Paul Graham Essays RSS Feed</a></li>')
     if os.path.exists('gwern_feed.xml'):
         feeds.append('<li><a href="/gwern">Gwern Changelog RSS Feed</a></li>')
+    if os.path.exists('anthropic_feed.xml'):
+        feeds.append('<li><a href="/anthropic">Anthropic Research RSS Feed</a></li>')
+    if os.path.exists('openai_feed.xml'):
+        feeds.append('<li><a href="/openai">OpenAI Research RSS Feed</a></li>')
     
     return f'''
     <html>
@@ -41,7 +45,9 @@ def status():
     feeds = {
         'angular': 'angular_ventures_feed.xml',
         'pg': 'pg_essays.xml',
-        'gwern': 'gwern_feed.xml'
+        'gwern': 'gwern_feed.xml',
+        'anthropic': 'anthropic_feed.xml',
+        'openai': 'openai_feed.xml'
     }
     
     for feed_name, feed_file in feeds.items():
@@ -84,6 +90,22 @@ def serve_gwern_rss():
     except FileNotFoundError:
         logger.log_scrape_error("Gwern Changelog RSS feed not found")
         abort(404, description="Gwern Changelog RSS feed not found")
+
+@app.route('/anthropic')
+def serve_anthropic_rss():
+    try:
+        return send_file('anthropic_feed.xml', mimetype='application/rss+xml')
+    except FileNotFoundError:
+        logger.log_scrape_error("Anthropic Research RSS feed not found")
+        abort(404, description="Anthropic Research RSS feed not found")
+
+@app.route('/openai')
+def serve_openai_rss():
+    try:
+        return send_file('openai_feed.xml', mimetype='application/rss+xml')
+    except FileNotFoundError:
+        logger.log_scrape_error("OpenAI Research RSS feed not found")
+        abort(404, description="OpenAI Research RSS feed not found")
 
 if __name__ == '__main__':
     port = int(os.environ.get('PORT', 3000))

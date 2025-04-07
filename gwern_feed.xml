@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 19 Mar 2025 00:54:52 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 23 Mar 2025 20:29:06 +0000</lastBuildDate>
     <item>
       <title>February 2025</title>
       <description><![CDATA[<ul>
@@ -28,7 +28,7 @@
       <title>January 2025</title>
       <description><![CDATA[<ul>
 <li>
-<p>Gwern.net: improved <a class="link-live link-modified-recently link-page" href="https://gwern.net/design-graveyard#fraction-slash" id="gwern-design-graveyard--fraction-slash">fraction handling</a>; <a class="prefetch-not link-modified-recently" href="/static/build/italicizer.py" id="APyFm58U"><code>italicizer.py</code></a>: automatically add appropriate italics to plain text strings lacking them, like book titles</p>
+<p>Gwern.net: improved <a class="link-live link-modified-recently link-page" href="https://gwern.net/design-graveyard#fraction-slash" id="gwern-design-graveyard--fraction-slash">fraction handling</a>; <a class="prefetch-not" href="/static/build/italicizer.py" id="APyFm58U"><code>italicizer.py</code></a>: automatically add appropriate italics to plain text strings lacking them, like book titles</p>
 </li>
 </ul>]]></description>
       <author>gwern@gwern.net (Gwern Branwen)</author>
@@ -41,7 +41,7 @@
 <p>Ideas: <a class="prefetch-not link-annotated link-page" href="/creative-benchmark" id="gwern-creative-benchmark" title="‘Towards Benchmarking LLM Diversity &amp; Creativity’, Gwern 2024">Towards Benchmarking LLM Diversity &amp; Creativity</a>; <a class="prefetch-not link-annotated link-page" href="/tree-embedding" id="gwern-tree-embedding" title="'Hierarchical Embeddings for Text Search', Gwern 2024">Hierarchical Embeddings for Text Search</a></p>
 </li>
 <li>
-<p><strong>Constrained Writing</strong>: <a class="prefetch-not link-annotated link-page" href="/second-life-sentence" id="gwern-second-life-sentence" title="'Second Life Sentences', Gwern 2024">Second Life Sentences</a>; <a class="prefetch-not link-page" href="/note/note#trajectoid-words" id="gwern-note-note--trajectoid-words">Better Trajectoid Words</a>; <a class="prefetch-not link-annotated link-page" href="/note/note#llm-challenge-writing-non-biblical-sentences" id="gwern-note-note--llm-challenge-writing-non-biblical-sentences" title="‘Miscellaneous § LLM Challenge: Writing Non-Biblical Sentences’, Gwern 2009">Un-Biblical Sentences</a></p>
+<p><strong>Constrained Writing</strong>: <a class="prefetch-not link-annotated link-page" href="/second-life-sentence" id="gwern-second-life-sentence" title="'Second Life Sentences', Gwern 2024">Second Life Sentences</a>; <a class="prefetch-not link-modified-recently link-annotated link-page" href="/blog/2024-trajectoid-words" id="gwern-2024-trajectoid-words" title="‘Zach Weiner’s Trajectoid Words’, Gwern 2024">Better Trajectoid Words</a>; <a class="prefetch-not link-annotated link-page" href="/non-biblical-sentences" id="gwern-non-biblical-sentences" title="‘LLM Challenge: Writing Non-Biblical Sentences’, Gwern 2009">Un-Biblical Sentences</a></p>
 </li>
 <li>
 <p><a class="prefetch-not link-annotated link-page" href="/fiction/christmas" id="o1-pro-et-al-2024" title="'A Christmas Protestation', o1-pro et al 2024">“A Christmas Protestation”</a></p>
@@ -90,7 +90,7 @@
       <title>October 2024</title>
       <description><![CDATA[<ul>
 <li>
-<p>Idea: <a class="link-live link-annotated link-page" href="https://gwern.net/note/note#celebrity-masquerade-game" id="gwern-note-note--celebrity-masquerade-game" title="'Miscellaneous § Celebrity Masquerade Game', Gwern 2009">costume party game of social deduction</a></p>
+<p>Idea: <a class="link-live link-annotated link-page" href="https://gwern.net/costume-game" id="gwern-costume-game" title="'Celebrity Masquerade Game', Gwern 2009">costume party game of social deduction</a></p>
 </li>
 <li>
 <p><a class="link-live link-annotated link-page" href="https://gwern.net/math-error#unreliability-of-programs" id="gwern-math-error--unreliability-of-programs" title="'The Existential Risk of Math Errors § Unreliability of Programs', Gwern 2012">on the unreliability of software</a></p>
@@ -112,7 +112,7 @@
 <p>Idea: <a class="link-live link-annotated link-page" href="https://gwern.net/idea#error-ensuring-codes" id="gwern-idea--error-ensuring-codes" title="'Research Ideas § Error-Ensuring Codes', Gwern 2017">error-ensuring codes</a> for synthetic media watermarking; hybrid LLMs: <a class="link-live link-page" href="https://gwern.net/idea#hybrid-llm" id="gwern-idea--hybrid-llm">conditioning AR LLMs on diffused embeddings</a></p>
 </li>
 <li>
-<p><a class="link-live link-page" href="https://gwern.net/note/note#pemmican" id="gwern-note-note--pemmican">Trying pemmican</a></p>
+<p><a class="link-live link-modified-recently link-annotated link-page" href="https://gwern.net/blog/2024-pemmican" id="gwern-2024-pemmican" title="'Pemmican', Gwern 2024">Trying pemmican</a></p>
 </li>
 <li>
 <p>Why do <a class="link-annotated-partial link-live" data-link-icon="wikipedia" data-link-icon-type="svg" data-url-iframe="https://en.m.wikipedia.org/wiki/Cat#bodyContent" href="https://en.wikipedia.org/wiki/Cat" id="Y8GSfPDb" title="Cat">cats</a> bite spontaneously or during petting? <a class="link-live link-page" href="https://gwern.net/review/cat#biting" id="gwern-review-cat--biting">Maybe you accidentally look like prey</a></p>
@@ -143,7 +143,7 @@
 <p><a class="link-live link-annotated" data-link-icon="SSC" data-link-icon-color="#5175c2" data-link-icon-type="text,tri" data-url-archive="/doc/www/www.astralcodexten.com/2012350b8562ddac309376a3b25e1a4ff3f9f648.html" data-url-original="https://www.astralcodexten.com/p/your-book-review-silver-age-marvel/comment/65693964" href="/doc/www/www.astralcodexten.com/2012350b8562ddac309376a3b25e1a4ff3f9f648.html" id="gwern-2024-marvel" title="'Marvel’s Silver Age of Comics: Humanizing Mythology', Gwern 2024">Marvel’s Silver Age of Comics: Humanizing Mythology</a></p>
 </li>
 <li>
-<p><a class="prefetch-not link-annotated-partial link-page" href="/note/statistic#tail-collapse" id="gwern-note-statistic--tail-collapse">Visualizing tail collapse</a></p>
+<p><a class="prefetch-not link-modified-recently link-annotated link-page" href="/blog/2024-tail-collapse" id="gwern-2024-tail-collapse" title="‘Simulating Tail Collapse in R’, Gwern 2024">Visualizing tail collapse</a></p>
 </li>
 <li>
 <p><a class="link-live link-annotated" data-link-icon="LW" data-link-icon-color="#7faf83" data-link-icon-type="text" data-url-iframe="https://www.greaterwrong.com/posts/pffcsPkWwBPyLE6Ym/what-does-a-gambler-s-verity-world-look-like/comment/6sr3Q7qsns4Cwznon?format=preview&amp;theme=classic" href="https://www.lesswrong.com/posts/pffcsPkWwBPyLE6Ym/what-does-a-gambler-s-verity-world-look-like?commentId=6sr3Q7qsns4Cwznon" id="gwern-2024-gamblers-verity" title="‘A world where the gambler’s fallacy was true via Sampling-&lt;em&gt;Without&lt;/em&gt;-Replacement’, Gwern 2024">A world where the gambler’s fallacy was true</a></p>
@@ -198,7 +198,7 @@
       <title>April 2024</title>
       <description><![CDATA[<ul>
 <li>
-<p>On <a class="prefetch-not link-annotated-partial link-page" href="/note/note#on-being-sick-as-a-kid" id="gwern-note-note--on-being-sick-as-a-kid" title="‘On Being Sick as a Kid’, Gwern 2024">being sick as a kid</a>, and <a class="prefetch-not link-page" href="/note/note#on-first-looking-into-tolkiens-tower" id="gwern-note-note--on-first-looking-into-tolkiens-tower">first reading Tolkien</a></p>
+<p>On <a class="prefetch-not link-modified-recently link-annotated link-page" href="/blog/2024-sick-kids" id="gwern-2024-sick-kids" title="‘On Being Sick as a Kid’, Gwern 2024">being sick as a kid</a>, and <a class="prefetch-not link-modified-recently link-annotated link-page" href="/blog/2024-tolkien" id="gwern-2024-tolkien" title="‘On First Looking Into Tolkien’s &lt;em&gt;Tower&lt;/em&gt;’, Gwern 2024">first reading Tolkien</a></p>
 </li>
 <li>
 <p>Gwern.net: authors are now hyperlinked; Google <a data-link-icon="alphabet" data-link-icon-color="#4285f4" data-link-icon-type="svg" href="https://cse.google.com/cse?cx=009114923999563836576%3Adv0a4ndtmly" id="8JkyOkmf" title="Programmable Search Engine">CSE site-search</a> has been restored (magnifying-glass icon in theme togglebar, <code>/</code> keybinding), but later removed; April Fools easter egg</p>
@@ -288,7 +288,7 @@
 <p>Idea: <a class="prefetch-not link-page" href="/idea#prefetch" id="gwern-idea--prefetch">lobby webserial/comic sites</a> to make more use of ‘prefetch’/‘preload’ for faster reading</p>
 </li>
 <li>
-<p><a class="prefetch-not link-page" href="/note/statistic#littles-law-in-the-wild" id="gwern-note-statistic--littles-law-in-the-wild">Little’s Law in the Wild</a></p>
+<p><a class="prefetch-not link-modified-recently link-annotated link-page" href="/blog/2023-littles-law" id="gwern-2023-littles-law" title="'Little’s Law in the Wild', Gwern 2023">Little’s Law in the Wild</a></p>
 </li>
 <li>
 <p><strong>Gwern.net</strong>: dropcaps: extended to support bitmap graphics, and randomized selection (used in Halloween &amp; Christmas-mode, and for the new ‘dropcats’ dropcap set we made for cat-related pages); improved Halloween &amp; Christmas-mode with generated logos; scrolling now disables popups temporarily</p>
@@ -307,7 +307,7 @@
 <p><a class="prefetch-not link-annotated link-page" href="/review/timecrimes" id="gwern-review-timecrimes" title="'&lt;em&gt;Timecrimes&lt;/em&gt;: Time Travel In Hell', Gwern 2023"><em>Timecrimes</em>: Time Travel In Hell</a></p>
 </li>
 <li>
-<p><a class="prefetch-not link-annotated link-page" href="/doc/psychiatry/bipolar/elon-musk/index" id="0nY185P4" title="‘Elon Musk (BP)’ directory">Mood disorders &amp; Elon Musk</a></p>
+<p><a class="prefetch-not link-annotated link-page" href="/doc/psychiatry/bipolar/elon-musk/index" id="gwern-2023" title="‘Elon Musk &amp; Bipolar Disorder’, Gwern 2023">Mood disorders &amp; Elon Musk</a></p>
 </li>
 </ul>]]></description>
       <author>gwern@gwern.net (Gwern Branwen)</author>

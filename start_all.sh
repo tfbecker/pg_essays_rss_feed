@@ -6,6 +6,8 @@ run_scrapers() {
     python angular_ventures_rss.py
     python pg_essays.py
     python gwern_rss.py
+    python anthropic_rss.py
+    python openai_rss.py
 }
 
 # Run immediately on startup
