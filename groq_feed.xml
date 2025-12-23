@@ -1,0 +1,1220 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss version="2.0"><channel><title>Groq Blog</title><link>https://groq.com/blog/</link><description>Latest posts from the Groq Blog - LPU inference, AI infrastructure, and more</description><item><title>Advancing the American AI Stack</title><link>https://groq.com/blog/advancingamericanai</link><description>### Introduction
+
+Power has always flowed from the control of the world's essential resources.
+Once it was steel, then oil, then data. Today, it is AI compute, and
+specifically, the ability to run AI systems efficiently at global scale.
+Whoever controls AI compute will shape the century ahead.
+
+Compute is fast becoming the foundation of global economic growth. In the
+United States, investment in AI infrastructure—from data centers to
+semiconductors and energy systems—is already moving the needle: J.P. Morgan
+estimates that data-center spending alone could boost U.S. GDP by up to 20
+basis points over the next two yearsFootnote 1. According to The Economist,
+investments tied to AI now account for 40 percent of America's GDP growth over
+the past year, equal to the amount contributed by consumer spending growth.
+That statistic would be staggering regardless of how long AI has been part of
+the economy, but this is just the start.
+
+The next decade of global competition will be defined not only by who invents
+the most powerful AI systems, but also by who can deploy and operate them
+securely, efficiently, and at scale. The real battleground increasingly
+centers on inference, the computational power required to run trained AI
+models and deliver real-time results to billions of users worldwide.
+
+While training compute builds AI capabilities, inference compute delivers
+them. As AI applications move from laboratory to deployment, inferenceFootnote
+2 becomes the bottleneck that determines which nations can actually
+operationalize artificial intelligence at global scale. This is how the
+industry operates today and can serve as the model that informs U.S. export
+policy.
+
+The question facing policymakers is whether to recognize and enable the
+existing model of a vibrant American AI ecosystem, or to construct something
+entirely new. The evidence suggests that a nuanced approach to the former will
+better serve American strategic interests.
+
+### Organizing an American AI Export Program
+
+The Trump Administration's Executive Order on Promoting the Export of the
+American AI Technology Stack (EO) recognizes that our allies are hungry for
+American compute, and that the United States must dominate the "away game"
+before geopolitical rivals fill the vacuum.
+
+This EO represents a watershed moment in American technology policy. Previous
+administrations treated AI exports primarily through a defensive lens,
+focusing on what to restrict rather than what to enable. The Trump
+Administration has inverted that paradigm, recognizing that American AI
+leadership depends not just on preventing adversaries from acquiring our
+technology, but on ensuring allies adopt democratically-aligned systems,
+standards, and operational models before alternatives take root. The stack in
+the EO and Groq’s definition of the "American AI Stack"—five discrete layers
+spanning hardware, data, models, orchestration, and applications—differ in how
+they designate each layer, but they both recognize that competitive advantage
+in AI infrastructure comes not from any single component, but from how the
+layers integrate into deployable systems.
+
+In real-world scenarios, how the compute systems and data architecture within
+the stack function and interact will be contingent on the stack’s overall
+structure and the opportunities it addresses. For example, each application
+may require a different selection and configuration of models, hardware, and
+deployment solutions. As such, the stack will remain a dynamic organism, its
+components interchangeable and working in concert, rather than a disjointed
+set of layers. Given the fundamental impact of this dynamism, an export
+program organized around rigid layer boundaries could inadvertently slow the
+cross-layer innovation that gives U.S. technology its competitive advantage
+over more centralized, state-directed competitors.
+
+The Department of Commerce’s Request for Information has asked industry to
+weigh in on how best to structure an export framework, including whether
+consortia should play a central role. That question reflects a thoughtful
+approach.
+
+A consortium model is one way to organize exports, especially for large,
+integrated projects that benefit from a single coordinating body. At the same
+time, the RFI leaves room for other structures, such as marketplace models,
+that allow trusted providers to contribute individual components under shared
+standards. Inviting industry input acknowledges that private-sector firms
+often understand integration requirements and technology lifecycles with
+greater specificity than regulators, and that choosing a structure that is too
+rigid could inadvertently slow the innovation that underpins America’s
+advantage in AI. We believe this openness is essential: the most effective
+framework will not rely on a single model, but on a multiplicity of
+coordinated options that promote both competition and expedience.
+
+### How the AI Market Already Works
+
+Before examining policy options, it's worth un...</description><pubDate>Dec 16, 2025</pubDate></item><item><title>Groq Recognized in 2025 Gartner® Cool Vendor in AI Infrastructure report</title><link>https://groq.com/blog/groq-recognized-gartner-cool-vendor</link><description>The next era of AI is here, one defined by fast, intelligent inference that
+scales as far as the world needs.
+
+Groq has been recognized as a [2025 Gartner Cool Vendor in AI
+Infrastructure](https://www.gartner.com/document-
+reader/document/6951166?ref=pubsite). We believe this demonstrates the unique
+advantages LPUs deliver for real-time AI systems compared to traditional GPU
+architectures. The Gartner Cool Vendors report notes innovative infrastructure
+vendors that enable heads of infrastructure &amp; operations to deploy AI more
+rapidly, optimize costs, and mitigate risks, resulting in more effective and
+future-ready AI initiatives.
+
+More than 2.5M developers choose Groq for performance that’s up to 5x faster
+and lower cost than GPU-based alternatives. This capability stems from the
+Groq LPU, a chip [purpose-built for low-latency
+inference](https://groq.com/blog/inside-the-lpu-deconstructing-groq-speed),
+which we deliver to developers worldwide with GroqCloud. Compared to GPU-based
+systems which slow down with scale, Groq performance scales linearly by
+design. Whether you’re building a voice agent or copilot, modernizing call
+center interactions or accelerating AI coding, Groq holds steady as you dial
+up to production. Developers building on other AI platforms can easily switch
+to Groq for fast AI inference at lower cost using just a few lines of code.
+
+Gartner Analyst, Chirag Dekate, emphasizes Groq’s deterministic execution
+model, in contrast to GPU-based inference. Part of what makes Groq unique is
+that “what you see is what you get,” even at scale. This is a contrast to
+variable performance of alternatives. With Groq, the performance you see the
+first time you test in GroqCloud Console is what you get at production scale.
+No unpredictable slowdowns that come with batching. This predictability is
+critical for production agents, high-volume workloads, and mission-critical
+systems where one second defines the difference between success and failure.
+
+## Who Should Care?
+
+**AI-Native Startups  
+** _Founders, CTOs, Product &amp; Engineering Leads_
+
+If you’re building a real-time product with a cost profile that must scale
+predictably with demand, the speed of and economics of GroqCloud will give you
+a new competitive advantage. Builders who choose Groq get deterministic low-
+latency and an expanded margin profile that stays predictable as usage scales.
+
+**Enterprise AI &amp; Infrastructure Teams  
+** _CTOs, Heads of Product/AI, I &amp;O Leaders, Cloud Architects_
+
+If you're building customer-facing experiences or operational systems where
+milliseconds matter and where budgets must be forecastable, variable
+performance and economics risk production performance. GroqCloud gives
+platform teams speed that scales at a cost that doesn’t hold them back under
+high-volume, mission-critical workloads.
+
+## Another Milestone for Groq, A Signal for the Industry
+
+While we’re grateful for this recognition from Gartner, our focus remains
+unchanged: deliver for the 2.5M developers who count on Groq each day as they
+build.
+
+[Start building](https://console.groq.com/home) or [connect with an expert on
+our team](https://groq.com/enterprise-access) to discuss how Groq inference
+can supercharge AI for your organization. Gartner subscribers can view [the
+full report](https://www.gartner.com/en/documents/6951166).  
+
+_Gartner, Cool Vendors in AI Infrastructure, Chirag Dekate, Adrian O'Connell,
+Enrique Castera, Dennis Smith, Naresh Singh, Jonathan Forest,15 September
+2025. Gartner, Cool Vendors is a registered trademark of Gartner, Inc. and/or
+its affiliates and is used herein with permission. All rights reserved._
+
+_Gartner does not endorse any company, vendor, product or service depicted in
+its publications, and does not advise technology users to select only those
+vendors with the highest ratings or other designation. Gartner publications
+consist of the opinions of Gartner’s business and technology insights
+organization and should not be construed as statements of fact. Gartner
+disclaims all warranties, expressed or implied, with respect to this
+publication, including any warranties of merchantability or fitness for a
+particular purpose._
+
+</description><pubDate>Dec 01, 2025</pubDate></item><item><title>Introducing MCP Connectors in Beta on GroqCloud</title><link>https://groq.com/blog/introducing-mcp-connectors-in-beta-on-groqcloud</link><description>**Zero-setup tool use for Google Workspace: faster, easier, and more secure
+than ever.**
+
+Today we’re excited to announce MCP Connectors in Beta on GroqCloud. MCP
+Connectors are Groq-maintained wrappers for external services (starting with
+Google Workspace: Gmail, Drive and Calendar). This release builds on top of
+GroqCloud’s existing [remote MCP support,](/blog/introducing-remote-mcp-
+support-in-beta-on-groqcloud) enabling your AI agents to interact with Google
+Workspace tools via the Responses API, without having to manage your own MCP
+server.
+
+Built for developers who want powerful AI agents without operational overhead,
+MCP Connectors deliver drop-in compatibility, zero infrastructure to manage,
+and Groq’s speed on our secure inference infrastructure.  
+
+## Why MCP Connectors Matter
+
+The MCP (Model Context Protocol) approach unlocks agentic AI workflows: models
+interacting with external tools, databases, and services to extend beyond pure
+text generation. Some external services provide their own MCP server to
+connect to; many others (such as Google Workspace apps) do not. To use MCP
+with these services, you have to build, deploy, and manage your own MCP
+server.
+
+Enter MCP Connectors: a set of pre-built, Groq-hosted MCP servers that
+interface with various services to provide you all the benefits of MCP without
+the additional work of building or maintaining servers yourself.
+
+With MCP Connectors on GroqCloud, you get:
+
+  * **Drop-in Compatibility** : If you’re already using OpenAI’s Responses API with a Google Workspace MCP connector, you just switch to GroqCloud and keep the same workflow.
+  * **Zero Deployment Burden** : No need to spin up or maintain an MCP server.
+  * **Lower Latency, Lower Cost:** Groq’s low-latency inference makes tool-enabled agents feel instantaneous at a cost structure that fuels growth.
+  * **Security** : OAuth tokens remain in your control. You handle authentication however you prefer, and those tokens are passed through to Groq's connectors at request time. We never store tokens or retain your Google credentials. Only share credentials with MCP servers you fully trust.
+  * **Tool Use Control:** Use allow-lists and approvals to govern which agents can call which tools, keeping governance tight.
+
+## What’s Included at Launch
+
+We're starting with Google Workspace: the tools developers use most. At
+launch, you can connect to Gmail, Google Drive, and Google Calendar through
+GroqCloud's Responses API on all models that support tool use.
+
+The following table outlines the capabilities and typical use cases for each
+new connector:
+
+ConnectorCapabilitiesTypical Use Cases  
+  
+Gmail
+
+Search, read, and summarize threads; fetch recent email IDs.
+
+Inbox triage, follow-up drafting, support ticket enrichment.  
+  
+Google Calendar
+
+Search events, fetch detailed agendas.
+
+Scheduling copilots, meeting prep, automated recap generators.  
+  
+Google Drive
+
+Full-text search, document fetch with smart truncation, recent files listings.
+
+Knowledge retrieval, document QA, internal wiki assistants.  
+  
+Once you provide the right OAuth credentials, models on GroqCloud can discover
+and invoke these Google tools exactly as they would on OpenAI.
+
+## Getting Started
+
+  1. Switch your API endpoint to GroqCloud
+  2. Choose a tool-use supported model
+  3. Include your Google OAuth token in the authorization header
+  4. Call Google Workspace tools via the Responses API
+
+No code changes required if you're already using OpenAI-compatible tool
+calling.
+
+We’re excited to see the next wave of agentic experiences built with GroqCloud
+and Google Workspace. [Learn more about MCP Connectors on
+GroqCloud](https://console.groq.com/docs/tool-use/remote-mcp/connectors).
+Interested in additional MCP Connector support on GroqCloud? Reach out to our
+support team and let us know.
+
+</description><pubDate>Nov 25, 2025</pubDate></item><item><title>Day Zero Support for OpenAI Open Safety Model</title><link>https://groq.com/blog/day-zero-support-for-openai-open-safety-model</link><description>**Fast and Affordable AI Inference For the World’s Latest Open Safety Model**
+
+We’re excited to announce the availability of GPT-OSS-Safeguard-20B on
+GroqCloud, providing day zero, on‑demand access to OpenAI’s newest open‑source
+model running at over 1000 t/s. This first‑of‑its‑kind open‑weight reasoning
+model is purpose-built for safety‑classification workloads and lets you bring
+your own policy to production in minutes.
+
+&gt; ### **What is GPT‑OSS‑Safeguard‑20B?**
+
+  * Fine‑tuned from OpenAI’s GPT‑OSS-20B
+  * Built for safety use cases
+  * Safety‑first reasoning – trained to follow explicit, user‑provided policies and to explain its decisions.
+
+In short, GPT-OSS-Safeguard-20B provides a reasoned classifier instead of a
+raw score, making debugging and compliance far easier.
+
+### **Core Features for Trust &amp; Safety Teams Enabled on GroqCloud**
+
+  * **Bring Your Own Policy:** Load any taxonomy, definition set, or threshold you own. The model will reason against it, letting you enforce exactly the rules that matter to your product.
+  * **Configurable Reasoning Effort (low / medium / high):** Trade latency for depth of analysis on a per‑request basis.
+  * **Full Reasoning Trace:** The model returns its chain‑of‑thought, giving you visibility into how a decision was reached (not for end‑users, but invaluable for audit logs and debugging).
+  * **Prompt Caching** : Re‑use the same policy prompt across millions of calls, significantly reducing latency and cost with up to 50% discount on cached tokens.
+  * **128k Token Context Window:** Process long documents, policy bundles, or multi‑turn conversations.
+
+### **Delivering Price-Performance**
+
+Groq's purpose-built stack is designed to deliver low cost per token for
+OpenAI’s new safeguard model while maintaining speed and accuracy. With **GPT-
+OSS-Safeguard-20B** available on GroqCloud, developers can run cutting-edge AI
+safety workloads tailored to their specific use case while keeping costs low
+and latency predictable.
+
+[`openai/gpt-oss-
+safeguard-20b`](https://console.groq.com/playground?model=openai/gpt-oss-
+safeguard-20b) is currently running at 1000+ t/s on GroqCloud at the same
+price as the base GPT-OSS-20B model: $0.075 / M input tokens and $0.30 / M
+output tokens.
+
+### **Example Use Cases**
+
+GPT‑OSS‑Safeguard‑20B’s flexibility and bring your own policy capabilities
+make it a natural fit for many real‑world safety scenarios. Below are a few
+examples that illustrate how you can leverage the model in various
+applications.
+
+  * **Enterprise Document Scanning:** Define policies for confidential data (PII, PHI, financial info). Feed PDFs, emails, or contracts to the model; it flags violations and explains why.
+  * **AI‑Powered Chatbots** : Embed a safety policy in the system prompt of a conversational agent. The model blocks or rewrites unsafe user inputs before they reach the base model.
+  * **Automated Policy Auditing** : Feed existing moderation rules into the model as “policy‑in‑policy” and ask it to suggest gaps, contradictions, or improvements.
+  * **User‑Generated Content Platforms:** For forums, review sites, or marketplaces, run each new listing/comment through the model with a policy that captures fraud, prohibited items, or deceptive language.
+
+### **Get Started with GPT-OSS-Safeguard-20B On GroqCloud**
+
+Try [`openai/gpt-oss-
+safeguard-20b`](https://console.groq.com/playground?model=openai/gpt-oss-
+safeguard-20b) via the GroqCloud Developer Console, available in the
+Playground and the API.
+
+To learn more about content moderation and best practices, check out our
+[developer documentation](https://console.groq.com/docs/content-moderation).
+
+  
+
+</description><pubDate>Oct 29, 2025</pubDate></item><item><title>LLMs Inside the Product: A Practical Field Guide</title><link>https://groq.com/blog/llms-inside-the-product-a-practical-field-guide</link><description>Building with LLMs has taught me one clear lesson: the best AI feature is
+often invisible.
+
+When it works, the user doesn’t stop to think “that was AI.” They just click a
+button, get an answer quickly, and move on with their task.
+
+When it doesn’t work, you notice right away: the spinner takes too long, or
+the answer sounds confident but is not true. I’ve hit both of these walls many
+times. And each time, the fix was less about “smarter AI” and more about
+careful engineering choices. Use only the context you need. Ask for structured
+output. Keep randomness low when accuracy is important. Allow the system to
+say “I do not know.”
+
+This guide is not about big research ideas. It’s about practical steps any
+engineer can follow to bring open-source LLMs inside real products. Think of
+it as a field guide. Think of it as a field guide with simple patterns, copy-
+ready code, and habits that make AI features feel reliable, calm, and fast.
+
+### **How It Works — The Four‑Step Loop**
+
+Every reliable AI feature follows the same loop. Keep it consistent. Boring is
+good.
+
+### **1) Read**
+
+**What:** Take the user input and only the smallest slice of app context you
+need. More context means higher cost, slower responses, and more room for the
+model to drift.
+
+**Examples**
+
+  * **Support** — “Where is my order?” → pass the user ID and the last order summary, not the entire order history.
+  * **Extraction** — “Pull names and dates from this email thread” → pass the thread text only, not unrelated attachments.
+  * **Search** — “Find refund policy” → pass top three snippets from your docs, not the whole knowledge base.
+
+### **2) Constrain**
+
+**What:** Set rules so the model stays within your desired constraints.
+
+**Do this**
+
+  * **System prompt as a contract**
+    * State what the assistant is and is not
+    * Require **valid JSON** that matches a schema
+    * If there is missing information, ask the user for a short follow‑up or answer “I don’t know.”
+    * Keep privacy rules explicit (do not log sensitive data)
+    * Version your prompts and test them
+  * **Match temperature to the task** _(there is no one setting that fits all)_
+    * **Low (≈0.0–0.2):** Extraction, classification, validation, RAG answers with citations, reliable tool choice
+    * **Medium:** Templated drafts and light tone variation
+    * **High:** Brainstorming and creative copy where variety matters
+
+Keep context tight in all cases. If your stack supports it, use a seed in
+tests for repeatability.
+
+### **3) Act**
+
+**What:** Aim to produce LLM-generated outputs that can be used as inputs in
+the next part of your workflow without further processing required.
+
+**When to use what:**
+
+  * **Structured Outputs** when the next step is programmatic, e.g., for updating UI, storing fields, and running validation.
+    * **Why:** Such outputs are ready to be used as inputs in the next step of a workflow or application as it's structured, parsable data that needs no further manual processing.
+    * **Example:** Extract {name, date, amount} from an invoice.
+
+**Code: Structured Outputs with Pydantic**
+
+    
+    
+     1from groq import Groq
+    2
+    3from pydantic import BaseModel
+    4
+    5from typing import Literal
+    6
+    7import json
+    8
+    9client = Groq()
+    10
+    11class ProductReview(BaseModel):
+    12
+    13product_name: str
+    14
+    15rating: float
+    16
+    17sentiment: Literal["positive", "negative", "neutral"]
+    18
+    19key_features: list[str]
+    20
+    21response = client.chat.completions.create(
+    22
+    23model="moonshotai/kimi-k2-instruct",
+    24
+    25messages=[
+    26
+    27{"role": "system", "content": "Extract product review information from the text."},
+    28
+    29{
+    30
+    31"role": "user",
+    32
+    33"content": "I bought the UltraSound Headphones last week and I'm really impressed! The noise cancellation is amazing and the battery lasts all day. Sound quality is crisp and clear. I'd give it 4.5 out of 5 stars.",
+    34
+    35},
+    36
+    37],
+    38
+    39response_format={
+    40
+    41"type": "json_schema",
+    42
+    43"json_schema": {
+    44
+    45"name": "product_review",
+    46
+    47"schema": ProductReview.model_json_schema()
+    48
+    49}
+    50
+    51}
+    52
+    53)
+    54
+    55review = ProductReview.model_validate(json.loads(response.choices[0].message.content))
+    56
+    57print(json.dumps(review.model_dump(), indent=2))
+
+Copy
+
+**Learn more:** [Structured outputs
+docs](https://console.groq.com/docs/structured-outputs)
+
+  * **Function calls (tools)** when the model needs live data or to trigger an action that your code controls such as search, fetch, compute, notify, or connect to external systems.
+    * **Why:** Tools let the model use fresh information instead of relying only on what it learned during training. That means it can query a database, call an API, or look up the latest records without inventing answers. The model proposes the action, your code decides whether to run it, and you keep a clear aud...</description><pubDate>Oct 22, 2025</pubDate></item><item><title>GPT‑OSS Improvements: Prompt Caching &amp; Lower Pricing</title><link>https://groq.com/blog/gpt-oss-improvements-prompt-caching-and-lower-pricing</link><description>At Groq, we’re relentless about fueling developers with the best
+price‑performance for AI inference. Today we’re starting to roll out two
+updates for GPT-OSS models that make building at scale faster, cheaper, and
+simpler.
+
+### **New, Lower Prices for GPT‑OSS Models**
+
+We’ve reduced the price for gpt-oss models on GroqCloud to ensure all
+developers can ignite their applications with increased cost efficiency. These
+new prices are effective today and will apply retroactively to all unpaid
+invoices for the month of October 2025.
+
+### **Prompt Caching on GPT-OSS Models**
+
+We’re rolling out prompt caching on our GPT-OSS models. Last month we quietly
+rolled out prompt caching on `GPT-OSS-20B`, and we’ll be rolling it out on
+`GPT-OSS-120B` over the next few weeks. What this means for developers using
+these models:
+
+  * **Up to 50% discount on cached tokens** \- All input tokens in the identical prefix get a 50% discount; the tokens after the first difference between prompts are charged at full price.
+  * **Significantly lower latency** – Reduced latency for any request that shares an identical token prefix with a recent request.
+  * **Rate limits go farther** \- All cached tokens don’t count towards GroqCloud rate limits.
+  * **Zero configuration** – Pricing updates and prompt caching work automatically on every API request. No code changes required.
+
+The 50 % discount on cached input tokens alongside the reduced pricing for
+GPT-OSS models improves**cost efficiency** for inference workloads.
+
+Note: No extra fee for the caching feature itself. The discount only applies
+when a cache hit occurs.ModelInput Price for uncached tokens (Per 1M
+Tokens)Input Price for Cached Tokens (Per 1M Tokens)  
+  
+openai/gpt-oss-120b
+
+$0.15
+
+$0.075  
+  
+openai/gpt-oss-20b
+
+$0.075
+
+$0.0375  
+  
+&gt; At Cluely, we specialize in real-time AI, where latency is critical. We
+&gt; already leverage Groq for our most time-sensitive generations, and
+&gt; implementing prompt caching will not only accelerate our product but also
+&gt; enable entirely new use cases. With an average of 92% prompt reuse across
+&gt; our generations. Implementing prompt caching will be game-changing for both
+&gt; speed and quality.
+
+— Guilherme Garibaldi, Founder Engineer, Cluely
+
+### **Why Prompt Caching Matters on GPT-OSS Models**
+
+Prompt caching makes AI workflows faster and lower cost. It’s ideal for any
+workflow with stable, reusable prompt components and works automatically on
+every API request. Here are a few example use cases well suited for GPT-OSS
+models that can benefit from prompt caching:
+
+  * **RAG platforms &amp; data apps**: Long system prompts + retrieval templates are cached and reused across queries.
+  * **Agentic applications:** Repetitive tool/function calls and shot examples are re‑used across calls.
+  * **Eval pipelines:** Identical prompts across large datasets are served from cache and reused across queries.
+  * **Chatbots:** Persistent brand/style &amp; policy preambles are cached and reused across queries.
+
+### **How Prompt Caching Works**
+
+  1. **Prefix Matching:** The system identifies matching prefixes from recent requests. Prefixes can include system prompts, tool definitions, few-shot examples, and more. Note: prefixes can only match up to the first difference, even if later parts of the prompt are the same!
+  2. **Cache Hit:** If a matching prefix is found, cached computation is reused, dramatically reducing latency and token costs by 50% for cached portions.
+  3. **Cache Miss:** If no match exists, your prompt is processed normally, with the prefix temporarily cached for potential future matches.
+  4. **Automatic Expiration:** All cached data automatically expires within a few hours.
+
+### **Ready to take your GPT-OSS build to the next level?**
+
+With built-in tools, Responses API, and instant cloud availability in four
+global regions, Groq offers the most robust feature support for gpt-oss
+models. This alongside lower token costs and prompt caching support means
+developers now have even more fuel to power their applications.
+
+Start experimenting with [GPT-OSS
+models](https://console.groq.com/playground?model=openai/gpt-oss-20b) on
+GroqCloud today. To learn more about prompt caching and best practices check
+out our [developer documentation](https://console.groq.com/docs/prompt-
+caching?_gl=1*17bh80s*_gcl_au*MTI5NTQ2MTk1Mi4xNzU5MTYyNzUz*_ga*MTk3ODAxNTA2NS4xNzQyMjUzMzU3*_ga_4TD0X2GEZG*czE3NjA1NTE1MDUkbzE4NyRnMSR0MTc2MDU1MTc0MCRqNTYkbDAkaDA.).
+
+</description><pubDate>Oct 16, 2025</pubDate></item><item><title>Introducing Remote MCP Support in Beta on GroqCloud</title><link>https://groq.com/blog/introducing-remote-mcp-support-in-beta-on-groqcloud</link><description>**Connect to any tool. Share context seamlessly. All OpenAI compatible. Run
+faster at lower cost.**
+
+Today we’re announcing that remote Model Context Protocol (MCP) server
+integration is available in Beta on GroqCloud, unlocking faster, lower-cost AI
+applications with tool capabilities through Anthropic’s open MCP standard.
+Developers can now connect any remote MCP server of their choice to models
+hosted on GroqCloud, allowing models to interact with external tools (GitHub,
+browsers, databases, and more) via the OpenAI-compatible Groq Responses API.
+
+Because our implementation is compatible with both the OpenAI Responses API
+and the OpenAI remote MCP specification, developers already running on OpenAI
+can switch to Groq with zero code changes and immediately benefit from Groq’s
+speed and predictable costs.
+
+## Why Remote MCP Matters
+
+The Model Context Protocol is an open standard for connecting AI assistants to
+the systems where data lives (example: content repositories, business tools,
+and development environments). MCP defines how an AI agent can securely
+discover and invoke external tools, exchange context, and orchestrate multi-
+step actions.
+
+In essence, MCP provides a universal interface to thousands of tools,
+transforming AI agents from isolated language models into powerful, connected
+systems.
+
+GroqCloud now brings this capability to our low latency platform. The result:
+
+  * **Faster agent execution** : lower round-trip latency than alternatives.
+  * **Lower operational costs** : same experiences at a fraction of the price.
+  * **Seamless migration** : keep your connector code, just change the endpoint.
+
+## Supported Models at Launch
+
+Remote MCP will be available on all GroqCloud models that support tool use
+(excluding Compound and Compound-Mini at launch):
+
+  * GPT-OSS-120B
+  * GPT-OSS-20B
+  * Llama 4 Maverick
+  * Llama 4 Scout
+  * Llama 3.3 70B
+  * Llama 3.1 8B
+  * Kimi K2 0905
+  * Qwen 3 32B
+
+## Key Features
+
+Feature What It Means for Developers  
+  
+Drop-in compatibility
+
+Keep your OpenAI Responses and MCP integration, just point it to GroqCloud.  
+  
+Speed
+
+Groq’s deterministic inference means tool-using agents respond faster and more
+reliably.  
+  
+Lower operating cost
+
+Run the same workloads more cost effectively at scale.  
+  
+Approved tool use
+
+Clear allowlists and approvals to control which tools agents can call.  
+  
+## Cookbook Tutorials to Help You Get Started
+
+To help you get started with MCP support on GroqCloud, we have partnered with
+several tool providers to publish cookbook tutorials showcasing how to
+leverage their MCP servers with models hosted on GroqCloud. Including:
+
+  * [BrowserBase MCP](https://github.com/groq/groq-api-cookbook/blob/main/tutorials/mcp-browserbase): Equip models via Groq API with Browserbase's MCP server for web automation using natural language commands, including tools for web interaction and data extraction.
+  * [BrowserUse MCP](https://github.com/groq/groq-api-cookbook?tab=readme-ov-file#:~:text=Context%20Protocol%20\(MCP\)-,Browser%20Use%20MCP,-%3A%20Equip%20models%20via): Equip models via Groq API with Browser Use's tools to enable autonomous website browsing, information extraction, and web pages interaction.
+  * [Exa MCP](https://github.com/groq/groq-api-cookbook/blob/main/tutorials/mcp-exa): Use Exa's web search and web crawling tools to get real-time information from the internet. Find relevant search results, extract data from websites, and run deep-research.
+  * [Firecrawl MCP](https://github.com/groq/groq-api-cookbook/blob/main/tutorials/mcp-firecrawl): Equip GPT-OSS 120B via Groq API with enterprise-grade web scraping capabilities, intelligent data extraction, structured parsing, and deep web research.
+  * [HuggingFace MCP with Groq](https://github.com/groq/groq-api-cookbook/blob/main/tutorials/mcp-huggingface): Retrieve real-time HuggingFace model data with the HuggingFace MCP and Groq API.
+  * [Parallel MCP with Groq](https://github.com/groq/groq-api-cookbook/blob/main/tutorials/mcp-parallel): Real-time search with access to live data with the Parallel MCP and Groq API.
+  * [Stripe MCP](https://docs.stripe.com/mcp): Automate your invoicing process with Stripe's MCP and Groq API.
+  * [Tavily MCP with Groq](https://github.com/groq/groq-api-cookbook/blob/main/tutorials/mcp-tavily): Build a real-time research agent with the Tavily MCP and Groq API.
+
+## Pricing &amp; Packaging
+
+You pay only for tokens consumed by the GroqCloud model you select. Bring your
+own MCP server and API key, any fees from that third-party server are billed
+directly by the provider.
+
+## Getting Started
+
+Switch your endpoint to GroqCloud, choose a supported model, and configure
+your preferred MCP server, no code changes required. We can’t wait to see what
+you build when standard MCP meets Groq performance. [Learn more about MCP
+support on GroqCloud](https://console.groq.com/docs/mcp).
+
+</description><pubDate>Sep 23, 2025</pubDate></item><item><title>Introducing the Next Generation of Compound on GroqCloud</title><link>https://groq.com/blog/introducing-the-next-generation-of-compound-on-groqcloud</link><description>**Our agentic AI system, rolling out in general availability**
+
+Today we’re announcing that **`Compound Beta`** , Groq’s first agent and
+compound AI system, is moving to general availability as **`Compound`** on
+GroqCloud. With
+[Compound](https://console.groq.com/docs/compound/systems/compound),
+developers can integrate agentic AI which can conduct research, execute code,
+control browsers, navigate the web on their behalf. Compound from Groq
+uniquely delivers leading quality and low latency at low cost. Now in general
+availability, developers can expect production-grade stability and increased
+rate limits.
+
+Since the launch of beta, we’ve seen more than 100k developers use Compound
+generating more than 5M requests and thousands of active customers. With their
+feedback, we have improved Compound, shifting the vision from tool-enabled
+models towards an agentic operator.
+
+## New Version Available
+
+We’re also releasing a new version that is our smartest, most capable system
+yet. This includes improved tooling, prompting, and models to deliver ~25%
+higher accuracy and ~50% fewer mistakes across SimpleQA (n=250) and
+RealtimeEval (n=257), boosting
+[Compound](https://console.groq.com/docs/compound/systems/compound) to
+frontier performance on both benchmarks, surpassing both OpenAI’s Web Search
+Preview and Perplexity Sonar*.
+
+Figure 1: Compound performance on Humaneval run with epochs=3. Figure 2:
+Compound performance on RealtimeEval which benchmarks real-time information
+factuality. Accuracy is measured as the F-score from the first and only run of
+each system with default settings.
+
+The new version upgrades Compound’s default models to leverage the new
+frontier open source intelligence from OpenAI’s `gpt-oss-120b` in combination
+with Llama models. Compound is also upgraded with new and more advanced tools,
+including the ability to get contents from a specific web page, the ability to
+leverage Wolfram Alpha’s knowledge base and intelligence engine, and the
+ability to, in parallel, spin up and control up to 10 web browsers at a time
+to visit search result websites to gather more content for better answer
+generation.
+
+&gt; "Compared to alternatives like Perplexity’s Sonar API and Gemini’s Grounded
+&gt; Search, Compound has been both more powerful and far more cost-effective.
+&gt; Compound has been key in enabling us to move beyond simple entity
+&gt; recognition to building enriched, context-aware knowledge graphs that
+&gt; connect our user’ content in powerful ways."
+
+— Paul Richards, CEO, getrecall.ai, Product Hunt #1 Product of the Day,
+trusted by 400k+ customers
+
+This version is production‑ready and will become the default on October 1st,
+2025. You can try it today by setting the Groq-Model-Version header to
+"latest".
+
+Here’s everything you need to know: how Compound works, new features, pricing,
+and how to start building today.
+
+## What is Compound?
+
+Compound blends openly available foundation models (the same models that power
+Groq’s other services) with built‑in, server‑side tool use. The result is a
+single, low‑cost API call that can:
+
+  * **Search the web** for real‑time information
+  * **Execute code** or run Wolfram‑Alpha calculations on the fly
+  * **Spin up multiple browsers in parallel** to harvest data from several sources
+
+All of this happens inside Groq’s high‑throughput inference engine, so you get
+high‑performance, low‑latency responses without any client‑side orchestration.
+
+&gt; "Using Compound for fast research at high volume produces superior results,
+&gt; faster, especially when the end user is waiting on an answer. Compound is
+&gt; more efficient than building other solutions and saves us the engineering
+&gt; cycles of having to build out the tooling ourselves, which takes a lot of
+&gt; time!"  
+&gt;
+
+— Andre Dean Smith, Co-Founder and CEO of ScreenApp, AI-Powered Meeting
+Assistant with over 1M users
+
+How does Compound work? You send a single request, just the user query and any
+optional context.
+
+  1. Compound’s orchestration layer decides which tools (web search, Wolfram, code exec, browsers) are needed and how many times to call them.
+  2. All tool calls run server‑side on Groq’s inference fleet, keeping latency low and eliminating client‑side coordination.
+
+The model iteratively consumes tool outputs, refines its reasoning, and
+finally returns a single, polished answer.
+
+&gt; “With Groq’s Compound, we can build agentic search workflows that deliver
+&gt; highly curated results unmatched by traditional search engines. We use
+&gt; Compound because it can get AI Search done fast and efficiently with data
+&gt; privacy.”  
+&gt;
+
+— Tom Bendien, Founder and CEO of GT Edge AI
+
+## What’s New In the Latest Version
+
+New Capability Benefits for Developers  
+  
+Advanced Search – enables more context pulled from web search results
+
+Adds richer context, boosting answer accuracy and depth  
+  
+Visit Website Ability – retrieve the contents from a specific URL
+
+Provides deeper context, improving answer quality on niche topics  
+  
+Parallel Browser Automat...</description><pubDate>Sep 04, 2025</pubDate></item><item><title>Introducing Kimi K2‑0905 on GroqCloud</title><link>https://groq.com/blog/introducing-kimi-k2-0905-on-groqcloud</link><description>Moonshot AI’s cutting‑edge model, `moonshotai/Kimi-K2-Instruct-0905`, is now
+live on GroqCloud. This integration brings day zero support for the latest
+frontier open model alongside production‑grade speed, low latency, and
+predictable cost empowering developers to take agentic coding to the next
+level.
+
+## Key Features of Kimi K2‑0905 on GroqCloud
+
+  * **Full 256k Context Window:** The largest context window of any model on GroqCloud to date.
+  * **Prompt Caching:** Up to 50% cost savings on cached tokens and dramatically faster response times. When paired with the 256k context window, this is a massive unlock for agentic coding applications, where a large amount of context is shared between queries.
+  * **Leading Price‑to‑Performance:** 200+ T/s at a blended price of **$1.50 / M tokens**($1.00 / M input tokens; $3.00 / M output tokens), helping to provide top‑tier performance without surprise bills.
+  * **Note:** With this release, requests to the original Kimi K2 model will be routed to this new version.
+
+## Enhanced Capabilities
+
+Kimi K2‑0905 delivers a suite of upgrades for developers over the previous
+Kimi K2 release including:
+
+  * **Improved Agentic Coding:** More reliable code generation, rivaling that of frontier closed models, especially for front-end development and tool calling.
+  * **256k Context Window:** Support larger complex, multi‑turn interactions without chopping prompts.
+
+## Get Started with Kimi K2-0905 on GroqCloud
+
+Try `moonshotai/Kimi-K2-Instruct-0905` via the [GroqCloud Developer
+Console](https://console.groq.com/playground?model=moonshotai/kimi-k2-instruct-0905),
+available in the Playground and the API.
+
+[Get immediate
+access](https://console.groq.com/home?utm_source=blog&amp;utm_medium=web&amp;utm_campaign=fire&amp;_gl=1*1yb0v8p*_gcl_au*MTg3NTA3NjQ3Ni4xNzUxMzgzNjMxLjE5OTUyOTc2NDMuMTc1NjQxNDE0Mi4xNzU2NDE0MTUy*_ga*MTk3ODAxNTA2NS4xNzQyMjUzMzU3*_ga_4TD0X2GEZG*czE3NTcwMzMyNTUkbzE0MyRnMSR0MTc1NzAzMzI1NyRqNTgkbDAkaDA.)
+to Moonshot.AI’s new open model or scale without rate limits by upgrading to a
+[GroqCloud paid
+tier](https://console.groq.com/settings/billing/plans?utm_source=blog&amp;utm_medium=web&amp;utm_campaign=fire&amp;_gl=1*1yb0v8p*_gcl_au*MTg3NTA3NjQ3Ni4xNzUxMzgzNjMxLjE5OTUyOTc2NDMuMTc1NjQxNDE0Mi4xNzU2NDE0MTUy*_ga*MTk3ODAxNTA2NS4xNzQyMjUzMzU3*_ga_4TD0X2GEZG*czE3NTcwMzMyNTUkbzE0MyRnMSR0MTc1NzAzMzI1NyRqNTgkbDAkaDA.).
+
+</description><pubDate>Sep 04, 2025</pubDate></item><item><title>Introducing Prompt Caching on GroqCloud</title><link>https://groq.com/blog/introducing-prompt-caching-on-groqcloud</link><description>**Fast, Low Cost, and Seamless AI Inference for Repetitive Workloads**
+
+Prompt caching is rolling out on GroqCloud, starting with Kimi K2-Instruct. It
+works by reusing computations for prompts that start with the same prefix, so
+developers only pay full price for the differences. The result is a 50% cost
+savings on cached tokens and dramatically faster response times, with no code
+changes required.
+
+Ideal for chatbots, retrieval augmented generation, code assistants, and any
+workflow with stable, reusable prompt components, prompt caching works
+automatically on every API request, making your AI workflows faster and
+cheaper right out of the box.
+
+## Why Prompt Caching Matters
+
+**Instant Speed‑Ups**
+
+  * Reduced latency for any request that shares an identical token prefix with a recent request.
+
+**50% Token‑Cost Savings**
+
+  * All input tokens in the identical prefix get a 50% discount; the tokens after the first difference between prompts are charged at full price.
+
+**Perfect for Repetitive Workflows**
+
+  * System instructions, tool definitions, and few‑shot examples are re‑used across calls.
+
+Ideal for chatbots, retrieval augmented generation, code assistants, and any
+workflow with stable, reusable prompt components.
+
+## How It Works (No Code Changes Required)
+
+  1. **Prefix Matching:** The system identifies matching prefixes from recent requests. Prefixes can include system prompts, tool definitions, few-shot examples, and more. Note: prefixes can only match up to the first difference, even if later parts of the prompt are the same!
+  2. **Cache Hit** : If a matching prefix is found, cached computation is reused, dramatically reducing latency and token costs by 50% for cached portions.
+  3. **Cache Miss:** If no match exists, your prompt is processed normally, with the prefix temporarily cached for potential future matches.
+  4. **Automatic Expiration** : All cached data automatically expires within a few hours.
+
+No code changes, no new SDK calls. Once rolled out, prompt caching works
+automatically starting first with moonshotai/kimi‑k2‑instruct with support for
+additional models coming soon.
+
+## Pricing
+
+Note: No extra fee for the caching feature itself. The discount only applies
+when a cache hit occurs.ModelUncached Input Tokens (Per Million Tokens)Cached
+Input Tokens (Per Million Tokens)Output Tokens (Per Million Tokens)  
+  
+moonshotai/kimi‑k2‑instruct
+
+$1.00
+
+$0.50
+
+$3.00  
+  
+## Ready to Cut Latency and Slash Token Costs?
+
+Start experimenting with prompt caching today on
+[GroqCloud](http://console.groq.com) and experience faster and cheaper AI
+workflows right out of the box.
+
+To learn more about prompt caching and best practices check out our [developer
+documentation](https://console.groq.com/docs/prompt-caching).
+
+</description><pubDate>Aug 20, 2025</pubDate></item><item><title>Day Zero Support for OpenAI Open Models</title><link>https://groq.com/blog/day-zero-support-for-openai-open-models</link><description>**Fast and Affordable AI Inference For the World’s Most Popular Models**
+
+We're excited to announce that GroqCloud now supports the much anticipated
+OpenAI open models, [`openai/gpt-
+oss-120B`](https://console.groq.com/playground?model=openai/gpt-oss-120b) and
+[`openai/gpt-oss-20B`](https://console.groq.com/playground?model=openai/gpt-
+oss-20b)! This launch brings day-zero support for the latest open models,
+empowering developers worldwide to build innovative AI applications with
+unprecedented speed, scale, and production reliability.
+
+## Full Model Capabilities
+
+To get the most out of OpenAI's open models, extended context and tools like
+code execution and browser search are essential. Groq's platform delivers
+these capabilities from day zero, with full support for 128K token context
+length and built-in tools such as [code
+execution](https://console.groq.com/docs/code-execution) and [browser
+search](https://console.groq.com/docs/browser-search). This enables developers
+to build complex workflows, provide accurate and relevant information, and
+leverage real-time reasoning.
+
+In conjunction with the release of these models, we have also added a new
+[Responses API](https://console.groq.com/docs/responses-api) on GroqCloud that
+is fully compatible with OpenAI's Responses API, making it easy to integrate
+advanced conversational AI capabilities into your applications.
+
+## OpenAI GPT-OSS-120B/20B Pricing
+
+Groq's purpose-built stack is designed to deliver low cost per token for
+OpenAI's new models while maintaining speed and accuracy. With `openai/gpt-
+oss-120B `and `openai/gpt-oss-20B` available on GroqCloud, developers can run
+cutting-edge AI workloads while keeping costs low and latency predictable.
+
+**`openai/gpt-oss-120B` is currently running at 500+ t/s** and **`openai/gpt-
+oss-20B`is currently running at 1000+ t/s **on GroqCloud.
+
+Groq is offering OpenAI’s latest open models at the following pricing:
+
+  * `openai/gpt-oss-120B`: $0.15 / M input tokens and $0.75 / M output tokens
+  * `openai/gpt-oss-20B`: $0.10 / M input tokens and $0.50 / M output tokens
+
+Note: For a limited time, tool calls used with OpenAI's open models will not
+be charged. Learn more [here](/pricing).
+
+## Global Reach from Day Zero
+
+Groq's global footprint across North America, Europe, and the Middle East
+ensures reliable, high-performance AI inference wherever developers operate.
+Through GroqCloud, teams worldwide can access OpenAI's open models with
+minimal latency with the models deployed at datacenters in the U.S., Canada,
+Europe, and Middle East.
+
+## About OpenAI's New Open Models
+
+[OpenAI’s open models ](http://openai.com/index/introducing-gpt-oss)give
+anyone—from individual developers to large enterprises to governments—the
+freedom to run and customize AI on their own infrastructure, democratizing
+access to AI across industries, communities, and countries globally.
+
+## Get Started with GPT-OSS on GroqCloud
+
+Try gpt-oss via the [GroqCloud Developer
+Console](https://console.groq.com/playground?model=openai/gpt-oss-20b) as well
+as API calls.
+
+[Get immediate
+access](https://console.groq.com/home?utm_source=blog&amp;utm_medium=web&amp;utm_campaign=fire)
+to OpenAI’s new open models or scale without rate limits by upgrading to a
+[GroqCloud paid
+tier](https://console.groq.com/settings/billing/plans?utm_source=blog&amp;utm_medium=web&amp;utm_campaign=fire).
+
+  
+
+</description><pubDate>Aug 05, 2025</pubDate></item><item><title>Inside the LPU: Deconstructing Groq’s Speed</title><link>https://groq.com/blog/inside-the-lpu-deconstructing-groq-speed</link><description>Moonshot’s Kimi K2 recently launched in preview on GroqCloud and developers
+keep asking us: how is Groq running a 1-trillion-parameter model this fast?
+
+Legacy hardware forces a choice: faster inference with quality degradation, or
+accurate inference with unacceptable latency. This tradeoff exists because GPU
+architectures optimize for training workloads. The LPU–purpose-built hardware
+for inference–preserves quality while eliminating architectural bottlenecks
+which create latency in the first place.
+
+## Accuracy Without Tradeoffs: TruePoint Numerics
+
+Traditional accelerators achieve speed through aggressive quantization,
+forcing models into INT8 or lower precision numerics that introduce cumulative
+errors throughout the computation pipeline and lead to loss of quality.
+
+We use TruePoint numerics, which changes this equation. TruePoint is an
+approach which reduces precision only in areas that do not reduce accuracy.
+Coupled with our LPU architecture, this allows for the preservation of quality
+with high precision numerics. TruePoint format stores 100 bits of intermediate
+accumulation - sufficient range and precision to guarantee lossless
+accumulation regardless of input bit width. This means we can store weights
+and activations at lower precision while performing all matrix operations at
+full precision – then selectively quantize outputs based on downstream error
+sensitivity.
+
+Our compiler applies precision strategically:
+
+  * FP32 for attention logits where 1-bit errors propagate
+  * Block Floating Point for Mixture-of-experts (MoE) weights where robustness studies show no measurable degradation
+  * FP8 storage for activations in error-tolerant layers
+
+This level of control yields a 2-4× speedup over BF16 with no appreciable
+accuracy loss on benchmarks like MMLU and HumanEval. The industry is following
+suit with formats such as MXfp4 to reduce model footprint as the need for AI
+inference, and hardware, increases exponentially. We’re not trading quality
+for speed - we’re eliminating the architectural constraints that force that
+tradeoff.
+
+## Memory Architecture: SRAM as Primary Storage
+
+Traditional accelerators inherit memory hierarchies designed for training:
+DRAM and HBM as primary storage with complex cache systems. Both DRAM and HBM
+introduce significant latency on each weight fetch - hundreds of nanoseconds
+per access. This works for high-batch training where temporal locality is
+predictable and arithmetic intensity is high, but inference presents
+sequential layer execution with a much lower arithmetic intensity exposing the
+latency penalty incurred by DRAM and HBM.
+
+The LPU integrates hundreds of megabytes of on-chip SRAM as primary weight
+storage, not cache, which results in significantly lower access latency. This
+design allows compute units to pull in weights at full speed, enabling tensor
+parallelism by splitting a single layer across multiple chips. This becomes a
+practical advantage for fast, scalable inference.
+
+## Execution Model: Static Scheduling
+
+GPU architectures rely on dynamic scheduling - hardware queues, runtime
+arbitration, and software kernels that introduce non-deterministic latency.
+During collective operations, when hundreds of cores must synchronize
+activation tensors, any delay propagates through the entire system.
+
+Our compiler pre-computes the entire execution graph, including inter-chip
+communication patterns, down to the individual clock cycles. This static
+scheduling eliminates:
+
+  * Cache coherency protocols
+  * Reorder buffers
+  * Speculative execution overhead
+  * Runtime coordination delays
+
+Deterministic execution enables two critical optimizations impossible on
+dynamically scheduled systems:
+
+  * **Tensor parallelism without tail latency:** Each layer distributes across multiple chips with guaranteed synchronization, eliminating delays that plague GPU collective operations.
+  * **Pipeline parallelism atop tensor parallelism:** Layer N+1 begins processing inputs while Layer N continues computation, a feat GPUs struggle with due to dynamic scheduling and inability to balance pipeline stages efficiently.
+
+## Parallelism Strategy: Latency-Optimized Distribution
+
+Data parallelism scales throughput by running multiple model instances. GPUs
+scale well with data parallelism – running many copies of the same model on
+different inputs. This boosts throughput, but doesn’t help if you’re waiting
+on a single response.
+
+Tensor parallelism reduces latency by distributing individual operations
+across processors. For real-time applications, tensor parallelism is the
+critical optimization. Our LPU architecture is purpose-built for tensor
+parallelism. We partition each layer across multiple LPUs so single forward
+passes complete faster rather than processing more requests in parallel. This
+architectural choice is why Moonshot AI’s Kimi K2, for example, generates
+tokens in real-time despite its trillion-parameter size.
+
+## Speculative Decoding: Execution on Tensor-Parallel Hardware
+
+Spec...</description><pubDate>Aug 01, 2025</pubDate></item><item><title>OpenBench: Reproducible LLM Evals Made Easy</title><link>https://groq.com/blog/openbench-open-reproducible-evals</link><description>Evaluating large language models (LLMs) today is fundamentally broken.
+
+If you've spent any time with eval frameworks, you already know the drill:
+each one makes different decisions on how to prompt models, parse responses,
+and measure metrics like accuracy. Every lab has its own approach – pass@k,
+best-of-n, zero-shot, few-shot, CoT prompting… the list goes on. It’s subtle,
+but it means you can never truly compare numbers across different frameworks
+or model releases.
+
+Even when everything is meticulously documented, reproducing results is
+frustratingly hard. Tiny implementation quirks creep in everywhere. In
+practice, benchmark scores are basically irreproducible.
+
+We ran into this problem at Groq enough times to finally decide: okay, let's
+fix this once and for all. We built [OpenBench](https://openbench.dev/)
+internally, and it genuinely helped us. So now we're releasing it publicly
+because reliable evaluations shouldn’t just be our luxury, but a given for
+all.
+
+## **Lack of Standardization**
+
+The core problem? Integration nightmares.
+
+Here's the landscape:
+
+  * Tons of frameworks (DeepEval, HELM, LM-Evaluation-Harness)
+  * Many benchmarks, each with their unique quirks and formats
+  * Metrics that aren't even consistent across implementations
+  * Model APIs that behave completely differently from each other
+
+As a result, evaluation teams get lost in what we've started calling "glue
+hell" - endless infrastructure, scripts, configs, debugging. It’s exhausting.
+Want to fairly compare models like o3, Claude Opus 4, and Qwen 3 on a bunch of
+different evals? Prepare for pain.
+
+## **Common Pain Points**
+
+  * **Too Much Setup.** Hours lost to configurations and troubleshooting.
+  * **Metric Inconsistency.** "Accuracy" and specific metrics don't mean the same thing across frameworks.
+  * **Wasted Compute.** Sequential evals/frameworks ignore the inherent parallelism of evals (per-sample basis), making everything slow.
+  * **Gaming Benchmarks.** Custom setups artificially boost numbers without real-world meaning.
+
+## **OpenBench: Benchmarks Done Right**
+
+[OpenBench](https://openbench.dev/) tackles these problems directly:
+
+  * **Standardized Implementations.** Every benchmark has exactly one canonical, robust implementation. MMLU is always MMLU, regardless of whether you're testing o3, R1, Opus 4, or another model.
+  * **Runs Everywhere.** Built on a reliable integration layer powered by Inspect so evals run seamlessly across different models and APIs without fuss.
+
+Here's all you need to run your first evaluation (Prerequisite: [Install
+uv](https://docs.astral.sh/uv/getting-started/installation/)):
+
+    
+    
+    1# Create a virtual environment and install OpenBench (30 seconds)
+    2uv venv
+    3source .venv/bin/activate
+    4uv pip install openbench
+    5# Set your API key (any provider!)
+    6export GROQ_API_KEY=your_key  # or OPENAI_API_KEY, ANTHROPIC_API_KEY, etc.
+    7# Run your first eval (30 seconds)
+    8bench eval mmlu --model groq/llama-3.3-70b-versatile --limit 10
+    9# That's it! 🎉 Check results in ./logs/ or view them in an interactive UI:
+    10bench view
+
+Copy
+
+## **Leveraging Inspect**
+
+We didn’t reinvent everything from scratch.
+[OpenBench](https://openbench.dev/) is built on Inspect from the UK AI
+Security Institute, which handles all the messy API details, rate limits, and
+response parsing complexities. This means we can focus purely on robust
+benchmark implementations. If you love OpenBench, please give them a star. We
+couldn’t have done it without them.
+
+## **What’s Next? Community-Powered v0.1**
+
+[OpenBench](https://openbench.dev/) 0.1 launches with 18 carefully implemented
+benchmarks. But we're far from done:
+
+  * New benchmarks every week for the next eight weeks – academic, coding, reasoning tasks, and more.
+  * Ongoing improvements driven by community feedback.
+  * Active collaboration – tell us what you need, submit new benchmarks, or suggest improvements.
+
+We want [OpenBench](https://openbench.dev/) to solve your evaluation
+headaches, and your input is essential.
+
+## **Try OpenBench**
+
+You can run your first eval right now - in under a minute (Prerequisite:
+[Install uv](https://docs.astral.sh/uv/getting-started/installation/)):
+
+    
+    
+    1# Create a virtual environment and install OpenBench (30 seconds)
+    2uv venv
+    3source .venv/bin/activate
+    4uv pip install openbench
+    5# Set your API key (any provider!)
+    6export GROQ_API_KEY=your_key  # or OPENAI_API_KEY, ANTHROPIC_API_KEY, etc.
+    7# Run your first eval (30 seconds)
+    8bench eval mmlu --model groq/llama-3.3-70b-versatile --limit 10
+    9# That's it! 🎉 Check results in ./logs/ or view them in an interactive UI:
+    10bench view
+
+Copy
+
+**Join us
+here:**[github.com/groq/openbench](https://github.com/groq/openbench)
+
+**Learn more here:**[openbench.dev/](https://openbench.dev/)
+
+**Our objective:** Robust evals, consistent results, no headaches.
+
+Have feedback, feature requests, or just want to follow along as we ...</description><pubDate>Jul 31, 2025</pubDate></item><item><title>Build Faster with Groq + Hugging Face</title><link>https://groq.com/blog/build-faster-with-groq-hugging-face</link><description>## Simplicity of Hugging Face + Efficiency of Groq
+
+Exciting news for developers and AI enthusiasts! Hugging Face is making it
+easier than ever to access Groq’s lightning-fast and efficient inference with
+the direct integration of Groq as a provider on the Hugging Face Playground
+and API. This means developers can now tap into Groq’s unparalleled efficiency
+when it comes to speed, cost, and production-level context windows all with
+unified access and billing through the Huggingface platform.
+
+## Easy Access from Hugging Face Playground
+
+Simply select "Groq" as your provider, and your requests will be billed
+directly to your Hugging Face account at Groq's competitive pricing. For those
+who prefer to manage their Groq usage directly, you also have the option to
+add your own Groq API key.
+
+## Seamless Integration with the Hugging Face API
+
+You can also use Groq as a provider via the Hugging Face API. To get started,
+create a Hugging Face API key. If you prefer to use a Groq API key directly,
+change the routing mode in your inference provider settings to “custom key,”
+then add your Groq API key.
+
+Note: To send requests to a third-party provider like Groq, you have to pass
+the provider parameter to the inference function. The default value of the
+provider parameter is "auto", which will select the first of the providers
+available for the model, sorted by your preferred order in
+&lt;https://hf.co/settings/inference-providers&gt;.
+
+## A Powerful Lineup of Powerful Models
+
+This integration brings a fantastic array of leading open-source models
+powered by Groq, including:
+
+  * meta-llama/Llama-3.3-70B-Instruct
+  * google/gemma-2-9b-it
+  * meta-llama/Llama-Guard-3-8B
+  * meta-llama/Meta-Llama-3-70B-Instruct
+  * meta-llama/Meta-Llama-3-8B-Instruct
+  * deepseek-ai/DeepSeek-R1-Distill-Llama-70B
+  * meta-llamaLlama-4-Scout-17B-16E-Instruct
+  * meta-llama/Llama-4-Maverick-17B-128E-Instruct
+  * Qwen/QwQ-32B
+  * Qwen/Qwen3-32B
+
+## Build Fast
+
+This collaboration between Hugging Face and Groq is a significant step forward
+in making high-performance AI inference more accessible and efficient for
+every AI builder.
+
+Check out [the documentation](https://huggingface.co/docs/inference-
+providers/providers/groq) for more details.
+
+</description><pubDate>Jun 16, 2025</pubDate></item><item><title>GroqCloud™ Now Supports Qwen3 32B</title><link>https://groq.com/blog/groqcloud-tm-now-supports-qwen3-32b</link><description>**Delivering Fast Inference with the Full 131k Context Window**
+
+GroqCloud™ now supports Qwen3 32B, a cutting-edge, dense 32.8 billion
+parameter causal language model from Alibaba's Qwen3 series. This integration
+brings the power of Qwen3 32B's advanced multilingual capabilities to
+GroqCloud, enabling businesses to leverage complex reasoning and efficient
+dialogue across 100+ languages and dialects in their applications.
+
+## Groq Performance &amp; Pricing
+
+With Qwen3 32B on GroqCloud, developers can run advanced reasoning and
+multilingual workloads while keeping cost and latency low. Furthermore, Groq
+is the only fast inference provider to enable the full 131k context window for
+this model allowing developers to build production level workloads, not just
+POCs.
+
+Groq is offering Qwen3 32B at an on-demand price of: $0.29 / M input tokens
+and $0.59 / M output tokens.
+
+Artificial Analysis has independently benchmarked Groq’s deployment of Qwen3
+32B running at ~535 t/s. Explore more benchmarks from Artificial Analysis
+below:
+
+## What is Qwen3 32B?
+
+Qwen3 32B is a state-of-the-art language model optimized for both complex
+reasoning and efficient dialogue. With 32.8 billion parameters and support for
+100+ languages and dialects, Qwen3 32B is designed to handle a wide range of
+tasks, from casual conversations to deep reasoning. Its impressive performance
+has been demonstrated in various benchmark evaluations, where it has
+outperformed other top-tier models.
+
+### Key Features &amp; Advantages
+
+Qwen3 32B offers several distinct advantages over previous Qwen releases:
+
+  * **Dual-mode capability:** Support for switching between thinking mode and non-thinking mode to ensure optimal performance across various scenarios.
+  * **Enhanced multilingual capabilities** : Support for 100+ languages and dialects
+  * **Enhanced reasoning capabilities:** Surpassing QwQ and Qwen2.5 across mathematics, code generation, and commonsense logical reasoning.
+  * **Improved human preference alignment** : Particularly in creative writing, role-playing, multi-turn dialogs, and instruction following.
+  * **Leading agentic capabilities:** Among open-source models in complex agent-based tasks.
+
+## Build Fast with Qwen3 32B on GroqCloud
+
+Try Qwen3 32B via
+[GroqChat](https://chat.groq.com/?model=qwen/qwen3-32b&amp;_gl=1*q3dgg7*_ga*MTk3ODAxNTA2NS4xNzQyMjUzMzU3*_ga_4TD0X2GEZG*czE3NDk2ODUyNDIkbzM3JGcxJHQxNzQ5Njg2NTk3JGo2MCRsMCRoMA..),
+the [GroqCloud Developer
+Console](https://console.groq.com/playground?model=qwen/qwen3-32b&amp;_gl=1*npa3ba*_ga*MTk3ODAxNTA2NS4xNzQyMjUzMzU3*_ga_4TD0X2GEZG*czE3NDk2ODUyNDIkbzM3JGcxJHQxNzQ5Njg3NDM5JGo0NiRsMCRoMA..),
+as well as API calls using the following model ID: `qwen/qwen3-32b`.
+
+Start building today on GroqCloud – sign up for
+[free](https://console.groq.com/home?_gl=1*faloet*_ga*MTk3ODAxNTA2NS4xNzQyMjUzMzU3*_ga_4TD0X2GEZG*czE3NDk2ODUyNDIkbzM3JGcxJHQxNzQ5Njg2NTk3JGo2MCRsMCRoMA..)
+access here or scale without rate limits by upgrading to a [GroqCloud paid
+tier](https://console.groq.com/settings/billing/plans?_gl=1*faloet*_ga*MTk3ODAxNTA2NS4xNzQyMjUzMzU3*_ga_4TD0X2GEZG*czE3NDk2ODUyNDIkbzM3JGcxJHQxNzQ5Njg2NTk3JGo2MCRsMCRoMA..).
+
+</description><pubDate>Jun 10, 2025</pubDate></item></channel></rss>

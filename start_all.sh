@@ -8,6 +8,7 @@ run_scrapers() {
     python gwern_rss.py
     python anthropic_rss.py
     python openai_rss.py
+    python groq_rss.py
 }
 
 # Run immediately on startup

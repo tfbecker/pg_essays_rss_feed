@@ -21,7 +21,9 @@ def home():
         feeds.append('<li><a href="/anthropic">Anthropic Research RSS Feed</a></li>')
     if os.path.exists('openai_feed.xml'):
         feeds.append('<li><a href="/openai">OpenAI Research RSS Feed</a></li>')
-    
+    if os.path.exists('groq_feed.xml'):
+        feeds.append('<li><a href="/groq">Groq Blog RSS Feed</a></li>')
+
     return f'''
     <html>
         <body>
@@ -47,7 +49,8 @@ def status():
         'pg': 'pg_essays.xml',
         'gwern': 'gwern_feed.xml',
         'anthropic': 'anthropic_feed.xml',
-        'openai': 'openai_feed.xml'
+        'openai': 'openai_feed.xml',
+        'groq': 'groq_feed.xml'
     }
     
     for feed_name, feed_file in feeds.items():
@@ -106,6 +109,14 @@ def serve_openai_rss():
     except FileNotFoundError:
         logger.log_scrape_error("OpenAI Research RSS feed not found")
         abort(404, description="OpenAI Research RSS feed not found")
+
+@app.route('/groq')
+def serve_groq_rss():
+    try:
+        return send_file('groq_feed.xml', mimetype='application/rss+xml')
+    except FileNotFoundError:
+        logger.log_scrape_error("Groq Blog RSS feed not found")
+        abort(404, description="Groq Blog RSS feed not found")
 
 if __name__ == '__main__':
     port = int(os.environ.get('PORT', 3000))
