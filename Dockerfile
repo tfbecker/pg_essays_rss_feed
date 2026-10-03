@@ -1,5 +1,7 @@
 # Use an official Python runtime as a parent image
 FROM python:3.11-slim
+# security: pull in patched OS packages (base image lags CVE fixes)
+RUN apt-get update && apt-get upgrade -y && rm -rf /var/lib/apt/lists/*
 
 # Set the working directory in the container
 WORKDIR /app
