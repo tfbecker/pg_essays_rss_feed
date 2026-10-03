@@ -14,6 +14,8 @@ RUN apt-get update && apt-get install -y \
 # Copy requirements first to leverage Docker cache
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
+# security: setuptools vendors old jaraco.context/wheel (CVE-2026-23949/24049)
+RUN pip install --no-cache-dir --upgrade setuptools wheel
 
 # Copy application code
 COPY . .
