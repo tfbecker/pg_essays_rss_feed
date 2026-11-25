@@ -27,8 +27,8 @@ RUN dos2unix start_all.sh && \
     apt-get autoremove -y && \
     rm -rf /var/lib/apt/lists/*
 
-# security: re-run OS upgrade after the code COPY so it is never served from a stale build cache (apt CVE-2026-109518)
-RUN apt-get update && apt-get upgrade -y && rm -rf /var/lib/apt/lists/*
+# security: re-run OS upgrade after the code COPY so it is never served from a stale build cache (apt CVE-2026-109518, libzstd1 CVE-2026-124851)
+RUN apt-get update && apt-get upgrade -y && apt-get install -y --only-upgrade libzstd1 && rm -rf /var/lib/apt/lists/*
 
 # Create directory for logs
 RUN mkdir -p /app/logs
